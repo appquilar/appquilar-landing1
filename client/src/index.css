@@ -1,3 +1,9 @@
+
+/* Override white text for the specific CTA button */
+section.bg-white .border-primary.text-primary:not(.bg-primary) {
+  color: hsl(var(--primary)) !important;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
