@@ -13,5 +13,6 @@
   "teal": "hsl(180, 95%, 60%)",
   "brown": "hsl(30, 95%, 40%)",
   "appearance": "light",
-  "radius": 0.5
+  "radius": 0.5,
+  "text": "hsl(0, 0%, 100%)"
 }
