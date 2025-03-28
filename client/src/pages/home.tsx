@@ -3,6 +3,7 @@ import HeroSection from "@/components/hero-section";
 import FeaturesSection from "@/components/features-section";
 import DashboardPreview from "@/components/dashboard-preview";
 import TestimonialsSection from "@/components/testimonials-section";
+import PricingSection from "@/components/pricing-section";
 import CtaSection from "@/components/cta-section";
 import RegistrationModals from "@/components/registration-modals";
 import Footer from "@/components/footer";
@@ -16,6 +17,7 @@ export default function Home() {
         <FeaturesSection />
         <DashboardPreview />
         <TestimonialsSection />
+        <PricingSection />
         <CtaSection />
       </main>
       <Footer />

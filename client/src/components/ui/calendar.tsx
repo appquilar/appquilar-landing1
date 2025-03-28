@@ -71,7 +71,7 @@ function Calendar({
           buttonVariants({ variant: "ghost" }),
           "h-9 w-9 p-0 font-normal"
         ),
-        day_selected: "bg-accent text-accent-foreground",
+        day_selected: "",
         day_today: "", // Vacío para evitar estilos predeterminados
         day_outside:
           "text-muted-foreground opacity-50",
