@@ -14,7 +14,7 @@ export default function CtaSection() {
             <Button
               variant="outline"
               size="lg"
-              className="border-primary text-primary hover:bg-primary/5 flex items-center gap-2"
+              className="border-primary text-amber-500 hover:bg-primary/5 flex items-center gap-2"
               onClick={() => window.dispatchEvent(new CustomEvent('open-user-modal'))}
             >
               Para clientes
