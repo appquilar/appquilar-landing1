@@ -222,7 +222,7 @@ export default function DashboardPreview() {
                     ${currentView === "alquileres" ? "bg-primary text-white" : "text-gray-600"}`}
                 >
                   <List className="mr-2 h-4 w-4" />
-                  Alquileres
+                  Reservas
                 </div>
                 <div
                   className={`flex items-center px-2 py-1.5 font-medium rounded-md w-full text-left

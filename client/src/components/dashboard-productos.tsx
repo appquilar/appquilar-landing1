@@ -125,14 +125,14 @@ export default function DashboardProductos() {
               <p className="text-gray-600 text-sm line-clamp-2 mb-4">{producto.descripcion}</p>
               
               {/* Botones de acción */}
-              <div className="flex mt-auto">
-                <Button variant="outline" size="sm" className="flex-1 mr-2">
-                  <Pencil className="h-4 w-4 mr-1" />
-                  Editar
+              <div className="flex gap-2 mt-auto w-full">
+                <Button variant="outline" size="sm" className="flex-1 flex justify-center items-center whitespace-nowrap">
+                  <Pencil className="h-4 w-4 mr-1 flex-shrink-0" />
+                  <span>Editar</span>
                 </Button>
-                <Button variant="outline" size="sm" className="flex-1 text-red-500 border-red-200 hover:bg-red-50 hover:text-red-600">
-                  <Trash2 className="h-4 w-4 mr-1" />
-                  Eliminar
+                <Button variant="outline" size="sm" className="flex-1 flex justify-center items-center whitespace-nowrap text-red-500 border-red-200 hover:bg-red-50 hover:text-red-600">
+                  <Trash2 className="h-4 w-4 mr-1 flex-shrink-0" />
+                  <span>Eliminar</span>
                 </Button>
               </div>
             </div>
