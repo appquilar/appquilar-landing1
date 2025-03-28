@@ -1,7 +1,12 @@
 /**
  * Dashboard-Calendario.tsx
  * Componente que muestra la vista de calendario para ver alquileres
- * Vista creada basada en las funcionalidades requeridas
+ * 
+ * Características principales:
+ * - Visualización de alquileres en formato calendario
+ * - Días con eventos marcados con fondo gris
+ * - Panel lateral que muestra los detalles de los eventos del día seleccionado
+ * - Interacción visual sin funcionalidad real (modo demo)
  */
 
 import { useState } from "react";
@@ -12,7 +17,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Users, Package2 } from "lucide-react";
 import { type Matcher } from "react-day-picker";
 
-// Datos de ejemplo para eventos del calendario relacionados con eventos/fiestas
+/**
+ * Datos de ejemplo para eventos del calendario relacionados con eventos/fiestas
+ * Cada evento incluye:
+ * - id: Identificador único
+ * - title: Nombre del producto alquilado
+ * - client: Nombre del cliente
+ * - start: Fecha de inicio del alquiler
+ * - end: Fecha de fin del alquiler
+ * - status: Estado del alquiler (active, completed, upcoming)
+ */
 const eventos = [
   {
     id: 1,
@@ -57,11 +71,16 @@ const eventos = [
 ];
 
 export default function DashboardCalendario() {
+  // Estado para el mes actual y el día seleccionado
   const [date, setDate] = useState<Date | undefined>(new Date());
   const [selectedDay, setSelectedDay] = useState<Date | undefined>(new Date());
   
-  // Función para determinar si una fecha tiene eventos
-  const hasEventOnDay = (day: Date) => {
+  /**
+   * Determina si una fecha tiene eventos programados
+   * @param day - La fecha a comprobar
+   * @returns boolean - true si hay eventos para ese día
+   */
+  const hasEventOnDay = (day: Date): boolean => {
     return eventos.some(evento => {
       const eventStart = new Date(evento.start);
       const eventEnd = new Date(evento.end);
@@ -69,7 +88,11 @@ export default function DashboardCalendario() {
     });
   };
 
-  // Función para obtener los eventos de un día específico
+  /**
+   * Obtiene los eventos para un día específico
+   * @param day - El día del que se quieren obtener los eventos
+   * @returns array - Lista de eventos para ese día
+   */
   const getEventsForDay = (day: Date) => {
     if (!day) return [];
     
@@ -82,20 +105,23 @@ export default function DashboardCalendario() {
     });
   };
 
-  // Función para manejar el cambio de día seleccionado
+  /**
+   * Maneja la selección de un día en el calendario
+   * @param day - El día seleccionado
+   */
   const handleDaySelect = (day: Date | undefined) => {
     setSelectedDay(day);
   };
 
-  // Eventos para el día seleccionado
+  // Obtener los eventos para el día seleccionado
   const selectedDayEvents = getEventsForDay(selectedDay as Date);
   
   return (
     <div className="p-5">
       {/* Encabezado de la sección */}
       <div className="mb-6">
-        <h1 className="text-2xl font-bold text-gray-900">Calendario de Alquileres</h1>
-        <p className="text-gray-500">Visualiza y gestiona tus alquileres en formato calendario.</p>
+        <h1 className="text-2xl font-bold text-gray-900">Calendario de Reservas</h1>
+        <p className="text-gray-500">Visualiza y gestiona tus reservas en formato calendario.</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -124,15 +150,17 @@ export default function DashboardCalendario() {
                 className="rounded-md border"
                 disabled={false} /* Permite "selección" visual pero sin acciones reales */
                 modifiers={{
-                  event: (date) => hasEventOnDay(date),
-                  selected: selectedDay ? [selectedDay] : [], // Conversión a array para compatibilidad con el tipo Matcher
+                  // Definimos los modificadores para los diferentes estados de los días
+                  "eventDay": (date) => hasEventOnDay(date),
+                  "selectedDay": selectedDay ? [selectedDay] : [],
                 }}
                 modifiersClassNames={{
-                  event: "has-event",
-                  selected: "bg-accent text-accent-foreground"
+                  // Clases CSS para los diferentes estados
+                  "eventDay": "calendar-event-day",
+                  "selectedDay": "bg-accent text-accent-foreground",
                 }}
                 classNames={{
-                  day: "relative"
+                  day: "text-center relative"
                 }}
               />
             </CardContent>
@@ -158,11 +186,13 @@ export default function DashboardCalendario() {
               {selectedDayEvents.length > 0 ? (
                 <div className="space-y-4">
                   <p className="text-sm text-gray-500">
-                    {selectedDayEvents.length} {selectedDayEvents.length === 1 ? 'alquiler' : 'alquileres'} para este día
+                    {selectedDayEvents.length} {selectedDayEvents.length === 1 ? 'reserva' : 'reservas'} para este día
                   </p>
                   
+                  {/* Lista de eventos para el día seleccionado */}
                   {selectedDayEvents.map((evento) => (
                     <div key={evento.id} className="border rounded-md p-3 bg-gray-50">
+                      {/* Cabecera del evento con título y estado */}
                       <div className="flex justify-between items-start mb-2">
                         <h3 className="font-medium flex items-center gap-2">
                           <Package2 className="h-4 w-4 text-gray-500" />
@@ -179,11 +209,13 @@ export default function DashboardCalendario() {
                         </Badge>
                       </div>
                       
+                      {/* Información del cliente */}
                       <div className="flex items-center gap-2 text-sm text-gray-600 mb-1">
                         <Users className="h-4 w-4" />
                         {evento.client}
                       </div>
                       
+                      {/* Fechas del evento */}
                       <div className="text-sm text-gray-500">
                         {evento.start.toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })} - 
                         {evento.end.toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })}
@@ -192,9 +224,10 @@ export default function DashboardCalendario() {
                   ))}
                 </div>
               ) : (
+                /* Mensaje cuando no hay eventos para el día seleccionado */
                 <div className="text-center py-6 text-gray-500">
                   <CalendarIcon className="h-12 w-12 mx-auto mb-2 text-gray-300" />
-                  <p>No hay alquileres para esta fecha</p>
+                  <p>No hay reservas para esta fecha</p>
                 </div>
               )}
             </CardContent>

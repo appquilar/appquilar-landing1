@@ -41,26 +41,42 @@
     scroll-margin-top: var(--scroll-margin-top);
   }
 
-  /* Estilos para el indicador de eventos en el calendario */
-  .has-event::after {
-    content: '';
-    position: absolute;
-    bottom: 4px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 5px;
-    height: 5px;
-    @apply bg-primary;
-    border-radius: 50%;
+  /**
+   * Estilos para los días con eventos en el calendario
+   * Usa un fondo gris sutil en lugar de puntos para indicar días con eventos
+   */
+  .calendar-event-day {
+    /* Fondo gris claro para días con eventos */
+    background-color: #f3f4f6 !important;
+    font-weight: 500 !important;
   }
   
-  /* Eliminar todos los pseudo-elementos del calendario */
+  /**
+   * Estilos para el día actual en el calendario
+   * Usa un borde circular en lugar de fondo o puntos
+   */
+  .calendar-current-day {
+    border: 1.5px solid var(--border-primary) !important;
+    border-radius: 9999px !important;
+    background-color: transparent !important;
+  }
+  
+  /**
+   * Eliminación completa de todos los pseudo-elementos y estilos predeterminados
+   * que puedan generar puntos o estilos indeseados
+   */
   .rdp-day::before,
   .rdp-day::after,
   .rdp-day_today::before,
-  .rdp-day_today::after {
+  .rdp-day_today::after,
+  .rdp-day_selected::before,
+  .rdp-day_selected::after,
+  .rdp button::before,
+  .rdp button::after {
     display: none !important;
     content: none !important;
+    opacity: 0 !important;
+    background: transparent !important;
   }
   
   /* Hacer que todos los botones del dashboard sean no-clickeables visualmente */

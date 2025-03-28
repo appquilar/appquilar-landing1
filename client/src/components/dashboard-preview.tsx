@@ -42,48 +42,82 @@ export default function DashboardPreview() {
     return () => clearTimeout(timer);
   }, []);
   
-  // Simular selección de días en el calendario cuando se muestra esa vista
+  /**
+   * Efecto para simular la selección de días en el calendario
+   * 
+   * Este efecto se activa solo cuando se muestra la vista del calendario
+   * y crea una animación visual para seleccionar diferentes días con eventos
+   */
   useEffect(() => {
-    // Función para simular selección y cambio de días en el calendario
     if (currentView === "calendario" && !showWelcome) {
-      let dayCounter = 0;
+      // Lista de fechas de ejemplo para simular selección
+      const fechasDemo = [
+        new Date(2025, 2, 15), // 15 de marzo
+        new Date(2025, 2, 10), // 10 de marzo
+        new Date(2025, 2, 25), // 25 de marzo
+      ];
       
+      let currentIndex = 0;
+      
+      // Simula la selección de un día diferente cada segundo
       const selectDaysInterval = setInterval(() => {
-        // Simular selección de días para el demo
-        // Esta es una implementación visual que no afecta al componente real
-        const daySelect = document.querySelector(".calendar-day-today");
-        if (daySelect) {
-          // Simular un clic en el día actual
-          daySelect.classList.add("bg-accent");
-        }
+        // Avanzar al siguiente día en la lista de demo
+        currentIndex = (currentIndex + 1) % fechasDemo.length;
         
-        // Cambia de día cada cierto tiempo (para efectos visuales)
-        dayCounter++;
-        if (dayCounter >= 3) {
-          // Después de simular selección de 3 días, cambia de vista
-          dayCounter = 0;
-        }
-      }, 1500); // Cambia cada 1.5 segundos
+        // Seleccionar visualmente el día (como un clic)
+        const selectedDate = fechasDemo[currentIndex];
+        
+        // Intentar seleccionar el día en el DOM usando atributos de data o clases
+        // Esto es solo visual y no afecta al estado real
+        const dayElements = document.querySelectorAll(".rdp-day");
+        dayElements.forEach(element => {
+          // Verificamos si ya tiene selección visual
+          if (element.classList.contains("bg-accent")) {
+            // Quitar selección visual
+            element.classList.remove("bg-accent");
+            element.classList.remove("text-accent-foreground");
+          }
+          
+          // Revisar si este elemento corresponde a nuestro día objetivo
+          const dateAttr = element.getAttribute("aria-label");
+          if (dateAttr && dateAttr.includes(selectedDate.getDate().toString())) {
+            // Aplicar estilos de selección
+            element.classList.add("bg-accent");
+            element.classList.add("text-accent-foreground");
+          }
+        });
+      }, 1000); // Cambiar selección cada segundo
       
+      // Limpiar el intervalo cuando el componente se desmonta o cambia la vista
       return () => clearInterval(selectDaysInterval);
     }
   }, [currentView, showWelcome]);
   
-  // Efecto para animar automáticamente entre pestañas después de que la bienvenida ha terminado
+  /**
+   * Efecto para animar automáticamente entre pestañas del dashboard
+   * 
+   * - Inicia automáticamente después de que la animación de bienvenida termina
+   * - Rota entre todas las pestañas en una secuencia predefinida
+   * - Utiliza un tiempo reducido para mantener el interés visual
+   * - Limpia el intervalo al desmontar el componente
+   */
   useEffect(() => {
     if (!showWelcome && !demoMode) {
       setDemoMode(true);
     }
     
     if (demoMode) {
+      // Secuencia de vistas a mostrar en el demo automático
       const viewSequence: DashboardView[] = ["main", "productos", "alquileres", "calendario"];
       let currentIndex = viewSequence.indexOf(currentView);
       
+      // Establecer intervalo más corto (3.5 segundos) para mantener el ritmo visual
       const interval = setInterval(() => {
         currentIndex = (currentIndex + 1) % viewSequence.length;
         setCurrentView(viewSequence[currentIndex]);
-      }, 6000); // Cambia cada 6 segundos (tiempo suficiente para ver la animación del calendario)
+      }, 3500); 
       
+      // Limpieza al desmontar el componente
       return () => clearInterval(interval);
     }
   }, [showWelcome, demoMode, currentView]);
@@ -279,10 +313,10 @@ export default function DashboardPreview() {
                   </motion.div>
                 ) : (
                   <motion.div
-                    key="dashboard"
-                    initial={{ opacity: 0, y: 20 }}
+                    key={`dashboard-${currentView}`} // Cambiamos la key para forzar la animación en cada cambio de vista
+                    initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5 }}
+                    transition={{ duration: 0.3, ease: "easeOut" }}
                     className="w-full dashboard-no-click"
                   >
                     {renderActiveView()}
