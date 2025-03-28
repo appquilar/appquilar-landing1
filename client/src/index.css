@@ -49,6 +49,7 @@
     /* Fondo gris claro para días con eventos */
     background-color: #f3f4f6 !important;
     font-weight: 500 !important;
+    border-radius: 9999px !important; /* Hacemos que los días con eventos sean redondos */
   }
   
   /**
@@ -88,5 +89,12 @@
   /* Variables CSS para los bordes en el calendario */
   :root {
     --border-primary: #888888;
+  }
+  
+  /**
+   * Asegurar que todos los botones con fondo naranja (amber-500) tengan texto blanco
+   */
+  .bg-amber-500, .hover\:bg-amber-600:hover, .bg-amber-600 {
+    color: white !important;
   }
 }

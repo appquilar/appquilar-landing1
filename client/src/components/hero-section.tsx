@@ -103,7 +103,7 @@ export default function HeroSection() {
               isVisible.scroll ? 'opacity-100' : 'opacity-0'
             }`}
           >
-            <span className="text-sm mb-2">Descubre más</span>
+            <span className="text-sm mb-2 text-black font-medium">Descubre más</span>
             <a href="#caracteristicas" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 animate-bounce">
               <ChevronDown className="h-6 w-6" />
             </a>
