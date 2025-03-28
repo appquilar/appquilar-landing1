@@ -5,7 +5,7 @@ export default function CtaSection() {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="border-t border-gray-200 pt-16">
+        <div>
           <h2 className="text-3xl font-bold text-gray-900">¿Listo para empezar?</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
             Únete a nuestra plataforma y simplifica tus eventos.
