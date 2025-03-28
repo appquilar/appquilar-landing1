@@ -157,7 +157,7 @@ export default function DashboardCalendario() {
                 modifiersClassNames={{
                   // Clases CSS para los diferentes estados
                   "eventDay": "calendar-event-day",
-                  "selectedDay": "calendar-selected-day",
+                  "selectedDay": "bg-accent text-accent-foreground",
                 }}
                 classNames={{
                   day: "text-center relative"

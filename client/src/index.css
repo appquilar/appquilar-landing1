@@ -68,21 +68,6 @@
   }
   
   /**
-   * Estilos para el día seleccionado en el calendario
-   * Usa el color primario (naranja) para destacar el día seleccionado
-   */
-  .calendar-selected-day {
-    background-color: var(--primary) !important;
-    color: white !important;
-    border-radius: 9999px !important;
-    width: 35px !important;
-    height: 35px !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-  
-  /**
    * Eliminación completa de todos los pseudo-elementos y estilos predeterminados
    * que puedan generar puntos o estilos indeseados
    */
@@ -105,20 +90,19 @@
     pointer-events: none !important;
     cursor: default !important;
   }
-}
-
-/* Variables CSS para los bordes y colores en el calendario */
-:root {
-  --border-primary: #888888;
-  --primary: #f97316; /* Color naranja primario */
-}
-
-/**
- * Asegurar que todos los botones con fondo naranja o primario tengan texto blanco
- */
-.bg-amber-500, .hover\:bg-amber-600:hover, .bg-amber-600, 
-.bg-primary, .hover\:bg-primary:hover, 
-button[class*="bg-primary"], button[class*="bg-amber"],
-.text-white-force {
-  color: white !important;
+  
+  /* Variables CSS para los bordes en el calendario */
+  :root {
+    --border-primary: #888888;
+  }
+  
+  /**
+   * Asegurar que todos los botones con fondo naranja o primario tengan texto blanco
+   */
+  .bg-amber-500, .hover\:bg-amber-600:hover, .bg-amber-600, 
+  .bg-primary, .hover\:bg-primary:hover, 
+  button[class*="bg-primary"], button[class*="bg-amber"],
+  .text-white-force {
+    color: white !important;
+  }
 }
