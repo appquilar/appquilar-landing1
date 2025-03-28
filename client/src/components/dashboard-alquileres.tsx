@@ -117,7 +117,7 @@ export default function DashboardAlquileres() {
             <Filter className="h-4 w-4" />
             Filtros
           </Button>
-          <Button className="gap-2">
+          <Button className="gap-2 bg-primary text-white-force">
             <Calendar className="h-4 w-4" />
             Vista Calendario
           </Button>
@@ -185,7 +185,7 @@ export default function DashboardAlquileres() {
                 <div className="flex gap-2 mt-4">
                   <Button variant="outline" size="sm">Ver Detalles</Button>
                   {alquiler.estado === "active" && !alquiler.devuelto && (
-                    <Button size="sm">
+                    <Button size="sm" className="bg-primary text-white-force">
                       Marcar como Devuelto
                     </Button>
                   )}

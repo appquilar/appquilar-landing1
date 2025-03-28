@@ -50,6 +50,11 @@
     background-color: #f3f4f6 !important;
     font-weight: 500 !important;
     border-radius: 9999px !important; /* Hacemos que los días con eventos sean redondos */
+    width: 36px !important;
+    height: 36px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
   
   /**
@@ -92,9 +97,12 @@
   }
   
   /**
-   * Asegurar que todos los botones con fondo naranja (amber-500) tengan texto blanco
+   * Asegurar que todos los botones con fondo naranja o primario tengan texto blanco
    */
-  .bg-amber-500, .hover\:bg-amber-600:hover, .bg-amber-600 {
+  .bg-amber-500, .hover\:bg-amber-600:hover, .bg-amber-600, 
+  .bg-primary, .hover\:bg-primary:hover, 
+  button[class*="bg-primary"], button[class*="bg-amber"],
+  .text-white-force {
     color: white !important;
   }
 }

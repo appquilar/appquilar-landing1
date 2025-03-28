@@ -94,14 +94,14 @@ export default function DashboardProductos() {
             className="pl-10"
           />
         </div>
-        <Button>
+        <Button className="bg-primary text-white-force">
           <Plus className="h-5 w-5 mr-2" />
           Añadir Nuevo
         </Button>
       </div>
 
       {/* Cuadrícula de productos */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {productos.map((producto) => (
           <div key={producto.id} className="border border-gray-200 rounded-md overflow-hidden">
             {/* Imagen del producto */}
@@ -124,15 +124,15 @@ export default function DashboardProductos() {
               </div>
               <p className="text-gray-600 text-sm line-clamp-2 mb-4">{producto.descripcion}</p>
               
-              {/* Botones de acción */}
-              <div className="flex gap-2 mt-auto w-full">
-                <Button variant="outline" size="sm" className="flex-1 min-w-0 h-9 px-1 sm:px-2">
-                  <Pencil className="h-4 w-4 flex-shrink-0 mr-1" />
-                  <span className="truncate">Editar</span>
+              {/* Botones de acción - ahora uno encima del otro */}
+              <div className="flex flex-col gap-2 mt-auto w-full">
+                <Button variant="outline" size="sm" className="w-full h-9">
+                  <Pencil className="h-4 w-4 flex-shrink-0 mr-2" />
+                  <span>Editar</span>
                 </Button>
-                <Button variant="outline" size="sm" className="flex-1 min-w-0 h-9 px-1 sm:px-2 text-red-500 border-red-200 hover:bg-red-50 hover:text-red-600">
-                  <Trash2 className="h-4 w-4 flex-shrink-0 mr-1" />
-                  <span className="truncate">Eliminar</span>
+                <Button variant="outline" size="sm" className="w-full h-9 text-red-500 border-red-200 hover:bg-red-50 hover:text-red-600">
+                  <Trash2 className="h-4 w-4 flex-shrink-0 mr-2" />
+                  <span>Eliminar</span>
                 </Button>
               </div>
             </div>
