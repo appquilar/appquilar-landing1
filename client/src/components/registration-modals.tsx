@@ -52,21 +52,21 @@ export default function RegistrationModals() {
   const { toast } = useToast();
   const [userModalOpen, setUserModalOpen] = useState(false);
   const [companyModalOpen, setCompanyModalOpen] = useState(false);
-  
+
   // Listener para eventos personalizados que abren los modales
   useEffect(() => {
     const handleOpenUserModal = () => setUserModalOpen(true);
     const handleOpenCompanyModal = () => setCompanyModalOpen(true);
-    
+
     window.addEventListener('open-user-modal', handleOpenUserModal);
     window.addEventListener('open-company-modal', handleOpenCompanyModal);
-    
+
     return () => {
       window.removeEventListener('open-user-modal', handleOpenUserModal);
       window.removeEventListener('open-company-modal', handleOpenCompanyModal);
     };
   }, []);
-  
+
   // User registration form
   const userForm = useForm<UserFormValues>({
     resolver: zodResolver(userFormSchema),
@@ -156,7 +156,7 @@ export default function RegistrationModals() {
               Busca y alquila todo lo que necesitas para tu próximo evento sin complicaciones.
             </DialogDescription>
           </DialogHeader>
-          
+
           <Form {...userForm}>
             <form onSubmit={userForm.handleSubmit(onUserSubmit)} className="space-y-4">
               <FormField
@@ -185,7 +185,7 @@ export default function RegistrationModals() {
                   </FormItem>
                 )}
               />
-              
+
               <div className="mt-4">
                 <div className="relative">
                   <div className="absolute inset-0 flex items-center">
@@ -239,17 +239,17 @@ export default function RegistrationModals() {
             <X className="h-4 w-4" />
             <span className="sr-only">Cerrar</span>
           </button>
-          
+
           <DialogHeader>
             <DialogTitle className="flex items-center">
-              <Building className="w-6 h-6 text-amber-500 mr-2" />
+              <Building className="w-6 h-6 text-primary mr-2" /> {/* Changed to text-primary */}
               Registro para empresas
             </DialogTitle>
             <DialogDescription>
               Ofrece tus productos, gestiona tu inventario y aumenta tus ingresos.
             </DialogDescription>
           </DialogHeader>
-          
+
           <Form {...companyForm}>
             <form onSubmit={companyForm.handleSubmit(onCompanySubmit)} className="space-y-4 py-2">
               <FormField
@@ -308,7 +308,7 @@ export default function RegistrationModals() {
                   </FormItem>
                 )}
               />
-              
+
               <div className="mt-4">
                 <div className="relative">
                   <div className="absolute inset-0 flex items-center">
@@ -320,19 +320,19 @@ export default function RegistrationModals() {
                 </div>
                 <div className="mt-4 grid grid-cols-2 gap-2 text-sm">
                   <div className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 text-amber-500 mr-2" />
+                    <CheckCircle2 className="h-4 w-4 text-primary mr-2" /> {/* Changed to text-primary */}
                     <span className="text-gray-600">Dashboard completo</span>
                   </div>
                   <div className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 text-amber-500 mr-2" />
+                    <CheckCircle2 className="h-4 w-4 text-primary mr-2" /> {/* Changed to text-primary */}
                     <span className="text-gray-600">Estadísticas</span>
                   </div>
                   <div className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 text-amber-500 mr-2" />
+                    <CheckCircle2 className="h-4 w-4 text-primary mr-2" /> {/* Changed to text-primary */}
                     <span className="text-gray-600">Gestión de inventario</span>
                   </div>
                   <div className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 text-amber-500 mr-2" />
+                    <CheckCircle2 className="h-4 w-4 text-primary mr-2" /> {/* Changed to text-primary */}
                     <span className="text-gray-600">Más visibilidad</span>
                   </div>
                 </div>
@@ -341,7 +341,7 @@ export default function RegistrationModals() {
               <DialogFooter className="mt-6">
                 <Button 
                   type="submit" 
-                  className="w-full bg-amber-500 hover:bg-amber-600" 
+                  className="w-full bg-primary hover:bg-primary-dark" {/* Changed to use primary color */}
                   disabled={companyMutation.isPending}
                 >
                   {companyMutation.isPending ? "Registrando..." : "Registrar mi empresa"}

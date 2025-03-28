@@ -89,7 +89,7 @@ export default function HeroSection() {
             <Button 
               variant="default" 
               size="lg" 
-              className="bg-amber-500 hover:bg-amber-600 font-semibold border-none w-full sm:w-auto flex items-center justify-center px-8 h-14 text-lg"
+              className="bg-primary hover:bg-primary/90 font-semibold border-none w-full sm:w-auto flex items-center justify-center px-8 h-14 text-lg text-white"
               onClick={() => window.dispatchEvent(new CustomEvent('open-company-modal'))}
             >
               Para empresas
