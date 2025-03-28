@@ -10,12 +10,19 @@ section.bg-white .border-primary.text-primary:not(.bg-primary) {
 }
 
 /* Apply secondary color to hero section text and buttons */
-.hero-section {
-  color: hsl(var(--secondary));
+.hero-section h1,
+.hero-section p,
+.hero-section .text-primary {
+  color: hsl(var(--secondary)) !important;
 }
 
 .border-primary.text-primary:not(.bg-primary) {
-  background-color: hsl(var(--secondary));
+  color: hsl(var(--primary)) !important;
+}
+
+.bg-primary {
+  background-color: hsl(var(--primary)) !important;
+  color: white !important;
 }
 
 @tailwind base;
