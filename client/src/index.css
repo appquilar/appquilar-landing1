@@ -53,4 +53,9 @@
     @apply bg-primary;
     border-radius: 50%;
   }
+  
+  /* Eliminar el punto aleatorio en los días del calendario */
+  .rdp-day_today:before {
+    display: none !important;
+  }
 }

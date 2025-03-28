@@ -11,44 +11,44 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Users, Package2 } from "lucide-react";
 
-// Datos de ejemplo para eventos del calendario
+// Datos de ejemplo para eventos del calendario relacionados con eventos/fiestas
 const eventos = [
   {
     id: 1,
-    title: "Taladro Percutor 20V",
-    client: "Juan Pérez",
+    title: "Sillas Plegables Blancas (paquete 50)",
+    client: "Eventos Elegantes",
     start: new Date(2025, 2, 15), // 15 de marzo 2025
     end: new Date(2025, 2, 18),   // 18 de marzo 2025
     status: "active",
   },
   {
     id: 2,
-    title: "Sierra de Mesa con Soporte",
-    client: "Sara Martínez",
+    title: "Mesas Redondas 180cm (paquete 10)",
+    client: "Bodas Luxury",
     start: new Date(2025, 2, 12), // 12 de marzo 2025
     end: new Date(2025, 2, 19),   // 19 de marzo 2025
     status: "active",
   },
   {
     id: 3,
-    title: "Set de Herramientas de Jardinería",
-    client: "Miguel Rodríguez",
+    title: "Sistema de Sonido Profesional 1000W",
+    client: "Fiestas Premium",
     start: new Date(2025, 2, 10), // 10 de marzo 2025
     end: new Date(2025, 2, 12),   // 12 de marzo 2025
     status: "completed",
   },
   {
     id: 4,
-    title: "Mezcladora de Concreto",
-    client: "Carlos López",
+    title: "Carpa 5x10m con Paredes Laterales",
+    client: "Celebraciones Elite",
     start: new Date(2025, 2, 20), // 20 de marzo 2025
     end: new Date(2025, 2, 22),   // 22 de marzo 2025
     status: "upcoming",
   },
   {
     id: 5,
-    title: "Compresor de Aire",
-    client: "Ana Gómez",
+    title: "Kit de Iluminación para Eventos",
+    client: "Eventos Corporativos SL",
     start: new Date(2025, 2, 25), // 25 de marzo 2025
     end: new Date(2025, 2, 28),   // 28 de marzo 2025
     status: "upcoming",

@@ -20,19 +20,19 @@ export default function DashboardWelcome({ userName = "Empresa", onComplete }: D
   // Estado para controlar la animación por etapas
   const [animationStage, setAnimationStage] = useState(0);
   
-  // Efecto para avanzar la animación automáticamente
+  // Efecto para avanzar la animación automáticamente (más lento)
   useEffect(() => {
     if (animationStage < 3) {
       const timer = setTimeout(() => {
         setAnimationStage(prev => prev + 1);
-      }, animationStage === 0 ? 800 : 1200);
+      }, animationStage === 0 ? 1500 : 2500); // Tiempos aumentados para una experiencia más lenta
       
       return () => clearTimeout(timer);
     } else {
       // Cuando terminamos todas las etapas, notificamos que la animación ha finalizado
       const timer = setTimeout(() => {
         onComplete();
-      }, 800);
+      }, 1800); // Tiempo final más largo
       
       return () => clearTimeout(timer);
     }

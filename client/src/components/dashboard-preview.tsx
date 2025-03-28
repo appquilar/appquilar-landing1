@@ -29,6 +29,7 @@ export default function DashboardPreview() {
   const [currentView, setCurrentView] = useState<DashboardView>("main");
   const [showWelcome, setShowWelcome] = useState(true);
   const [userName, setUserName] = useState("Mi Empresa");
+  const [demoMode, setDemoMode] = useState(false);
   
   // Efecto para simular la carga del nombre de usuario desde el backend
   useEffect(() => {
@@ -40,6 +41,25 @@ export default function DashboardPreview() {
     
     return () => clearTimeout(timer);
   }, []);
+  
+  // Efecto para animar automáticamente entre pestañas después de que la bienvenida ha terminado
+  useEffect(() => {
+    if (!showWelcome && !demoMode) {
+      setDemoMode(true);
+    }
+    
+    if (demoMode) {
+      const viewSequence: DashboardView[] = ["main", "productos", "alquileres", "calendario"];
+      let currentIndex = viewSequence.indexOf(currentView);
+      
+      const interval = setInterval(() => {
+        currentIndex = (currentIndex + 1) % viewSequence.length;
+        setCurrentView(viewSequence[currentIndex]);
+      }, 5000); // Cambia cada 5 segundos
+      
+      return () => clearInterval(interval);
+    }
+  }, [showWelcome, demoMode, currentView]);
   
   // Función para manejar la finalización de la animación de bienvenida
   const handleWelcomeComplete = () => {
@@ -114,23 +134,23 @@ export default function DashboardPreview() {
                 </div>
                 <div className="space-y-3">
                   <RentalCard
-                    name="Sillas plegables (x50)"
-                    customer="Event Master"
-                    date="15/07/2023"
+                    name="Sillas Plegables Blancas (paquete 50)"
+                    customer="Eventos Elegantes"
+                    date="15/03/2025"
                     days={3}
                     status="active"
                   />
                   <RentalCard
-                    name="Mesa rectangular 2m (x10)"
+                    name="Mesas Redondas 180cm (paquete 10)"
                     customer="Bodas Luxury"
-                    date="12/07/2023"
+                    date="12/03/2025"
                     days={2}
                     status="active"
                   />
                   <RentalCard
-                    name="Sistema de sonido 500W"
-                    customer="Miguel Torres"
-                    date="10/07/2023"
+                    name="Sistema de Sonido Profesional 1000W"
+                    customer="Fiestas Premium"
+                    date="10/03/2025"
                     days={1}
                     status="completed"
                   />
@@ -144,19 +164,19 @@ export default function DashboardPreview() {
                 <h3 className="text-sm font-medium text-gray-700 mb-4">Productos más populares</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <ProductCard
-                    name="Sillas plegables blancas"
+                    name="Sillas Plegables Blancas (paquete 50)"
                     views={1240}
                     rentals={78}
                     rank={1}
                   />
                   <ProductCard
-                    name="Mesa rectangular 2m"
+                    name="Mesas Redondas 180cm (paquete 10)"
                     views={980}
                     rentals={56}
                     rank={2}
                   />
                   <ProductCard
-                    name="Carpas 5x5m"
+                    name="Carpa 5x10m con Paredes Laterales"
                     views={860}
                     rentals={42}
                     rank={3}
@@ -182,39 +202,35 @@ export default function DashboardPreview() {
             {/* Sidebar de navegación */}
             <div className="md:w-56 bg-gray-50 p-4 border-b md:border-b-0 md:border-r border-gray-200">
               <nav className="space-y-1 text-sm">
-                {/* Enlaces de navegación */}
-                <button 
-                  onClick={() => setCurrentView("main")}
+                {/* Enlaces de navegación (ahora solo visuales, sin interactividad) */}
+                <div
                   className={`flex items-center px-2 py-1.5 font-medium rounded-md w-full text-left
-                    ${currentView === "main" ? "bg-primary text-white" : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"}`}
+                    ${currentView === "main" ? "bg-primary text-white" : "text-gray-600"}`}
                 >
                   <LayoutDashboard className="mr-2 h-4 w-4" />
                   Dashboard
-                </button>
-                <button 
-                  onClick={() => setCurrentView("productos")}
+                </div>
+                <div
                   className={`flex items-center px-2 py-1.5 font-medium rounded-md w-full text-left
-                    ${currentView === "productos" ? "bg-primary text-white" : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"}`}
+                    ${currentView === "productos" ? "bg-primary text-white" : "text-gray-600"}`}
                 >
                   <Package2 className="mr-2 h-4 w-4" />
                   Productos
-                </button>
-                <button 
-                  onClick={() => setCurrentView("alquileres")}
+                </div>
+                <div
                   className={`flex items-center px-2 py-1.5 font-medium rounded-md w-full text-left
-                    ${currentView === "alquileres" ? "bg-primary text-white" : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"}`}
+                    ${currentView === "alquileres" ? "bg-primary text-white" : "text-gray-600"}`}
                 >
                   <List className="mr-2 h-4 w-4" />
                   Alquileres
-                </button>
-                <button 
-                  onClick={() => setCurrentView("calendario")}
+                </div>
+                <div
                   className={`flex items-center px-2 py-1.5 font-medium rounded-md w-full text-left
-                    ${currentView === "calendario" ? "bg-primary text-white" : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"}`}
+                    ${currentView === "calendario" ? "bg-primary text-white" : "text-gray-600"}`}
                 >
                   <Calendar className="mr-2 h-4 w-4" />
                   Calendario
-                </button>
+                </div>
               </nav>
             </div>
 
