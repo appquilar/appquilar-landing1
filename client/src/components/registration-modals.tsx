@@ -231,7 +231,15 @@ export default function RegistrationModals() {
 
       {/* Modal para registro de empresas */}
       <Dialog open={companyModalOpen} onOpenChange={setCompanyModalOpen}>
-        <DialogContent className="sm:max-w-md">
+        <DialogContent className="sm:max-w-md max-h-[90vh] overflow-y-auto">
+          <button 
+            onClick={() => setCompanyModalOpen(false)} 
+            className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground"
+          >
+            <X className="h-4 w-4" />
+            <span className="sr-only">Cerrar</span>
+          </button>
+          
           <DialogHeader>
             <DialogTitle className="flex items-center">
               <Building className="w-6 h-6 text-amber-500 mr-2" />
@@ -243,7 +251,7 @@ export default function RegistrationModals() {
           </DialogHeader>
           
           <Form {...companyForm}>
-            <form onSubmit={companyForm.handleSubmit(onCompanySubmit)} className="space-y-4">
+            <form onSubmit={companyForm.handleSubmit(onCompanySubmit)} className="space-y-4 py-2">
               <FormField
                 control={companyForm.control}
                 name="companyName"
@@ -266,7 +274,7 @@ export default function RegistrationModals() {
                     <FormControl>
                       <Textarea 
                         placeholder="Cuéntanos brevemente sobre tu empresa" 
-                        className="resize-none" 
+                        className="resize-none h-24" 
                         {...field} 
                       />
                     </FormControl>

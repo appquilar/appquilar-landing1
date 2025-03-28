@@ -57,15 +57,15 @@ export default function HeroSection() {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
+          
+          {/* Indicador de desplazamiento */}
+          <div className="mt-24 text-white flex flex-col items-center animate-bounce">
+            <span className="text-sm mb-2">Descubre más</span>
+            <a href="#caracteristicas" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-white/20">
+              <ChevronDown className="h-6 w-6" />
+            </a>
+          </div>
         </div>
-      </div>
-
-      {/* Indicador de desplazamiento */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white flex flex-col items-center animate-bounce">
-        <span className="text-sm mb-2">Descubre más</span>
-        <a href="#caracteristicas" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-white/20">
-          <ChevronDown className="h-6 w-6" />
-        </a>
       </div>
     </section>
   );
