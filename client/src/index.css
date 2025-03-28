@@ -54,16 +54,23 @@
     border-radius: 50%;
   }
   
-  /* Estilos personalizados para el día actual en el calendario */
-  .calendar-day-today {
-    color: #000 !important;
-    background-color: transparent !important;
-  }
-  
-  /* Asegurarse de que no haya pseudo-elementos visibles */
-  .rdp-day_today:before,
-  .rdp-day_today:after {
+  /* Eliminar todos los pseudo-elementos del calendario */
+  .rdp-day::before,
+  .rdp-day::after,
+  .rdp-day_today::before,
+  .rdp-day_today::after {
     display: none !important;
     content: none !important;
+  }
+  
+  /* Hacer que todos los botones del dashboard sean no-clickeables visualmente */
+  .dashboard-no-click button {
+    pointer-events: none !important;
+    cursor: default !important;
+  }
+  
+  /* Variables CSS para los bordes en el calendario */
+  :root {
+    --border-primary: #888888;
   }
 }

@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Users, Package2 } from "lucide-react";
+import { type Matcher } from "react-day-picker";
 
 // Datos de ejemplo para eventos del calendario relacionados con eventos/fiestas
 const eventos = [
@@ -121,11 +122,14 @@ export default function DashboardCalendario() {
                 onSelect={handleDaySelect}
                 defaultMonth={date}
                 className="rounded-md border"
+                disabled={false} /* Permite "selección" visual pero sin acciones reales */
                 modifiers={{
                   event: (date) => hasEventOnDay(date),
+                  selected: selectedDay ? [selectedDay] : [], // Conversión a array para compatibilidad con el tipo Matcher
                 }}
                 modifiersClassNames={{
-                  event: "has-event"
+                  event: "has-event",
+                  selected: "bg-accent text-accent-foreground"
                 }}
                 classNames={{
                   day: "relative"

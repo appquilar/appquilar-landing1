@@ -42,6 +42,33 @@ export default function DashboardPreview() {
     return () => clearTimeout(timer);
   }, []);
   
+  // Simular selección de días en el calendario cuando se muestra esa vista
+  useEffect(() => {
+    // Función para simular selección y cambio de días en el calendario
+    if (currentView === "calendario" && !showWelcome) {
+      let dayCounter = 0;
+      
+      const selectDaysInterval = setInterval(() => {
+        // Simular selección de días para el demo
+        // Esta es una implementación visual que no afecta al componente real
+        const daySelect = document.querySelector(".calendar-day-today");
+        if (daySelect) {
+          // Simular un clic en el día actual
+          daySelect.classList.add("bg-accent");
+        }
+        
+        // Cambia de día cada cierto tiempo (para efectos visuales)
+        dayCounter++;
+        if (dayCounter >= 3) {
+          // Después de simular selección de 3 días, cambia de vista
+          dayCounter = 0;
+        }
+      }, 1500); // Cambia cada 1.5 segundos
+      
+      return () => clearInterval(selectDaysInterval);
+    }
+  }, [currentView, showWelcome]);
+  
   // Efecto para animar automáticamente entre pestañas después de que la bienvenida ha terminado
   useEffect(() => {
     if (!showWelcome && !demoMode) {
@@ -55,7 +82,7 @@ export default function DashboardPreview() {
       const interval = setInterval(() => {
         currentIndex = (currentIndex + 1) % viewSequence.length;
         setCurrentView(viewSequence[currentIndex]);
-      }, 5000); // Cambia cada 5 segundos
+      }, 6000); // Cambia cada 6 segundos (tiempo suficiente para ver la animación del calendario)
       
       return () => clearInterval(interval);
     }
@@ -256,7 +283,7 @@ export default function DashboardPreview() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="w-full"
+                    className="w-full dashboard-no-click"
                   >
                     {renderActiveView()}
                   </motion.div>
