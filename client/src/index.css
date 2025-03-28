@@ -35,8 +35,8 @@ section.bg-white .border-primary.text-primary:not(.bg-primary) {
  */
 @layer base {
   :root {
-    /* Fondo general de la aplicación */
-    @apply border-border;
+    --primary: var(--primary-color, theme('colors.primary.DEFAULT'));
+    --secondary: var(--secondary-color, theme('colors.secondary.DEFAULT'));
     
     /* Configuración para los efectos de scroll suave */
     --scroll-behavior: smooth;
