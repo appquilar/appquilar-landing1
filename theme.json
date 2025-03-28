@@ -1,6 +1,6 @@
 {
   "variant": "professional",
-  "primary": "hsl(270, 95%, 60%)",
+  "primary": "hsl(30, 95%, 60%)",
   "orange": "hsl(30, 95%, 60%)",
   "purple": "hsl(270, 95%, 60%)",
   "appearance": "light",

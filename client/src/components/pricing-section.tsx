@@ -48,10 +48,6 @@ export default function PricingSection() {
                   <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
                   <span>Soporte por email</span>
                 </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Sistema de reservas básico</span>
-                </li>
               </ul>
             </CardContent>
             <CardFooter>
@@ -80,7 +76,7 @@ export default function PricingSection() {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Hasta 100 productos en catálogo</span>
+                  <span>Hasta 50 productos en catálogo</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
@@ -96,11 +92,7 @@ export default function PricingSection() {
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Sistema de seguimiento de pagos</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Aplicación móvil incluida</span>
+                  <span>Instalación de buscador de productos en tu propia web</span>
                 </li>
               </ul>
             </CardContent>
@@ -129,15 +121,15 @@ export default function PricingSection() {
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Dashboard premium con inteligencia predictiva</span>
+                  <span>Dashboard completo con estadísticas</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Soporte prioritario 24/7</span>
+                  <span>Soporte prioritario</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Sistema de reservas completo con flujos personalizados</span>
+                                <span>Sistema de reservas avanzado</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
@@ -145,11 +137,7 @@ export default function PricingSection() {
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Integración con tiendas online</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>API para desarrolladores</span>
+                  <span>Creación y mantenimiento de tu propia web</span>
                 </li>
               </ul>
             </CardContent>
@@ -162,7 +150,7 @@ export default function PricingSection() {
         </div>
         
         <p className="text-center mt-8 text-sm text-gray-500">
-          Todos los planes incluyen un periodo de prueba gratuito de 14 días. No se requiere tarjeta de crédito.
+          Todos los planes incluyen un periodo de prueba gratuito de 30 días.
         </p>
       </div>
     </section>
