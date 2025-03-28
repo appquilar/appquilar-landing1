@@ -1,24 +1,35 @@
 import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 export default function CtaSection() {
   return (
-    <section className="py-16 bg-primary">
+    <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-3xl font-bold text-white">¿Listo para empezar?</h2>
-        <p className="mt-4 text-xl text-white text-opacity-90 max-w-2xl mx-auto">
-          Únete a nuestra comunidad y transforma la forma en que organizas o equipas eventos.
-        </p>
-        <div className="mt-8 flex justify-center flex-wrap gap-4">
-          <a href="#registro-usuarios">
-            <Button variant="secondary" size="lg" className="text-primary font-semibold">
-              Registrarme como Usuario
+        <div className="border-t border-gray-200 pt-16">
+          <h2 className="text-3xl font-bold text-gray-900">¿Listo para empezar?</h2>
+          <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
+            Únete a nuestra plataforma y simplifica tus eventos.
+          </p>
+          <div className="mt-8 flex justify-center gap-6">
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-primary text-primary hover:bg-primary/5 flex items-center gap-2"
+              onClick={() => window.dispatchEvent(new CustomEvent('open-user-modal'))}
+            >
+              Para clientes
+              <ArrowRight className="h-5 w-5" />
             </Button>
-          </a>
-          <a href="#registro-empresas">
-            <Button variant="default" size="lg" className="bg-amber-500 hover:bg-amber-600 font-semibold border-none">
-              Registrarme como Empresa
+            <Button
+              variant="default"
+              size="lg"
+              className="bg-primary flex items-center gap-2"
+              onClick={() => window.dispatchEvent(new CustomEvent('open-company-modal'))}
+            >
+              Para empresas
+              <ArrowRight className="h-5 w-5" />
             </Button>
-          </a>
+          </div>
         </div>
       </div>
     </section>
