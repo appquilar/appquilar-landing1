@@ -3,7 +3,8 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section id="hero-section" className="relative bg-gradient-to-r from-primary to-primary-800 overflow-hidden min-h-screen flex items-center">
+    <section id="hero-section" className="relative bg-gradient-to-b from-primary to-primary-800 overflow-hidden min-h-screen flex items-center">
+      {/* Fondo decorativo */}
       <div className="absolute inset-0">
         <svg className="absolute right-0 bottom-0 transform translate-x-1/3 opacity-10" width="800" height="800" fill="none" viewBox="0 0 800 800">
           <circle cx="400" cy="400" r="400" fill="white"></circle>
@@ -13,8 +14,10 @@ export default function HeroSection() {
         </svg>
       </div>
 
+      {/* Contenido principal */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 relative">
         <div className="text-center">
+          {/* Logo y nombre */}
           <div className="flex items-center justify-center mb-8">
             <svg className="h-12 w-auto text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
               <path d="M3.375 4.5C2.339 4.5 1.5 5.34 1.5 6.375V13.5h12V6.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM13.5 15h-12v2.625c0 1.035.84 1.875 1.875 1.875h8.25c1.035 0 1.875-.84 1.875-1.875V15z" />
@@ -23,14 +26,17 @@ export default function HeroSection() {
             <span className="ml-3 text-3xl font-bold text-white">RentaEventos</span>
           </div>
           
+          {/* Título principal */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight max-w-4xl mx-auto">
             Alquila lo que necesitas para tu evento
           </h1>
           
+          {/* Subtítulo */}
           <p className="mt-8 text-xl md:text-2xl text-white text-opacity-90 leading-relaxed max-w-3xl mx-auto">
             Conectamos proveedores de equipamiento con clientes que buscan simplicidad en sus eventos.
           </p>
           
+          {/* Botones CTA */}
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button 
               variant="secondary" 
@@ -54,6 +60,7 @@ export default function HeroSection() {
         </div>
       </div>
 
+      {/* Indicador de desplazamiento */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white flex flex-col items-center animate-bounce">
         <span className="text-sm mb-2">Descubre más</span>
         <a href="#caracteristicas" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-white/20">
