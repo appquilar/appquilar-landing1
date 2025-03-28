@@ -50,8 +50,8 @@
     background-color: #f3f4f6 !important;
     font-weight: 500 !important;
     border-radius: 9999px !important; /* Hacemos que los días con eventos sean redondos */
-    width: 36px !important;
-    height: 36px !important;
+    width: 35px !important;
+    height: 35px !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
