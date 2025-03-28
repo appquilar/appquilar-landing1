@@ -1,4 +1,4 @@
-import { Tool } from "lucide-react";
+import { PackageOpen } from "lucide-react";
 
 type ProductCardProps = {
   name: string;
@@ -11,7 +11,7 @@ export default function ProductCard({ name, views, rentals, rank }: ProductCardP
   return (
     <div className="flex items-center">
       <div className="flex-shrink-0 bg-gray-100 h-12 w-12 rounded-lg flex items-center justify-center">
-        <Tool className="h-6 w-6 text-gray-600" />
+        <PackageOpen className="h-6 w-6 text-gray-600" />
       </div>
       <div className="ml-4 flex-1">
         <h5 className="text-sm font-medium text-gray-900">{name}</h5>
