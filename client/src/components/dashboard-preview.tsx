@@ -4,9 +4,12 @@
  * 
  * Este componente funciona como una presentación interactiva del dashboard para empresas,
  * permitiendo navegar entre diferentes secciones (Dashboard principal, Productos, Alquileres, Calendario)
+ * Incluye animaciones de entrada para una experiencia de usuario mejorada
  */
 
-import { useState } from "react";
+import { useState, useEffect, Suspense } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import DashboardWelcome from "@/components/dashboard-welcome";
 import StatCard from "@/components/stat-card";
 import ChartPreview from "@/components/chart-preview";
 import ProductCard from "@/components/product-card";
@@ -14,7 +17,7 @@ import RentalCard from "@/components/rental-card";
 import DashboardProductos from "@/components/dashboard-productos";
 import DashboardAlquileres from "@/components/dashboard-alquileres";
 import DashboardCalendario from "@/components/dashboard-calendario";
-import { BarChart3, Calendar, CreditCard, Package2, List, LayoutDashboard } from "lucide-react";
+import { BarChart3, Calendar, CreditCard, Package2, List, LayoutDashboard, UserCircle } from "lucide-react";
 
 /**
  * Tipos de vistas disponibles en el dashboard
@@ -22,8 +25,28 @@ import { BarChart3, Calendar, CreditCard, Package2, List, LayoutDashboard } from
 type DashboardView = "main" | "productos" | "alquileres" | "calendario";
 
 export default function DashboardPreview() {
-  // Estado para controlar la vista actual del dashboard
+  // Estados para controlar la vista y la animación de bienvenida
   const [currentView, setCurrentView] = useState<DashboardView>("main");
+  const [showWelcome, setShowWelcome] = useState(true);
+  const [userName, setUserName] = useState("Mi Empresa");
+  
+  // Efecto para simular la carga del nombre de usuario desde el backend
+  useEffect(() => {
+    // Aquí podrías hacer una petición al backend para obtener el nombre real
+    // Por ahora usamos un timeout para simular la carga
+    const timer = setTimeout(() => {
+      setUserName("RentaEventos Pro");
+    }, 1000);
+    
+    return () => clearTimeout(timer);
+  }, []);
+  
+  // Función para manejar la finalización de la animación de bienvenida
+  const handleWelcomeComplete = () => {
+    setShowWelcome(false);
+  };
+  
+  // No hacemos nada especial aquí ya que importamos directamente el componente arriba
   
   // Función para renderizar la vista activa
   const renderActiveView = () => {
@@ -197,7 +220,32 @@ export default function DashboardPreview() {
 
             {/* Contenido principal dinámico */}
             <div className="flex-1">
-              {renderActiveView()}
+              <AnimatePresence mode="wait">
+                {showWelcome ? (
+                  <motion.div
+                    key="welcome"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="w-full h-full"
+                  >
+                    <DashboardWelcome
+                      userName={userName}
+                      onComplete={handleWelcomeComplete}
+                    />
+                  </motion.div>
+                ) : (
+                  <motion.div
+                    key="dashboard"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                    className="w-full"
+                  >
+                    {renderActiveView()}
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           </div>
         </div>
