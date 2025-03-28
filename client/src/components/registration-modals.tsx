@@ -341,7 +341,7 @@ export default function RegistrationModals() {
               <DialogFooter className="mt-6">
                 <Button 
                   type="submit" 
-                  className="w-full bg-primary hover:bg-primary-dark" {/* Changed to use primary color */}
+                  className="w-full bg-primary hover:bg-primary-dark" /* Changed to use primary color */
                   disabled={companyMutation.isPending}
                 >
                   {companyMutation.isPending ? "Registrando..." : "Registrar mi empresa"}
