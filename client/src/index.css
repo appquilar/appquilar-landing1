@@ -1,7 +1,21 @@
 
-/* Override white text for the specific CTA button */
+/* Override text colors for components */
 section.bg-white .border-primary.text-primary:not(.bg-primary) {
   color: hsl(var(--primary)) !important;
+}
+
+/* Make text white on primary background buttons */
+.bg-primary {
+  color: white !important;
+}
+
+/* Apply secondary color to hero section text and buttons */
+.hero-section {
+  color: hsl(var(--secondary));
+}
+
+.border-primary.text-primary:not(.bg-primary) {
+  background-color: hsl(var(--secondary));
 }
 
 @tailwind base;
