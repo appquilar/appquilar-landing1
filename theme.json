@@ -1,18 +1,8 @@
 {
   "variant": "professional",
-  "primary": "hsl(30, 95%, 60%)",
+  "primary": "hsl(270, 95%, 60%)",
   "orange": "hsl(30, 95%, 60%)",
   "purple": "hsl(270, 95%, 60%)",
-  "red": "hsl(0, 95%, 60%)",
-  "green": "hsl(120, 95%, 60%)",
-  "blue": "hsl(240, 95%, 60%)",
-  "yellow": "hsl(60, 95%, 60%)",
-  "gray": "hsl(0, 0%, 60%)",
-  "pink": "hsl(330, 95%, 60%)",
-  "cyan": "hsl(180, 95%, 60%)",
-  "teal": "hsl(180, 95%, 60%)",
-  "brown": "hsl(30, 95%, 40%)",
   "appearance": "light",
-  "radius": 0.5,
-  "text": "hsl(0, 0%, 100%)"
+  "radius": 0.5
 }

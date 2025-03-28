@@ -124,6 +124,6 @@ section.bg-white .border-primary.text-primary:not(.bg-primary) {
   .bg-primary, .hover\:bg-primary:hover, 
   button[class*="bg-primary"], button[class*="bg-amber"],
   .text-white-force {
-    color: hsl(var(--text)) !important;
+    color: white !important;
   }
 }
