@@ -8,16 +8,20 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <img 
-                src="@assets/appquilar-transparente-blanco-pelota_1752660709824.png" 
-                alt="Appquilar" 
-                className="h-8 w-auto"
-              />
-              <img 
-                src="@assets/appquilar-blanco-transparente_1752660709824.png" 
-                alt="Appquilar" 
-                className="ml-2 h-6 w-auto"
-              />
+              {/* Logo icono SVG */}
+              <svg className="h-8 w-auto" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path 
+                  d="M50 10 C70 10 85 25 85 45 C85 55 80 65 70 70 L70 75 C70 85 60 90 50 90 C40 90 30 85 30 75 L30 70 C20 65 15 55 15 45 C15 25 30 10 50 10 Z M50 20 C35 20 25 30 25 45 C25 50 27 55 30 60 L35 65 L35 75 C35 80 42 85 50 85 C58 85 65 80 65 75 L65 65 L70 60 C73 55 75 50 75 45 C75 30 65 20 50 20 Z" 
+                  fill="white" 
+                  stroke="none"
+                />
+              </svg>
+              {/* Logo texto SVG */}
+              <svg className="ml-2 h-6 w-auto" viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <text x="0" y="28" fontFamily="Arial, sans-serif" fontSize="24" fontWeight="bold" fill="white">
+                  Appquilar
+                </text>
+              </svg>
             </div>
             <p className="mb-4">La plataforma líder en alquiler de equipamiento para eventos en toda España.</p>
             <div className="flex space-x-4">
