@@ -11,6 +11,17 @@ export default function HeroSection() {
     scroll: false
   });
 
+  // Lista de diferentes tipos de eventos/situaciones
+  const eventTypes = [
+    "tu evento",
+    "tus vacaciones en la playa", 
+    "tu acampada",
+    "tu trabajo",
+    "tu bricolaje"
+  ];
+
+  const [currentEventIndex, setCurrentEventIndex] = useState(0);
+
   useEffect(() => {
     // Animación secuencial con tiempos diferentes para cada elemento
     const timers = [
@@ -24,6 +35,23 @@ export default function HeroSection() {
     // Limpiar los timers cuando el componente se desmonte
     return () => timers.forEach(timer => clearTimeout(timer));
   }, []);
+
+  // Efecto para la animación de cambio de tipo de evento
+  useEffect(() => {
+    // Esperar a que el título sea visible antes de comenzar la animación
+    if (!isVisible.title) return;
+
+    // Comenzar la animación después de 3 segundos
+    const startTimer = setTimeout(() => {
+      const interval = setInterval(() => {
+        setCurrentEventIndex(prev => (prev + 1) % eventTypes.length);
+      }, 3000); // Cambiar cada 3 segundos
+
+      return () => clearInterval(interval);
+    }, 3000);
+
+    return () => clearTimeout(startTimer);
+  }, [isVisible.title, eventTypes.length]);
 
   return (
     <section id="hero-section" className="relative bg-gradient-to-b from-primary to-primary-800 overflow-hidden min-h-screen flex items-center">
@@ -58,13 +86,22 @@ export default function HeroSection() {
             />
           </div>
           
-          {/* Título principal */}
+          {/* Título principal con animación */}
           <h1 
             className={`text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight max-w-4xl mx-auto transition-all duration-700 delay-100 transform ${
               isVisible.title ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
             }`}
           >
-            Alquila lo que necesitas para tu evento
+            Alquila lo que necesitas para{' '}
+            <span 
+              key={currentEventIndex}
+              className="inline-block transition-all duration-1000 ease-in-out text-orange-300"
+              style={{
+                animation: 'fadeInOut 3s ease-in-out',
+              }}
+            >
+              {eventTypes[currentEventIndex]}
+            </span>
           </h1>
           
           {/* Subtítulo */}

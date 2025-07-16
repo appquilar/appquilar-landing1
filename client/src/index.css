@@ -147,4 +147,16 @@ section.bg-white .border-primary.text-primary:not(.bg-primary) {
   .text-white-force {
     color: white !important;
   }
+
+  /**
+   * Animación personalizada para el cambio de texto en el hero
+   */
+  @keyframes fadeInOut {
+    0% { opacity: 1; transform: translateY(0); }
+    15% { opacity: 1; transform: translateY(0); }
+    25% { opacity: 0; transform: translateY(-10px); }
+    75% { opacity: 0; transform: translateY(10px); }
+    85% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
 }
