@@ -30,11 +30,13 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/">
               <div className="flex-shrink-0 flex items-center cursor-pointer">
-                <svg className="h-8 w-auto text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M3.375 4.5C2.339 4.5 1.5 5.34 1.5 6.375V13.5h12V6.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM13.5 15h-12v2.625c0 1.035.84 1.875 1.875 1.875h8.25c1.035 0 1.875-.84 1.875-1.875V15z" />
-                  <path d="M8.25 19.5a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 .75.75v4.5zM18.75 4.5c-.997 0-1.875.678-2.125 1.621a.75.75 0 0 1-1.46-.042C14.891 4.756 13.958 3.75 12.75 3.75h-1.5a.75.75 0 0 0 0 1.5H12c.69 0 1.25.56 1.25 1.25v4.687a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1-.75-.75V7.5a.75.75 0 0 0-1.5 0v3.687A2.25 2.25 0 0 0 11 13.422v10.328a.75.75 0 0 0 1.5 0V13.422a2.25 2.25 0 0 0 2.25-2.235V7.5a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 0 1.5 0V6.375c0-1.036-.84-1.875-1.875-1.875h-1.5z" />
+                <svg className="h-8 w-auto" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="16" cy="16" r="16" fill="#f97316"/>
+                  <text x="16" y="22" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="18" fontWeight="bold" fill="white">A</text>
                 </svg>
-                <span className="ml-2 text-xl font-bold text-primary">RentaEventos</span>
+                <span className="ml-2 text-xl font-bold">
+                  <span className="text-gray-900">App</span><span className="text-[#f97316]">quilar</span>
+                </span>
               </div>
             </Link>
           </div>
@@ -52,21 +54,16 @@ export default function Navbar() {
             <a href="#contacto" className="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium">
               Contacto
             </a>
-            <Button 
-              variant="outline" 
-              size="sm" 
-              className="ml-2"
-              onClick={() => window.dispatchEvent(new CustomEvent('open-user-modal'))}
-            >
-              Regístrate
-            </Button>
-            <Button 
-              variant="default" 
-              size="sm"
-              onClick={() => window.dispatchEvent(new CustomEvent('open-company-modal'))}
-            >
-              Para empresas
-            </Button>
+
+            <div className="flex justify-center w-full">
+              <Button 
+                variant="default" 
+                size="sm"
+                onClick={() => window.dispatchEvent(new CustomEvent('open-company-modal'))}
+              >
+                Me interesa
+              </Button>
+            </div>
           </div>
           
           <div className="-mr-2 flex items-center sm:hidden">
@@ -118,24 +115,18 @@ export default function Navbar() {
           >
             Contacto
           </a>
-          <button
-            className="text-primary border border-primary block px-3 py-2 text-base font-medium rounded-md mx-3 mt-2 w-[calc(100%-1.5rem)]"
-            onClick={() => {
-              setMobileMenuOpen(false);
-              window.dispatchEvent(new CustomEvent('open-user-modal'));
-            }}
-          >
-            Regístrate
-          </button>
-          <button
-            className="bg-primary text-white block px-3 py-2 text-base font-medium rounded-md mx-3 mt-2 w-[calc(100%-1.5rem)]"
-            onClick={() => {
-              setMobileMenuOpen(false);
-              window.dispatchEvent(new CustomEvent('open-company-modal'));
-            }}
-          >
-            Para empresas
-          </button>
+
+          <div className="flex justify-center mx-3 mt-2">
+            <button
+              className="bg-primary text-white px-3 py-2 text-base font-medium rounded-md"
+              onClick={() => {
+                setMobileMenuOpen(false);
+                window.dispatchEvent(new CustomEvent('open-company-modal'));
+              }}
+            >
+              Me interesa
+            </button>
+          </div>
         </div>
       )}
     </nav>

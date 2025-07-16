@@ -46,11 +46,13 @@ export default function HeroSection() {
               isVisible.logo ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
             }`}
           >
-            <svg className="h-12 w-auto text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M3.375 4.5C2.339 4.5 1.5 5.34 1.5 6.375V13.5h12V6.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM13.5 15h-12v2.625c0 1.035.84 1.875 1.875 1.875h8.25c1.035 0 1.875-.84 1.875-1.875V15z" />
-              <path d="M8.25 19.5a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 .75.75v4.5zM18.75 4.5c-.997 0-1.875.678-2.125 1.621a.75.75 0 0 1-1.46-.042C14.891 4.756 13.958 3.75 12.75 3.75h-1.5a.75.75 0 0 0 0 1.5H12c.69 0 1.25.56 1.25 1.25v4.687a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1-.75-.75V7.5a.75.75 0 0 0-1.5 0v3.687A2.25 2.25 0 0 0 11 13.422v10.328a.75.75 0 0 0 1.5 0V13.422a2.25 2.25 0 0 0 2.25-2.235V7.5a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 0 1.5 0V6.375c0-1.036-.84-1.875-1.875-1.875h-1.5z" />
+            <svg className="h-12 w-auto" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="16" cy="16" r="16" fill="white"/>
+              <text x="16" y="22" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="18" fontWeight="bold" fill="#f97316">A</text>
             </svg>
-            <span className="ml-3 text-3xl font-bold text-white">RentaEventos</span>
+            <span className="ml-3 text-3xl font-bold">
+              <span className="text-white">App</span><span className="text-orange-300">quilar</span>
+            </span>
           </div>
           
           {/* Título principal */}
@@ -73,26 +75,17 @@ export default function HeroSection() {
           
           {/* Botones CTA */}
           <div 
-            className={`mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 transition-all duration-700 delay-300 transform ${
+            className={`mt-12 flex justify-center transition-all duration-700 delay-300 transform ${
               isVisible.buttons ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
             }`}
           >
             <Button 
-              variant="secondary" 
-              size="lg" 
-              className="text-primary font-semibold w-full sm:w-auto flex items-center justify-center px-8 h-14 text-lg"
-              onClick={() => window.dispatchEvent(new CustomEvent('open-user-modal'))}
-            >
-              Para clientes
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button 
               variant="default" 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 font-semibold border-none w-full sm:w-auto flex items-center justify-center px-8 h-14 text-lg text-white"
+              className="bg-primary hover:bg-primary/90 font-semibold border-none flex items-center justify-center px-8 h-14 text-lg text-white"
               onClick={() => window.dispatchEvent(new CustomEvent('open-company-modal'))}
             >
-              Para empresas
+              Me interesa
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>

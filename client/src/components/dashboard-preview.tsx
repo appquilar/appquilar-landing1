@@ -17,12 +17,13 @@ import RentalCard from "@/components/rental-card";
 import DashboardProductos from "@/components/dashboard-productos";
 import DashboardAlquileres from "@/components/dashboard-alquileres";
 import DashboardCalendario from "@/components/dashboard-calendario";
-import { BarChart3, Calendar, CreditCard, Package2, List, LayoutDashboard, UserCircle } from "lucide-react";
+import DashboardChat from "@/components/dashboard-chat";
+import { BarChart3, Calendar, CreditCard, Package2, List, LayoutDashboard, UserCircle, MessageCircle } from "lucide-react";
 
 /**
  * Tipos de vistas disponibles en el dashboard
  */
-type DashboardView = "main" | "productos" | "alquileres" | "calendario";
+type DashboardView = "main" | "productos" | "alquileres" | "calendario" | "chat";
 
 export default function DashboardPreview() {
   // Estados para controlar la vista y la animación de bienvenida
@@ -108,7 +109,7 @@ export default function DashboardPreview() {
     
     if (demoMode) {
       // Secuencia de vistas a mostrar en el demo automático
-      const viewSequence: DashboardView[] = ["main", "productos", "alquileres", "calendario"];
+      const viewSequence: DashboardView[] = ["main", "productos", "alquileres", "calendario", "chat"];
       let currentIndex = viewSequence.indexOf(currentView);
       
       // Establecer intervalo más corto (3.5 segundos) para mantener el ritmo visual
@@ -138,6 +139,8 @@ export default function DashboardPreview() {
         return <DashboardAlquileres />;
       case "calendario":
         return <DashboardCalendario />;
+      case "chat":
+        return <DashboardChat />;
       default:
         return (
           <div className="p-5">
@@ -291,6 +294,13 @@ export default function DashboardPreview() {
                 >
                   <Calendar className="mr-2 h-4 w-4" />
                   Calendario
+                </div>
+                <div
+                  className={`flex items-center px-2 py-1.5 font-medium rounded-md w-full text-left
+                    ${currentView === "chat" ? "bg-primary text-white" : "text-gray-600"}`}
+                >
+                  <MessageCircle className="mr-2 h-4 w-4" />
+                  Chat
                 </div>
               </nav>
             </div>
