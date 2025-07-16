@@ -21,6 +21,7 @@ export default function HeroSection() {
   ];
 
   const [currentEventIndex, setCurrentEventIndex] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
 
   useEffect(() => {
     // Animación secuencial con tiempos diferentes para cada elemento
@@ -43,11 +44,22 @@ export default function HeroSection() {
 
     // Comenzar la animación después de 3 segundos
     const startTimer = setTimeout(() => {
-      const interval = setInterval(() => {
-        setCurrentEventIndex(prev => (prev + 1) % eventTypes.length);
-      }, 3000); // Cambiar cada 3 segundos
-
-      return () => clearInterval(interval);
+      const animateNext = () => {
+        setIsAnimating(true);
+        
+        // Después de 600ms (cuando el texto se desvanece), cambiar el contenido
+        setTimeout(() => {
+          setCurrentEventIndex(prev => (prev + 1) % eventTypes.length);
+        }, 600);
+        
+        // Después de 1200ms terminar la animación y programar la siguiente
+        setTimeout(() => {
+          setIsAnimating(false);
+          setTimeout(animateNext, 2000); // Esperar 2s antes de la siguiente animación
+        }, 1200);
+      };
+      
+      animateNext();
     }, 3000);
 
     return () => clearTimeout(startTimer);
@@ -94,11 +106,9 @@ export default function HeroSection() {
           >
             Alquila lo que necesitas{' '}
             <span 
-              key={currentEventIndex}
-              className="inline-block transition-all duration-1000 ease-in-out text-white"
-              style={{
-                animation: 'titleFadeInOut 3s ease-in-out infinite',
-              }}
+              className={`inline-block transition-all duration-600 ease-in-out text-white ${
+                isAnimating ? 'opacity-0 -translate-y-4 scale-95' : 'opacity-100 translate-y-0 scale-100'
+              }`}
             >
               {eventTypes[currentEventIndex]}
             </span>
