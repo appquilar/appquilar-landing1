@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar";
 import HeroSection from "@/components/hero-section";
 import FeaturesSection from "@/components/features-section";
 import DashboardPreview from "@/components/dashboard-preview";
+import CategoriesCarousel from "@/components/categories-carousel";
 import TestimonialsSection from "@/components/testimonials-section";
 
 import CtaSection from "@/components/cta-section";
@@ -16,6 +17,7 @@ export default function Home() {
         <HeroSection />
         <FeaturesSection />
         <DashboardPreview />
+        <CategoriesCarousel />
         <TestimonialsSection />
         <CtaSection />
       </main>
