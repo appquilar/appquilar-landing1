@@ -8,13 +8,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <svg className="h-8 w-auto" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="16" cy="16" r="16" fill="#f97316"/>
-                <text x="16" y="22" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="18" fontWeight="bold" fill="white">A</text>
-              </svg>
-              <span className="ml-2 text-xl font-bold">
-                <span className="text-white">App</span><span className="text-orange-300">quilar</span>
-              </span>
+              <img 
+                src="@assets/appquilar-transparente-blanco-pelota_1752660709824.png" 
+                alt="Appquilar" 
+                className="h-8 w-auto"
+              />
+              <img 
+                src="@assets/appquilar-blanco-transparente_1752660709824.png" 
+                alt="Appquilar" 
+                className="ml-2 h-6 w-auto"
+              />
             </div>
             <p className="mb-4">La plataforma líder en alquiler de equipamiento para eventos en toda España.</p>
             <div className="flex space-x-4">

@@ -30,13 +30,16 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/">
               <div className="flex-shrink-0 flex items-center cursor-pointer">
-                <svg className="h-8 w-auto" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="16" cy="16" r="16" fill="#f97316"/>
-                  <text x="16" y="22" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="18" fontWeight="bold" fill="white">A</text>
-                </svg>
-                <span className="ml-2 text-xl font-bold">
-                  <span className="text-gray-900">App</span><span className="text-[#f97316]">quilar</span>
-                </span>
+                <img 
+                  src="@assets/appquilar-transparente-color-pelota_1752660709825.png" 
+                  alt="Appquilar" 
+                  className="h-8 w-auto"
+                />
+                <img 
+                  src="@assets/appquilar-color-transparente_1752660709824.png" 
+                  alt="Appquilar" 
+                  className="ml-2 h-6 w-auto"
+                />
               </div>
             </Link>
           </div>

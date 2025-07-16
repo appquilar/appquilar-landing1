@@ -46,13 +46,16 @@ export default function HeroSection() {
               isVisible.logo ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
             }`}
           >
-            <svg className="h-12 w-auto" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="16" cy="16" r="16" fill="white"/>
-              <text x="16" y="22" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="18" fontWeight="bold" fill="#f97316">A</text>
-            </svg>
-            <span className="ml-3 text-3xl font-bold">
-              <span className="text-white">App</span><span className="text-orange-300">quilar</span>
-            </span>
+            <img 
+              src="@assets/appquilar-transparente-blanco-pelota_1752660709824.png" 
+              alt="Appquilar" 
+              className="h-12 w-auto"
+            />
+            <img 
+              src="@assets/appquilar-blanco-transparente_1752660709824.png" 
+              alt="Appquilar" 
+              className="ml-3 h-8 w-auto"
+            />
           </div>
           
           {/* Título principal */}
