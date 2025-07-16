@@ -31,12 +31,12 @@ export default function Navbar() {
             <Link href="/">
               <div className="flex-shrink-0 flex items-center cursor-pointer">
                 <img 
-                  src="@assets/appquilar-transparente-color-pelota_1752660709825.png" 
+                  src="/attached_assets/appquilar-transparente-color-pelota_1752660709825.png" 
                   alt="Appquilar" 
                   className="h-8 w-auto"
                 />
                 <img 
-                  src="@assets/appquilar-color-transparente_1752660709824.png" 
+                  src="/attached_assets/appquilar-color-transparente_1752660709824.png" 
                   alt="Appquilar" 
                   className="ml-2 h-6 w-auto"
                 />

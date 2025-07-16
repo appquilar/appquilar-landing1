@@ -13,11 +13,11 @@ export default function HeroSection() {
 
   // Lista de diferentes tipos de eventos/situaciones
   const eventTypes = [
-    "tu evento",
-    "tus vacaciones en la playa", 
-    "tu acampada",
-    "tu trabajo",
-    "tu bricolaje"
+    "para tu evento",
+    "para tus vacaciones en la playa", 
+    "para tu acampada",
+    "para tu trabajo",
+    "para tu bricolaje"
   ];
 
   const [currentEventIndex, setCurrentEventIndex] = useState(0);
@@ -75,12 +75,12 @@ export default function HeroSection() {
             }`}
           >
             <img 
-              src="@assets/appquilar-transparente-blanco-pelota_1752660709824.png" 
+              src="/attached_assets/appquilar-transparente-blanco-pelota_1752660709824.png" 
               alt="Appquilar" 
               className="h-12 w-auto"
             />
             <img 
-              src="@assets/appquilar-blanco-transparente_1752660709824.png" 
+              src="/attached_assets/appquilar-blanco-transparente_1752660709824.png" 
               alt="Appquilar" 
               className="ml-3 h-8 w-auto"
             />
@@ -92,12 +92,12 @@ export default function HeroSection() {
               isVisible.title ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
             }`}
           >
-            Alquila lo que necesitas para{' '}
+            Alquila lo que necesitas{' '}
             <span 
               key={currentEventIndex}
-              className="inline-block transition-all duration-1000 ease-in-out text-orange-300"
+              className="inline-block transition-all duration-1000 ease-in-out text-yellow-300"
               style={{
-                animation: 'fadeInOut 3s ease-in-out',
+                animation: 'titleFadeInOut 3s ease-in-out infinite',
               }}
             >
               {eventTypes[currentEventIndex]}
