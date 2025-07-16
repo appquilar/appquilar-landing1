@@ -75,12 +75,12 @@ export default function HeroSection() {
             }`}
           >
             <img 
-              src="/attached_assets/appquilar-transparente-blanco-pelota_1752660709824.png" 
+              src="@assets/appquilar-transparente-blanco-pelota_1752660709824.png" 
               alt="Appquilar" 
               className="h-12 w-auto"
             />
             <img 
-              src="/attached_assets/appquilar-blanco-transparente_1752660709824.png" 
+              src="@assets/appquilar-blanco-transparente_1752660709824.png" 
               alt="Appquilar" 
               className="ml-3 h-8 w-auto"
             />
@@ -95,7 +95,7 @@ export default function HeroSection() {
             Alquila lo que necesitas{' '}
             <span 
               key={currentEventIndex}
-              className="inline-block transition-all duration-1000 ease-in-out text-yellow-300"
+              className="inline-block transition-all duration-1000 ease-in-out text-white"
               style={{
                 animation: 'titleFadeInOut 3s ease-in-out infinite',
               }}

@@ -9,12 +9,12 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/attached_assets/appquilar-transparente-blanco-pelota_1752660709824.png" 
+                src="@assets/appquilar-transparente-blanco-pelota_1752660709824.png" 
                 alt="Appquilar" 
                 className="h-8 w-auto"
               />
               <img 
-                src="/attached_assets/appquilar-blanco-transparente_1752660709824.png" 
+                src="@assets/appquilar-blanco-transparente_1752660709824.png" 
                 alt="Appquilar" 
                 className="ml-2 h-6 w-auto"
               />
