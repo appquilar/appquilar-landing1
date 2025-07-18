@@ -104,7 +104,7 @@ export default function HeroSection() {
               isVisible.subtitle ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
             }`}
           >
-            Conectamos proveedores de equipamiento con clientes que buscan simplicidad en sus eventos.
+            Alquila lo que necesites, desde quien ya lo tiene. Fácil, seguro y sin líos.
           </p>
           
           {/* Botones CTA */}
@@ -113,15 +113,16 @@ export default function HeroSection() {
               isVisible.buttons ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
             }`}
           >
-            <Button 
-              variant="default" 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 font-semibold border-none flex items-center justify-center px-8 h-14 text-lg text-white"
-              onClick={() => window.dispatchEvent(new CustomEvent('open-company-modal'))}
-            >
-              Me interesa
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <a href="https://forms.fillout.com/t/oBy96bmpk8us" rel="noopener noreferrer">
+              <Button
+                variant="default"
+                size="lg"
+                className="bg-primary hover:bg-primary/90 font-semibold border-none flex items-center justify-center px-8 h-14 text-lg text-white"
+              >
+                Me interesa
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </a>
           </div>
           
           {/* Indicador de desplazamiento */}

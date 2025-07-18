@@ -7,7 +7,7 @@ export default function FeaturesSection() {
     {
       icon: <Search className="w-5 h-5 text-primary" />,
       title: "Búsqueda Simplificada",
-      description: "Encuentra equipamiento para eventos fácilmente por categoría, ubicación y fechas."
+      description: "Encuentra lo que necesites fácilmente por categoría, ubicación y fechas."
     },
     {
       icon: <Monitor className="w-5 h-5 text-primary" />,
@@ -41,7 +41,7 @@ export default function FeaturesSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Una plataforma simplificada</h2>
-          <p className="mt-3 text-lg text-gray-600">Conectamos a quienes necesitan equipamiento con los proveedores adecuados.</p>
+          <p className="mt-3 text-lg text-gray-600">Desde herramientas hasta ocio: conecta con quien tiene lo que necesitas.</p>
         </div>
 
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">

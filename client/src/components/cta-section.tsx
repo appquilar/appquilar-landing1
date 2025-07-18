@@ -13,15 +13,16 @@ export default function CtaSection() {
           <div className="mt-8 flex justify-center gap-6">
 
             <div className="flex justify-center">
-              <Button
-                variant="default"
-                size="lg"
-                className="bg-primary flex items-center gap-2"
-                onClick={() => window.dispatchEvent(new CustomEvent('open-company-modal'))}
-              >
-                Me interesa
-                <ArrowRight className="h-5 w-5" />
-              </Button>
+              <a href="https://forms.fillout.com/t/oBy96bmpk8us" rel="noopener noreferrer">
+                <Button
+                  variant="default"
+                  size="lg"
+                  className="bg-primary flex items-center gap-2"
+                >
+                  Me interesa
+                  <ArrowRight className="h-5 w-5" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>

@@ -54,14 +54,14 @@ export default function Navbar() {
             </a>
 
             <div className="flex justify-center w-full">
-              <Link href="https://www.google.com/" rel="noopener noreferrer">
-                <Button
+              <a href="https://forms.fillout.com/t/oBy96bmpk8us" rel="noopener noreferrer">
+              <Button
                   variant="default"
                   size="sm"
                 >
                   Me interesa
                 </Button>
-              </Link>
+              </a>
             </div>
           </div>
           
