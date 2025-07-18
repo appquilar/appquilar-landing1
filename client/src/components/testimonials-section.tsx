@@ -18,12 +18,30 @@ const testimonials = [
     role: "Coordinador de bodas",
     content: "La variedad de equipamiento disponible es impresionante. He podido encontrar desde iluminación especializada hasta mesas decorativas únicas.",
     rating: 4
-  }
+  },
+  {
+    name: "Miguel Torres",
+    role: "Coordinador de bodas",
+    content: "La variedad de equipamiento disponible es impresionante. He podido encontrar desde iluminación especializada hasta mesas decorativas únicas.",
+    rating: 4
+  },
+  {
+    name: "Miguel Torres",
+    role: "Coordinador de bodas",
+    content: "La variedad de equipamiento disponible es impresionante. He podido encontrar desde iluminación especializada hasta mesas decorativas únicas.",
+    rating: 4
+  },
+  {
+    name: "Miguel Torres",
+    role: "Coordinador de bodas",
+    content: "La variedad de equipamiento disponible es impresionante. He podido encontrar desde iluminación especializada hasta mesas decorativas únicas.",
+    rating: 4
+  },
 ];
 
 export default function TestimonialsSection() {
   return (
-    <section id="testimonios" className="py-20 bg-gray-50">
+    <section id="testimonios" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900">La opinión de nuestros usuarios</h2>

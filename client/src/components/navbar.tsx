@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import iconLogo from "@assets/pelota-color.png";
+import textLogo from "@assets/logo-color.png";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -31,19 +33,8 @@ export default function Navbar() {
             <Link href="/">
               <div className="flex-shrink-0 flex items-center cursor-pointer">
                 {/* Logo icono SVG */}
-                <svg className="h-8 w-auto" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path 
-                    d="M50 10 C70 10 85 25 85 45 C85 55 80 65 70 70 L70 75 C70 85 60 90 50 90 C40 90 30 85 30 75 L30 70 C20 65 15 55 15 45 C15 25 30 10 50 10 Z M50 20 C35 20 25 30 25 45 C25 50 27 55 30 60 L35 65 L35 75 C35 80 42 85 50 85 C58 85 65 80 65 75 L65 65 L70 60 C73 55 75 50 75 45 C75 30 65 20 50 20 Z" 
-                    fill="#f97316" 
-                    stroke="none"
-                  />
-                </svg>
-                {/* Logo texto SVG */}
-                <svg className="ml-2 h-6 w-auto" viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <text x="0" y="28" fontFamily="Arial, sans-serif" fontSize="24" fontWeight="bold" fill="#f97316">
-                    Appquilar
-                  </text>
-                </svg>
+                <img src={iconLogo} alt="Logo icono" className="h-8 w-auto" />
+                <img src={textLogo} alt="Appquilar logo" className="ml-2 h-6 w-auto" />
               </div>
             </Link>
           </div>
@@ -55,21 +46,22 @@ export default function Navbar() {
             <a href="#dashboard" className="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium">
               Dashboard
             </a>
+            <a href="#categories" className="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium">
+              Categorías
+            </a>
             <a href="#testimonios" className="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium">
               Testimonios
             </a>
-            <a href="#contacto" className="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium">
-              Contacto
-            </a>
 
             <div className="flex justify-center w-full">
-              <Button 
-                variant="default" 
-                size="sm"
-                onClick={() => window.dispatchEvent(new CustomEvent('open-company-modal'))}
-              >
-                Me interesa
-              </Button>
+              <Link href="https://www.google.com/" rel="noopener noreferrer">
+                <Button
+                  variant="default"
+                  size="sm"
+                >
+                  Me interesa
+                </Button>
+              </Link>
             </div>
           </div>
           

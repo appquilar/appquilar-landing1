@@ -60,38 +60,6 @@ const alquileres = [
     estado: "upcoming",
     devuelto: false
   },
-  {
-    id: "4",
-    producto: "Set de Decoración Bohemia",
-    cliente: {
-      nombre: "María García",
-      email: "maria@example.com"
-    },
-    periodo: {
-      fechaInicio: "2025-03-01",
-      fechaFin: "2025-03-03",
-      dias: 2
-    },
-    importe: "190€",
-    estado: "completed",
-    devuelto: true
-  },
-  {
-    id: "5",
-    producto: "Kit de Iluminación para Eventos",
-    cliente: {
-      nombre: "Roberto Fernández",
-      email: "roberto@example.com"
-    },
-    periodo: {
-      fechaInicio: "2025-02-20",
-      fechaFin: "2025-02-22",
-      dias: 2
-    },
-    importe: "300€",
-    estado: "completed",
-    devuelto: true
-  }
 ];
 
 export default function DashboardAlquileres() {
