@@ -9,7 +9,7 @@
     "check": "tsc",
     "db:push": "drizzle-kit push",
     "build": "vite build",
-    "postbuild": "cp client/public/favicon.ico dist/favicon.ico"
+    "postbuild": "cp client/public/favicon.ico dist/favicon.ico && cp client/public/_redirects dist/_redirects"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
