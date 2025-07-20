@@ -5,37 +5,43 @@ const testimonials = [
     name: "Carlos Méndez",
     role: "Organizador de eventos",
     content: "La plataforma ha simplificado nuestra búsqueda de equipamiento. Antes perdíamos días buscando proveedores, ahora encontramos todo en minutos.",
-    rating: 5
+    rating: 5,
+    profile_url: "https://randomuser.me/api/portraits/men/20.jpg",
   },
   {
     name: "Elena Rodríguez",
-    role: "Propietaria de Decoraciones EventPro",
+    role: "Propietaria de tienda de decoraciones",
     content: "Desde que registré mi empresa, mis alquileres han aumentado un 40%. El dashboard es increíblemente útil para gestionar mi inventario.",
-    rating: 5
+    rating: 5,
+    profile_url: "https://randomuser.me/api/portraits/women/74.jpg",
   },
   {
     name: "Miguel Torres",
-    role: "Coordinador de bodas",
+    role: "Wedding Planer",
     content: "La variedad de equipamiento disponible es impresionante. He podido encontrar desde iluminación especializada hasta mesas decorativas únicas.",
-    rating: 4
+    rating: 4,
+    profile_url: "https://randomuser.me/api/portraits/men/35.jpg",
   },
   {
-    name: "Miguel Torres",
-    role: "Coordinador de bodas",
-    content: "La variedad de equipamiento disponible es impresionante. He podido encontrar desde iluminación especializada hasta mesas decorativas únicas.",
-    rating: 4
+    name: "Laura Martínez",
+    role: "Organizadora de eventos",
+    content: "Gracias a Appquilar he conseguido sillas y carpas para bodas en tiempo récord. La plataforma me ahorra muchas llamadas.",
+    rating: 4,
+    profile_url: "https://randomuser.me/api/portraits/women/45.jpg",
   },
   {
-    name: "Miguel Torres",
-    role: "Coordinador de bodas",
-    content: "La variedad de equipamiento disponible es impresionante. He podido encontrar desde iluminación especializada hasta mesas decorativas únicas.",
-    rating: 4
+    name: "Javier Rodríguez",
+    role: "Dueño de tienda de deportes",
+    content: "Alquilo bicicletas de montaña durante el verano, y ahora tengo más visibilidad que nunca. Funciona genial.",
+    rating: 5,
+    profile_url: "https://randomuser.me/api/portraits/men/72.jpg",
   },
   {
-    name: "Miguel Torres",
-    role: "Coordinador de bodas",
-    content: "La variedad de equipamiento disponible es impresionante. He podido encontrar desde iluminación especializada hasta mesas decorativas únicas.",
-    rating: 4
+    name: "Marta González",
+    role: "Freelance de fotografía",
+    content: "Uso Appquilar para alquilar focos, trípodes y hasta fondos. Es rápido, profesional y me conecta con nuevos clientes.",
+    rating: 5,
+    profile_url: "https://randomuser.me/api/portraits/women/84.jpg",
   },
 ];
 
@@ -58,9 +64,11 @@ export default function TestimonialsSection() {
               <div className="flex items-center justify-between">
                 <div className="flex items-center">
                   <div className="h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500">
-                    <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
+                    <img
+                        src={testimonial.profile_url}
+                        alt="Foto de perfil"
+                        className="h-10 w-10 rounded-full object-cover"
+                    />
                   </div>
                   <div className="ml-3">
                     <h3 className="text-sm font-medium text-gray-900">{testimonial.name}</h3>

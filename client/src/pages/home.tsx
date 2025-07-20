@@ -6,8 +6,8 @@ import CategoriesGrid from "@/components/categories-grid";
 import TestimonialsSection from "@/components/testimonials-section";
 
 import CtaSection from "@/components/cta-section";
-import RegistrationModals from "@/components/registration-modals";
 import Footer from "@/components/footer";
+import FooterTiny from "@/components/footer-tiny";
 
 export default function Home() {
   return (
@@ -21,8 +21,8 @@ export default function Home() {
         <TestimonialsSection />
         <CtaSection />
       </main>
-      <Footer />
-      <RegistrationModals />
+        <FooterTiny />
+        {/*<Footer />*/}
     </div>
   );
 }
