@@ -9,8 +9,12 @@
     "check": "tsc",
     "db:push": "drizzle-kit push",
     "generate:sitemap": "node scripts/generate-sitemap.cjs",
-    "build": "npm run generate:sitemap && vite build",
-    "postbuild": "cp client/public/favicon.ico dist/favicon.ico && cp client/public/_redirects dist/_redirects"
+    "build": "npm run generate:sitemap && vite build && npm run postbuild",
+    "copy:favicon": "cp client/public/favicon.ico dist/favicon.ico",
+    "copy:redirects": "cp client/public/_redirects dist/_redirects",
+    "copy:sitemap": "cp client/public/sitemap.xml dist/sitemap.xml",
+    "copy:robots": "cp client/public/robots.txt dist/robots.txt",
+    "postbuild":     "npm run copy:favicon && npm run copy:redirects && npm run copy:sitemap && npm run copy:robots"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
