@@ -1,28 +1,67 @@
-import Navbar from "@/components/navbar";
-import HeroSection from "@/components/hero-section";
-import FeaturesSection from "@/components/features-section";
-import DashboardPreview from "@/components/dashboard-preview";
-import CategoriesGrid from "@/components/categories-grid";
-import TestimonialsSection from "@/components/testimonials-section";
-
-import CtaSection from "@/components/cta-section";
-import Footer from "@/components/footer";
-import FooterTiny from "@/components/footer-tiny";
+import LandingLayout from '@/components/landing-layout';
+import {Armchair, Bike, Gamepad2, MoreHorizontal, Mountain, Sparkles, Umbrella, Wrench} from "lucide-react";
 
 export default function Home() {
-  return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      <Navbar />
-      <main className="flex-grow">
-        <HeroSection />
-        <FeaturesSection />
-        <DashboardPreview />
-        <CategoriesGrid />
-        <TestimonialsSection />
-        <CtaSection />
-      </main>
-        <FooterTiny />
-        {/*<Footer />*/}
-    </div>
-  );
+    return (
+        <LandingLayout
+            pageTitle="Alquila lo que quieras | Appquilar"
+            metaDescription="Encuentra y alquila productos. ¡Empieza hoy mismo con Appquilar!"
+            heroProps={{
+                title: 'Alquila lo que necesitas',
+                subtitle: 'Desde herramientas hasta equipamiento de camping. ¡Rápido y fácil!',
+                color: "primary",
+                eventTypes: [
+                    "para tu evento",
+                    "para la playa",
+                    "para tu acampada",
+                    "para tu trabajo",
+                    "para tu bricolaje"
+                ]
+            }}
+            categoriesGridProps={{
+                categories: [
+                    {
+                        name: "Cosas para la playa",
+                        icon: Umbrella,
+                        description: "Sombrillas, sillas de playa, neveras portátiles"
+                    },
+                    {
+                        name: "Cosas para el camping",
+                        icon: Mountain,
+                        description: "Tiendas de campaña, sacos de dormir, hornillos"
+                    },
+                    {
+                        name: "Herramientas",
+                        icon: Wrench,
+                        description: "Taladros, sierras, equipamiento profesional"
+                    },
+                    {
+                        name: "Sillas y mesas",
+                        icon: Armchair,
+                        description: "Mobiliario para eventos y celebraciones"
+                    },
+                    {
+                        name: "Decoración para eventos",
+                        icon: Sparkles,
+                        description: "Centros de mesa, iluminación, elementos decorativos"
+                    },
+                    {
+                        name: "Bicicletas",
+                        icon: Bike,
+                        description: "Bicicletas de montaña, urbanas, eléctricas"
+                    },
+                    {
+                        name: "Consolas",
+                        icon: Gamepad2,
+                        description: "PlayStation, Xbox, Nintendo, accesorios gaming"
+                    },
+                    {
+                        name: "Y mucho más",
+                        icon: MoreHorizontal,
+                        description: "Descubre todas las categorías disponibles"
+                    }
+                ]
+            }}
+        />
+    );
 }

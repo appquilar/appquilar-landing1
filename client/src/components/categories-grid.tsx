@@ -1,49 +1,16 @@
-import { Umbrella, Mountain, Wrench, Armchair, Sparkles, Bike, Gamepad2, MoreHorizontal } from "lucide-react";
+export interface Category {
+  name: string;
+  icon: any;
+  description?: string;
+}
 
-const categories = [
-  {
-    name: "Cosas para la playa",
-    icon: Umbrella,
-    description: "Sombrillas, sillas de playa, neveras portátiles"
-  },
-  {
-    name: "Cosas para el camping",
-    icon: Mountain,
-    description: "Tiendas de campaña, sacos de dormir, hornillos"
-  },
-  {
-    name: "Herramientas",
-    icon: Wrench,
-    description: "Taladros, sierras, equipamiento profesional"
-  },
-  {
-    name: "Sillas y mesas",
-    icon: Armchair,
-    description: "Mobiliario para eventos y celebraciones"
-  },
-  {
-    name: "Decoración para eventos",
-    icon: Sparkles,
-    description: "Centros de mesa, iluminación, elementos decorativos"
-  },
-  {
-    name: "Bicicletas",
-    icon: Bike,
-    description: "Bicicletas de montaña, urbanas, eléctricas"
-  },
-  {
-    name: "Consolas",
-    icon: Gamepad2,
-    description: "PlayStation, Xbox, Nintendo, accesorios gaming"
-  },
-  {
-    name: "Y mucho más",
-    icon: MoreHorizontal,
-    description: "Descubre todas las categorías disponibles"
-  }
-];
+export interface CategoriesGridProps {
+  categories: Category[];
+}
 
-export default function CategoriesGrid() {
+export default function CategoriesGrid(
+    {categories}: CategoriesGridProps,
+) {
   return (
     <section id="categories" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -81,9 +48,11 @@ export default function CategoriesGrid() {
                 <h4 className="font-semibold text-gray-900 mb-2 text-sm md:text-base">
                   {category.name}
                 </h4>
-                <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
-                  {category.description}
-                </p>
+                {category.description && (
+                    <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
+                      {category.description}
+                    </p>
+                )}
               </div>
             );
           })}

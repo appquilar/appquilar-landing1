@@ -1,16 +1,15 @@
-import { useState } from "react";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
-import { apiRequest } from "@/lib/queryClient";
-import { useMutation } from "@tanstack/react-query";
-import { useToast } from "@/hooks/use-toast";
+import {zodResolver} from "@hookform/resolvers/zod";
+import {useForm} from "react-hook-form";
+import {z} from "zod";
+import {apiRequest} from "@/lib/queryClient";
+import {useMutation} from "@tanstack/react-query";
+import {useToast} from "@/hooks/use-toast";
 
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { Textarea } from "@/components/ui/textarea";
-import { CheckCircle2, Users, Building } from "lucide-react";
+import {Form, FormControl, FormField, FormItem, FormLabel, FormMessage} from "@/components/ui/form";
+import {Input} from "@/components/ui/input";
+import {Button} from "@/components/ui/button";
+import {Textarea} from "@/components/ui/textarea";
+import {Building, CheckCircle2, Users} from "lucide-react";
 
 // Validation schemas
 const userFormSchema = z.object({
@@ -117,7 +116,7 @@ export default function RegistrationSection() {
   }
 
   return (
-    <section id="registro" className="py-20 bg-white">
+    <section id="registro" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900">Únete a RentaEventos</h2>

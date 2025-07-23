@@ -3,5 +3,9 @@ node_modules
 server/public
 vite.config.ts.*
 *.tar.gz
+*.zip
 .idea/*
-dist/*
+dist
+dist-scripts
+client/public/sitemap.xml
+client/public/robots.txt

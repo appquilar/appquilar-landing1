@@ -254,10 +254,10 @@ export default function DashboardPreview() {
   };
 
   return (
-    <section id="dashboard" className="py-16 bg-white">
+    <section id="dashboard" className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Dashboard para empresas</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Dashboard</h2>
           <p className="mt-3 text-lg text-gray-600">Gestiona tu inventario y visualiza estadísticas de manera sencilla</p>
         </div>
 

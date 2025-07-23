@@ -1,10 +1,18 @@
-import React from "react";
+import LandingLayout from '@/components/landing-layout';
 
 export default function ToolsLanding() {
     return (
-        <main>
-            <h1>Alquiler de herramientas</h1>
-            {/* Aquí tu contenido específico */}
-        </main>
+        <LandingLayout
+            pageTitle="Alquila las herramientas que necesites | Appquilar"
+            metaDescription="Encuentra y alquila herramientas. ¡Empieza hoy mismo con Appquilar!"
+            heroProps={{
+                title: 'Puedes alquilar',
+                subtitle: 'Desde alicates hasta máquinas desbrozadoras. ¡Rápido y fácil!',
+                color: "primary",
+                eventTypes: [
+                    'una tienda de campaña'
+                ]
+            }}
+        />
     );
 }
