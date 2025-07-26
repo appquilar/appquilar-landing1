@@ -1,6 +1,7 @@
-import { Map, Mail, Phone } from "lucide-react";
+import {Mail, Map, Phone} from "lucide-react";
 import iconLogo from "@assets/pelota-blanco.png";
 import textLogo from "@assets/logo-blanco.png";
+import { Link } from "wouter";
 
 export default function Footer() {
   return (
@@ -8,10 +9,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center mb-4">
-              <img src={iconLogo} alt="Logo icono" className="h-8 w-auto" />
-              <img src={textLogo} alt="Appquilar logo" className="ml-2 h-6 w-auto" />
-            </div>
+            <Link to={"/"}>
+              <div className="flex items-center mb-4">
+                <img src={iconLogo} alt="Logo icono" className="h-8 w-auto" />
+                <img src={textLogo} alt="Appquilar logo" className="ml-2 h-6 w-auto" />
+              </div>
+            </Link>
             <p className="mb-4">La plataforma líder en alquiler de productos en toda España.</p>
             <div className="flex space-x-4">
               <a href="https://www.instagram.com/appquilar/" target="_blank" className="text-gray-400 hover:text-white">

@@ -1,0 +1,14 @@
+[
+  {
+    "question": "¿Cómo alquilo productos en Appquilar?",
+    "answer": "Regístrate, busca el producto, envía la solicitud y recoge tu alquiler."
+  },
+  {
+    "question": "¿Cómo puedo poner productos en alquiler?",
+    "answer": "Registrate en nuestor marketplace (en esta misma página verás botones para ello), crea tu usuario y tu empresa (o sólo tu usuario si eres un particular), y utiliza nuestro dashboard para gestionar tanto tus productos como los alquileres. Si eres empresa, además, verás métricas relacionadas con tus productos."
+  },
+  {
+    "question": "¿La plataforma es segura?",
+    "answer": "Sí, Appquilar no funciona como intermediario entre la persona que alquila y la persona o empresa que tiene el producto en alquiler."
+  }
+]

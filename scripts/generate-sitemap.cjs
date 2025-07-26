@@ -26,12 +26,17 @@ function generateRoutesByProvince(baseSlug) {
     return routes;
 }
 
+const baseCamping = 'alquiler-cosas-camping';
+const baseTools = 'alquiler-herramientas';
+
 const BASE = 'https://appquilar.com';
-const campingRoutes = generateRoutesByProvince('alquiler-cosas-camping');
+const campingRoutes = generateRoutesByProvince(baseCamping);
+const toolsRoutes = generateRoutesByProvince(baseTools);
+
 const allPaths = [
     '/',
-    '/alquiler-cosas-herramientas',
-    ...campingRoutes.map(r => r.path)
+    ...campingRoutes.map(r => r.path),
+    ...toolsRoutes.map(r => r.path)
 ];
 
 // 4) Construye los contenidos

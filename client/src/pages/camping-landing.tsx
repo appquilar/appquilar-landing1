@@ -1,5 +1,14 @@
 import LandingLayout from '@/components/landing-layout';
-import {RockingChair, Bike, Binoculars, MoreHorizontal, Flashlight, Caravan, TentTree, FlameKindling} from "lucide-react";
+import {
+    Bike,
+    Binoculars,
+    Caravan,
+    FlameKindling,
+    Flashlight,
+    MoreHorizontal,
+    RockingChair,
+    TentTree
+} from "lucide-react";
 
 interface CampingLandingProps {
     province?: string;
@@ -15,7 +24,7 @@ export default function CampingLanding({ province }: CampingLandingProps) {
             heroProps={{
                 title: 'Puedes alquilar',
                 subtitle: 'Por si nunca has ido de cámping y quieres probarlo... ¡Rápido y fácil!',
-                color: "green",
+                color: "primary",
                 eventTypes: [
                     'una tienda de campaña',
                     'cuatro sillas',
@@ -27,30 +36,37 @@ export default function CampingLanding({ province }: CampingLandingProps) {
                 categories: [
                     {
                         name: "Tiendas de campaña",
+                        description: "Alquila tiendas de campaña resistentes para disfrutar de acampadas cómodas",
                         icon: TentTree,
                     },
                     {
                         name: "Linternas",
+                        description: "Encuentra linternas potentes para iluminar tus noches bajo las estrellas",
                         icon: Flashlight,
                     },
                     {
                         name: "Cámping-gas",
+                        description: "Alquila equipos de cámping‑gas seguros para cocinar cómodamente en plena naturaleza",
                         icon: FlameKindling,
                     },
                     {
                         name: "Sillas y mesas",
+                        description: "Disponibles sillas y mesas plegables para descansar y comer al aire libre",
                         icon: RockingChair,
                     },
                     {
                         name: "Caravanas",
+                        description: "Explora caravanas espaciosas con todas las comodidades para viajes inolvidables",
                         icon: Caravan,
                     },
                     {
                         name: "Bicicletas",
+                        description: "Alquila bicicletas robustas para recorrer senderos y descubrir nuevos paisajes",
                         icon: Bike,
                     },
                     {
                         name: "Gadgets necesarios",
+                        description: "Lleva gadgets esenciales como mochilas, brújulas y kits de supervivencia",
                         icon: Binoculars,
                     },
                     {

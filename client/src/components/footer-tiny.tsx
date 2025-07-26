@@ -1,4 +1,3 @@
-import { Map, Mail, Phone } from "lucide-react";
 import iconLogo from "@assets/pelota-blanco.png";
 import textLogo from "@assets/logo-blanco.png";
 

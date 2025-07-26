@@ -9,6 +9,7 @@ import ToolsLanding from "@/pages/tools-landing";
 import {generateRoutesByProvince} from '@/utils/provinceRoutes';
 
 const campingRoutes = generateRoutesByProvince('alquiler-cosas-camping');
+const toolsRoutes = generateRoutesByProvince('alquiler-herramientas');
 
 function Router() {
     return (
@@ -22,7 +23,14 @@ function Router() {
                     component={() => <CampingLanding province={province} />}
                 />
             ))}
-            <Route path="/alquiler-cosas-herramientas" component={ToolsLanding} />
+            {/*Rutas herramientas */}
+            {toolsRoutes.map(({ path, province }) => (
+                <Route
+                    key={path}
+                    path={path}
+                    component={() => <ToolsLanding province={province} />}
+                />
+            ))}
             <Route component={NotFound} />
         </Switch>
     );

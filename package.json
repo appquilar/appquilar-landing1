@@ -14,7 +14,7 @@
     "copy:redirects": "cp client/public/_redirects dist/_redirects",
     "copy:sitemap": "cp client/public/sitemap.xml dist/sitemap.xml",
     "copy:robots": "cp client/public/robots.txt dist/robots.txt",
-    "postbuild":     "npm run copy:favicon && npm run copy:redirects && npm run copy:sitemap && npm run copy:robots"
+    "postbuild": "npm run copy:favicon && npm run copy:redirects && npm run copy:sitemap && npm run copy:robots"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -61,7 +61,7 @@
     "express-session": "^1.18.1",
     "framer-motion": "^11.13.1",
     "input-otp": "^1.2.4",
-    "lucide-react": "^0.453.0",
+    "lucide-react": "^0.525.0",
     "memorystore": "^1.6.7",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",

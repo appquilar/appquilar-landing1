@@ -1,9 +1,10 @@
 // client/src/components/hero-section.tsx
-import React, { useEffect, useState } from 'react';
-import { Button } from "@/components/ui/button";
-import { ArrowRight, ChevronDown } from "lucide-react";
+import React, {useEffect, useState} from 'react';
+import {Button} from "@/components/ui/button";
+import {ArrowRight, ChevronDown} from "lucide-react";
 import iconLogo from "@assets/pelota-blanco.png";
 import textLogo from "@assets/logo-blanco.png";
+import {Link} from "wouter";
 
 export interface HeroProps {
     title: string;
@@ -95,14 +96,16 @@ export default function HeroSection({
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 relative">
               <div className="text-center">
                   {/* Logo y nombre */}
-                  <div
-                      className={`flex items-center justify-center mb-8 transition-all duration-700 transform ${
-                          isVisible.logo ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
-                      }`}
-                  >
-                      <img src={iconLogo} alt="Logo icono" className="h-12 w-auto" />
-                      <img src={textLogo} alt="Appquilar logo" className="ml-2 mt-1 h-12 w-auto" />
-                  </div>
+                  <Link href="/">
+                      <div
+                          className={`flex items-center justify-center mb-8 transition-all duration-700 transform ${
+                              isVisible.logo ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
+                          }`}
+                      >
+                            <img src={iconLogo} alt="Logo icono" className="h-12 w-auto" />
+                            <img src={textLogo} alt="Appquilar logo" className="ml-2 mt-1 h-12 w-auto" />
+                      </div>
+                  </Link>
 
                   {/* Título principal con animación */}
                   <h1

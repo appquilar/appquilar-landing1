@@ -1,13 +1,15 @@
-import React, { ReactNode, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
+import React, {useEffect} from 'react';
+import {Helmet} from 'react-helmet';
 import Navbar from './navbar';
-import HeroSection, { HeroProps } from './hero-section';
+import HeroSection, {HeroProps} from './hero-section';
 import FeaturesSection from './features-section';
 import DashboardPreview from './dashboard-preview';
-import CategoriesGrid, { CategoriesGridProps } from './categories-grid';
+import CategoriesGrid, {CategoriesGridProps} from './categories-grid';
 import TestimonialsSection from './testimonials-section';
 import CtaSection from './cta-section';
-import FooterTiny from './footer-tiny';
+import FAQSection from "@/components/faq-section.tsx";
+import faqItems from '@/data/faqItems.json';
+import Footer from "@/components/footer.tsx";
 
 export interface LandingLayoutProps {
     pageTitle: string;
@@ -44,10 +46,11 @@ export default function LandingLayout(
                 <FeaturesSection />
                 <DashboardPreview />
                 <CategoriesGrid {...categoriesGridProps}/>
+                <FAQSection items={faqItems} />
                 {isTestimonialsVisible && <TestimonialsSection />}
                 <CtaSection />
             </main>
-            <FooterTiny />
+            <Footer />
         </div>
     );
 }
