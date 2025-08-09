@@ -1,0 +1,382 @@
+[
+  {
+    "slug": "eventos",
+    "label": "Eventos",
+    "subtitle": "Alquila todo para tu fiesta o evento",
+    "icon": "PartyPopper",
+    "metaTitle": "Alquiler para eventos | Appquilar",
+    "metaDescription": "Alquila mobiliario, inflables, sonido, hostelería y más para tu evento. ¡Fácil y cerca de ti!",
+    "subcategories": [
+      {
+        "slug": "inflables",
+        "label": "Inflables",
+        "icon": "Airplay",
+        "metaTitle": "Alquiler de inflables | Eventos | Appquilar",
+        "subtitle": "Alquila inflables para tus eventos",
+        "metaDescription": "Diversión asegurada con nuestros inflables para fiestas y eventos."
+      },
+      {
+        "slug": "mobiliario",
+        "label": "Mobiliario",
+        "icon": "Chair",
+        "metaTitle": "Alquiler de mobiliario para eventos | Appquilar",
+        "subtitle": "Alquila mobiliario para tus eventos",
+        "metaDescription": "Mesas, sillas, decoración… todo el mobiliario que necesitas para tu evento al mejor precio."
+      },
+      {
+        "slug": "locales",
+        "label": "Locales para eventos",
+        "icon": "Home",
+        "metaTitle": "Alquiler de locales para eventos | Appquilar",
+        "subtitle": "Alquila locales para tus eventos",
+        "metaDescription": "Encuentra espacios ideales para celebraciones, reuniones y eventos corporativos cerca de ti."
+      },
+      {
+        "slug": "juegos-y-actividades",
+        "label": "Juegos y actividades",
+        "icon": "Gamepad2",
+        "metaTitle": "Alquiler de juegos y actividades | Eventos | Appquilar",
+        "subtitle": "Contrata juegos y actividades para tus eventos",
+        "metaDescription": "Juegos, actividades y entretenimiento para todas las edades. Haz tu evento inolvidable."
+      },
+      {
+        "slug": "sonido",
+        "label": "Sonido",
+        "icon": "Volume2",
+        "metaTitle": "Alquiler de elementos de sonido para eventos | Appquilar",
+        "subtitle": "Alquila elementos de sonido para tus eventos",
+        "metaDescription": "Altavoces, micrófonos, amplificación… todo el equipo de sonido para tu evento listo para usar."
+      },
+      {
+        "slug": "hosteleria",
+        "label": "Hostelería",
+        "icon": "Coffee",
+        "subtitle": "Alquila elementos de hostelería para tus eventos",
+        "metaDescription": "Catering, menaje, barras y más. Servicios de hostelería para eventos sin complicaciones."
+      },
+      {
+        "slug": "coworking",
+        "label": "Coworking",
+        "icon": "Users",
+        "metaTitle": "Alquiler de espacios coworking para eventos | Appquilar",
+        "subtitle": "Alquila elementos de coworking para tus eventos",
+        "metaDescription": "Espacios de coworking flexibles para reuniones, talleres o presentaciones."
+      }
+    ]
+  },
+  {
+    "slug": "camping",
+    "label": "Camping",
+    "subtitle": "Equipo para aventuras al aire libre",
+    "icon": "Tent",
+    "metaTitle": "Alquiler de camping | Appquilar",
+    "metaDescription": "Tiendas, neveras, caravanas, sombrillas y todo lo necesario para tus escapadas camping.",
+    "subcategories": [
+      {
+        "slug": "tiendas-de-campana",
+        "label": "Tiendas de campaña",
+        "icon": "Tent",
+        "metaTitle": "Alquiler de tiendas de campaña | Camping | Appquilar",
+        "metaDescription": "Tiendas resistentes y fáciles de montar para tus escapadas al aire libre."
+      },
+      {
+        "slug": "accesorios",
+        "label": "Accesorios",
+        "icon": "MapPin",
+        "metaTitle": "Alquiler de accesorios de camping | Appquilar",
+        "metaDescription": "Linternas, mesas plegables, mochilas y más equipamiento para tus aventuras."
+      },
+      {
+        "slug": "mobiliario",
+        "label": "Mobiliario",
+        "icon": "Chair",
+        "metaTitle": "Alquiler de mobiliario para camping | Appquilar",
+        "metaDescription": "Sillas plegables, mesas portátiles y muebles funcionales para el camping."
+      },
+      {
+        "slug": "caravanas",
+        "label": "Caravanas",
+        "icon": "Truck",
+        "metaTitle": "Alquiler de caravanas | Camping | Appquilar",
+        "metaDescription": "Caravanas cómodas y listas para tu viaje. Vive la experiencia sin comprar."
+      },
+      {
+        "slug": "cofre-baul",
+        "label": "Cofre / Baúl",
+        "icon": "Box",
+        "metaTitle": "Alquiler de cofre/baúl para camping | Appquilar",
+        "metaDescription": "Cofres de transporte seguros y resistentes para tus artículos de camping."
+      },
+      {
+        "slug": "nevera",
+        "label": "Nevera",
+        "icon": "Fridge",
+        "metaTitle": "Alquiler de neveras para camping | Appquilar",
+        "metaDescription": "Neveras portátiles para mantener tus bebidas y alimentos frescos durante tus travesías."
+      },
+      {
+        "slug": "pergolas",
+        "label": "Pérgolas",
+        "icon": "Aperture",
+        "metaTitle": "Alquiler de pérgolas para camping | Appquilar",
+        "metaDescription": "Sombras cómodas y espaciosas para relajarte bajo el sol."
+      },
+      {
+        "slug": "sombrillas",
+        "label": "Sombrillas",
+        "icon": "Sun",
+        "metaTitle": "Alquiler de sombrillas | Camping | Appquilar",
+        "metaDescription": "Protección solar práctica y estilosa para zonas al aire libre."
+      }
+    ]
+  },
+  {
+    "slug": "herramientas",
+    "label": "Herramientas",
+    "subtitle": "Herramientas para bricolaje y jardín",
+    "icon": "Tool",
+    "metaTitle": "Alquiler de herramientas | Appquilar",
+    "metaDescription": "Taladros, limpieza, jardinería y maquinaria. Todo lo que necesitas para tu proyecto.",
+    "subcategories": [
+      {
+        "slug": "herramientas-pequenas",
+        "label": "Herramientas pequeñas",
+        "icon": "Wrench",
+        "metaTitle": "Alquiler de herramientas pequeñas | Appquilar",
+        "metaDescription": "Taladros, llaves, martillos y herramientas manuales para tu hogar o taller."
+      },
+      {
+        "slug": "maquinaria",
+        "label": "Maquinaria",
+        "icon": "HardDrive",
+        "metaTitle": "Alquiler de maquinaria | Herramientas | Appquilar",
+        "metaDescription": "Cortadoras, sierras, compresores y maquinaria profesional para tu obra."
+      },
+      {
+        "slug": "limpieza",
+        "label": "Limpieza",
+        "icon": "Droplet",
+        "metaTitle": "Alquiler de equipo de limpieza | Appquilar",
+        "metaDescription": "Máquinas de vapor, aspiradoras y sistemas de limpieza potente para tu espacio."
+      },
+      {
+        "slug": "taller",
+        "label": "Taller",
+        "icon": "Hammer",
+        "metaTitle": "Alquiler de taller móvil | Appquilar",
+        "metaDescription": "Equipamiento de taller completo para reparaciones y DIY en casa o trabajo."
+      },
+      {
+        "slug": "jardineria",
+        "label": "Jardinería",
+        "icon": "Leaf",
+        "metaTitle": "Alquiler de herramientas de jardinería | Appquilar",
+        "metaDescription": "Cortacéspedes, desbrozadoras y herramientas de jardín listos para usar."
+      },
+      {
+        "slug": "proteccion-personal",
+        "label": "Protección personal",
+        "icon": "Shield",
+        "metaTitle": "Alquiler de protección personal | Appquilar",
+        "metaDescription": "Guantes, cascos, gafas y elementos de seguridad para tus tareas con tranquilidad."
+      }
+    ]
+  },
+  {
+    "slug": "disfraces",
+    "label": "Disfraces",
+    "subtitle": "Alquiler de disfraces para todas las ocasiones",
+    "icon": "MaskHappy",
+    "metaTitle": "Alquiler de disfraces | Appquilar",
+    "metaDescription": "Disfraces para fiestas, eventos, Halloween… Encuentra el tuyo sin comprar.",
+    "subcategories": [
+      {
+        "slug": "disfraces",
+        "label": "Disfraces",
+        "icon": "Mask",
+        "metaTitle": "Alquiler de disfraces | Appquilar",
+        "metaDescription": "Colección de disfraces para todas las edades y temáticas."
+      },
+      {
+        "slug": "atrezzo",
+        "label": "Atrezzo",
+        "icon": "Star",
+        "metaTitle": "Alquiler de atrezzo | Disfraces | Appquilar",
+        "metaDescription": "Sombreros, varitas, accesorios y complementos para tu disfraz perfecto."
+      },
+      {
+        "slug": "trajes-o-vestidos",
+        "label": "Trajes o vestidos",
+        "icon": "Monitor",
+        "metaTitle": "Alquiler de trajes y vestidos | Disfraces | Appquilar",
+        "metaDescription": "Vestidos y trajes elegantes para fiestas temáticas y eventos."
+      }
+    ]
+  },
+  {
+    "slug": "deportes",
+    "label": "Deportes",
+    "subtitle": "Equipamiento para tus actividades deportivas",
+    "icon": "Activity",
+    "metaTitle": "Alquiler de material deportivo | Appquilar",
+    "metaDescription": "Alquila equipamiento para padel, nieve, ciclismo y deportes acuáticos cerca de ti.",
+    "subcategories": [
+      {
+        "slug": "acuaticos",
+        "label": "Acuáticos",
+        "icon": "Droplet",
+        "metaTitle": "Alquiler de equipos acuáticos | Deportes | Appquilar",
+        "metaDescription": "Kayaks, tablas de surf, paddle... todo para disfrutar del agua."
+      },
+      {
+        "slug": "nieve",
+        "label": "Nieve",
+        "icon": "CloudSnow",
+        "metaTitle": "Alquiler de equipos para nieve | Deportes | Appquilar",
+        "metaDescription": "Esquís, tablas snowboard, trineos y ropa térmica para la nieve."
+      },
+      {
+        "slug": "ciclismo-mtb",
+        "label": "Ciclismo y MTB",
+        "icon": "Bike",
+        "metaTitle": "Alquiler de bicicletas y MTB | Deportes | Appquilar",
+        "metaDescription": "Bicicletas urbanas, de montaña y eléctricas para todas las rutas."
+      },
+      {
+        "slug": "padel",
+        "label": "Padel",
+        "icon": "Tennis",
+        "metaTitle": "Alquiler de equipamiento de pádel | Deportes | Appquilar",
+        "metaDescription": "Palas, pelotas y redes para tus partidos de pádel."
+      },
+      {
+        "slug": "padel-surf",
+        "label": "Padel Surf",
+        "icon": "Surfboard",
+        "metaTitle": "Alquiler de paddle surf | Deportes | Appquilar",
+        "metaDescription": "Tablas y remos para disfrutar del paddle surf sin comprar."
+      }
+    ]
+  },
+  {
+    "slug": "vehiculos",
+    "label": "Vehículos",
+    "subtitle": "Alquiler de vehículos (excluyendo coches)",
+    "icon": "Truck",
+    "metaTitle": "Alquiler de vehículos | Appquilar",
+    "metaDescription": "Furgonetas, motos, bicicletas y más. Alquila movilidad sin comprar.",
+    "subcategories": [
+      {
+        "slug": "boxes",
+        "label": "Boxes",
+        "icon": "Archive",
+        "metaTitle": "Alquiler de boxes | Vehículos | Appquilar",
+        "metaDescription": "Alquiler de boxes/modulares tipo vehículo para almacenamiento o servicios móviles."
+      },
+      {
+        "slug": "motos",
+        "label": "Motos",
+        "icon": "Motorbike",
+        "metaTitle": "Alquiler de motos | Vehículos | Appquilar",
+        "metaDescription": "Motos urbanas y scooters disponibles para alquiler por días o fin de semana."
+      },
+      {
+        "slug": "furgonetas",
+        "label": "Furgonetas",
+        "icon": "Van",
+        "metaTitle": "Alquiler de furgonetas | Vehículos | Appquilar",
+        "metaDescription": "Furgonetas de carga y transporte para mudanzas o reparto."
+      },
+      {
+        "slug": "barcos",
+        "label": "Barcos",
+        "icon": "Boat",
+        "metaTitle": "Alquiler de barcos | Vehículos | Appquilar",
+        "metaDescription": "Lanchas y embarcaciones pequeñas para días en el mar."
+      },
+      {
+        "slug": "bicicletas",
+        "label": "Bicicletas",
+        "icon": "Bike",
+        "metaTitle": "Alquiler de bicicletas | Vehículos | Appquilar",
+        "metaDescription": "Bicicletas urbanas, plegables y eléctricas para desplazarte con libertad."
+      },
+      {
+        "slug": "patinetes",
+        "label": "Patinetes",
+        "icon": "Mic",
+        "metaTitle": "Alquiler de patinetes | Vehículos | Appquilar",
+        "metaDescription": "Patinetes eléctricos y clásicos disponibles para alquiler rápido."
+      }
+    ]
+  },
+  {
+    "slug": "bebes-y-ninos",
+    "label": "Bebés y niños",
+    "subtitle": "Alquiler para familias con bebés y niños",
+    "icon": "Baby",
+    "metaTitle": "Alquiler de artículos para bebés y niños | Appquilar",
+    "metaDescription": "Coches, sillas, bañeras de viaje, mochilas y más para facilitar la vida en familia.",
+    "subcategories": [
+      {
+        "slug": "carros",
+        "label": "Carros",
+        "icon": "ShoppingCart",
+        "metaTitle": "Alquiler de carros | Bebés y niños | Appquilar",
+        "metaDescription": "Carritos y carrossalares cómodos y seguros para tus paseos."
+      },
+      {
+        "slug": "mochila-de-porte",
+        "label": "Mochila de porteo",
+        "icon": "Backpack",
+        "metaTitle": "Alquiler de mochila de porteo | Appquilar",
+        "metaDescription": "Mochilas ergonómicas para llevar a tu bebé de forma cómoda y segura."
+      },
+      {
+        "slug": "baneras-de-viaje",
+        "label": "Bañeras de viaje",
+        "icon": "Bath",
+        "metaTitle": "Alquiler de bañeras de viaje | Appquilar",
+        "metaDescription": "Bañeras portátiles para que tu bebé esté siempre cómodo al bañarse."
+      },
+      {
+        "slug": "sillas-de-coche",
+        "label": "Sillas de coche",
+        "icon": "Car",
+        "metaTitle": "Alquiler de sillas de coche | Bebés y niños | Appquilar",
+        "metaDescription": "Sillas de seguridad infantil homologadas para tus viajes en coche."
+      }
+    ]
+  },
+  {
+    "slug": "tecnologia",
+    "label": "Tecnología",
+    "subtitle": "Dispositivos tecnológicos para alquilar",
+    "icon": "Monitor",
+    "metaTitle": "Alquiler de tecnología | Appquilar",
+    "metaDescription": "Ordenadores, tablets y móviles para alquilar por días o semanas sin comprar.",
+    "subcategories": [
+      {
+        "slug": "portatiles",
+        "label": "Portátiles",
+        "icon": "Laptop",
+        "metaTitle": "Alquiler de portátiles | Tecnología | Appquilar",
+        "metaDescription": "Laptops de diferentes gamas para trabajo o estudio, disponibles al momento."
+      },
+      {
+        "slug": "movil",
+        "label": "Móvil",
+        "icon": "Smartphone",
+        "metaTitle": "Alquiler de móviles | Tecnología | Appquilar",
+        "metaDescription": "Smartphones recientes para alquilar sin permanencia."
+      },
+      {
+        "slug": "tablet",
+        "label": "Tablet",
+        "icon": "Tablet",
+        "metaTitle": "Alquiler de tablets | Tecnología | Appquilar",
+        "metaDescription": "Tablets Android y iPad para trabajar o entretenerte sin comprar."
+      }
+    ]
+  }
+]

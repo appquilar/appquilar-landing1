@@ -10,13 +10,11 @@ export interface HeroProps {
     title: string;
     subtitle: string;
     eventTypes: string[];
-    color: string;
 }
 
 export default function HeroSection({
     title,
     subtitle,
-    color,
     eventTypes,
 }: HeroProps) {
   const [isVisible, setIsVisible] = useState({
@@ -74,13 +72,6 @@ export default function HeroSection({
         return () => clearTimeout(startTimer);
     }, [isVisible.title, listOfCategories.length]);
 
-    const gradients: Record<HeroProps['color'], string> = {
-        primary:    'from-primary to-primary-800',
-        blue:       'from-blue-800 to-blue-50',
-        green:      'from-green-800 to-green-50',
-        purple:     'from-purple-800 to-purple-50',
-    };
-
   return (
       <section
           id="hero-section"
@@ -88,7 +79,7 @@ export default function HeroSection({
               [
                   'relative overflow-hidden min-h-screen flex items-center',
                   'bg-gradient-to-b',
-                  gradients[color]
+                  'from-primary to-primary-800'
               ].join(' ')
           }
       >

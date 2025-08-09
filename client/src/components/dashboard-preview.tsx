@@ -37,7 +37,7 @@ export default function DashboardPreview() {
     // Aquí podrías hacer una petición al backend para obtener el nombre real
     // Por ahora usamos un timeout para simular la carga
     const timer = setTimeout(() => {
-      setUserName("RentaEventos Pro");
+      setUserName("Appquilar");
     }, 1000);
     
     return () => clearTimeout(timer);

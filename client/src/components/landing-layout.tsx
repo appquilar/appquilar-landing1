@@ -1,55 +1,53 @@
-import React, {useEffect} from 'react';
-import {Helmet} from 'react-helmet';
-import Navbar from './navbar';
-import HeroSection, {HeroProps} from './hero-section';
-import FeaturesSection from './features-section';
-import DashboardPreview from './dashboard-preview';
-import CategoriesGrid, {CategoriesGridProps} from './categories-grid';
-import TestimonialsSection from './testimonials-section';
-import CtaSection from './cta-section';
+import React, { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
+import Navbar from "./navbar";
+import HeroSection, { HeroProps } from "./hero-section";
+import FeaturesSection from "./features-section";
+import DashboardPreview from "./dashboard-preview";
+import CategoriesGrid, { CategoriesGridProps } from "./categories-grid";
+// Testimonials eliminado
+import CtaSection from "./cta-section";
 import FAQSection from "@/components/faq-section.tsx";
-import faqItems from '@/data/faqItems.json';
+import faqItems from "@/data/faqItems.json";
 import Footer from "@/components/footer.tsx";
 
 export interface LandingLayoutProps {
     pageTitle: string;
     metaDescription?: string;
     heroProps: HeroProps;
-    categoriesGridProps: CategoriesGridProps;
-    isTestimonialsVisible?: boolean;
-
+    categoriesGridProps?: CategoriesGridProps;
 }
 
-export default function LandingLayout(
-    {
-        pageTitle,
-        metaDescription,
-        heroProps,
-        categoriesGridProps,
-        isTestimonialsVisible = true,
-    }: LandingLayoutProps) {
+export default function LandingLayout({
+                                          pageTitle,
+                                          metaDescription,
+                                          heroProps,
+                                          categoriesGridProps,
+                                      }: LandingLayoutProps) {
     useEffect(() => {
         document.title = pageTitle;
     }, [pageTitle]);
 
     return (
-        <div className="min-h-screen bg-gray-50 flex flex-col">
-            {/* Head tags for SEO */}
+        <div className="min-h-screen flex flex-col">
             <Helmet>
                 <title>{pageTitle}</title>
-                {metaDescription && <meta name="description" content={metaDescription} />}
+                {metaDescription ? (
+                    <meta name="description" content={metaDescription} />
+                ) : null}
             </Helmet>
 
             <Navbar />
+
             <main className="flex-grow">
                 <HeroSection {...heroProps} />
                 <FeaturesSection />
                 <DashboardPreview />
-                <CategoriesGrid {...categoriesGridProps}/>
+                {categoriesGridProps && <CategoriesGrid {...categoriesGridProps} />}
                 <FAQSection items={faqItems} />
-                {isTestimonialsVisible && <TestimonialsSection />}
                 <CtaSection />
             </main>
+
             <Footer />
         </div>
     );

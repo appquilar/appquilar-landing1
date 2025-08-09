@@ -1,59 +1,39 @@
-// scripts/generate-sitemap.js
-const fs   = require('fs');
-const path = require('path');
+// scripts/generate-sitemap.cjs
+const fs = require("fs");
+const path = require("path");
 
-// 1) Carga la lista de provincias
-const provinces = require('../client/src/data/provincias.json');
+// Base URL
+const BASE = process.env.SITE_URL || "https://appquilar.com";
 
-// 2) Función para slugificar
-function slugify(s) {
-    return s
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/(^-|-$)/g, '');
+// Cargar categorías
+const categoriesPath = path.resolve(__dirname, "../client/src/data/categories.json");
+const categories = JSON.parse(fs.readFileSync(categoriesPath, "utf8"));
+
+function urlJoin(base, ...parts) {
+    const b = base.replace(/\/+$/, "");
+    const p = parts.flat().filter(Boolean).map(s => String(s).replace(/^\/+|\/+$/g, ""));
+    return [b, ...p].join("/");
 }
 
-// 3) Genera rutas
-function generateRoutesByProvince(baseSlug) {
-    const routes = [{ path: `/${baseSlug}` }];
-    provinces.forEach(prov => {
-        routes.push({
-            path: `/${baseSlug}-en-${slugify(prov)}`
-        });
-    });
-    return routes;
-}
+// URLs: home + /:category
+const urls = new Set([urlJoin(BASE, "/")]);
+for (const c of categories) urls.add(urlJoin(BASE, c.slug));
 
-const baseCamping = 'alquiler-cosas-camping';
-const baseTools = 'alquiler-herramientas';
-
-const BASE = 'https://appquilar.com';
-const campingRoutes = generateRoutesByProvince(baseCamping);
-const toolsRoutes = generateRoutesByProvince(baseTools);
-
-const allPaths = [
-    '/',
-    ...campingRoutes.map(r => r.path),
-    ...toolsRoutes.map(r => r.path)
-];
-
-// 4) Construye los contenidos
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+const now = new Date().toISOString();
+const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${allPaths.map(p => `  <url><loc>${BASE}${p}</loc></url>`).join('\n')}
+${[...urls].map(u => `  <url><loc>${u}</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`).join("\n")}
 </urlset>`;
 
 const robots = `User-agent: *
 Allow: /
-Sitemap: ${BASE}/sitemap.xml
+Sitemap: ${urlJoin(BASE, "sitemap.xml")}
 `;
 
-// 5) Asegura public/ y escribe
-const publicDir = path.resolve(__dirname, '../client/public');
+// Escribir a client/public
+const publicDir = path.resolve(__dirname, "../client/public");
 fs.mkdirSync(publicDir, { recursive: true });
-fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemap);
-fs.writeFileSync(path.join(publicDir, 'robots.txt'), robots);
+fs.writeFileSync(path.join(publicDir, "sitemap.xml"), xml, "utf8");
+fs.writeFileSync(path.join(publicDir, "robots.txt"), robots, "utf8");
 
-console.log('✅ sitemap.xml & robots.txt generated');
+console.log(`✅ sitemap.xml (${urls.size} URLs) & robots.txt generated`);

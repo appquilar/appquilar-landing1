@@ -49,8 +49,8 @@ export default function Navbar() {
             <a href="#categories" className="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium">
               Categorías
             </a>
-            <a href="#testimonios" className="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium">
-              Testimonios
+            <a href="#faq-section" className="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium">
+              Preguntas
             </a>
 
             <div className="flex justify-center w-full">

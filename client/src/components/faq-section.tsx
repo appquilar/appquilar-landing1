@@ -1,80 +1,62 @@
-import React, { useState } from 'react';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionTrigger,
-    AccordionContent
-} from '@radix-ui/react-accordion';
-import { Helmet } from 'react-helmet';
-import { Plus, Minus } from 'lucide-react';
+// client/src/components/faq-section.tsx
+import React, { useId, useState } from "react";
 
-export interface FAQItem {
-    question: string;
-    answer: string;
-}
+export type FAQItem = { question: string; answer: string };
 
-interface FAQSectionProps {
-    items: FAQItem[];
-}
+export default function FAQSection({ items }: { items: FAQItem[] }) {
+    const [openIndex, setOpenIndex] = useState<number | null>(0);
+    const baseId = useId();
 
-const FAQSection: React.FC<FAQSectionProps> = ({ items }) => {
-    const [openValue, setOpenValue] = useState<string | undefined>(undefined);
-
-    // JSON-LD schema for FAQPage
-    const faqSchema = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": items.map(item => ({
-            "@type": "Question",
-            "name": item.question,
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": item.answer
-            }
-        }))
-    };
+    if (!Array.isArray(items) || items.length === 0) return null;
 
     return (
-        <section id="faq" className="py-16 px-4 bg-gray-50">
-            <Helmet>
-                <script type="application/ld+json">
-                    {JSON.stringify(faqSchema)}
-                </script>
-            </Helmet>
-            <div className="max-w-4xl mx-auto">
-                <h2 className="text-4xl font-bold mb-8 text-center">Preguntas Frecuentes</h2>
-                <Accordion
-                    type="single"
-                    collapsible
-                    value={openValue}
-                    onValueChange={val => setOpenValue(val)}
-                    className="space-y-4"
-                >
-                    {items.map((item, index) => {
-                        const itemValue = `item-${index}`;
-                        const isOpen = openValue === itemValue;
-                        return (
-                            <AccordionItem key={index} value={itemValue}>
-                                <AccordionTrigger className="flex justify-between items-center w-full text-left py-4 px-6 bg-gray-100 rounded-lg focus:outline-none focus:ring-0">
-                                    <span className="flex-1">{item.question}</span>
-                                    {isOpen ? (
-                                        <Minus className="w-5 h-5" />
-                                    ) : (
-                                        <Plus className="w-5 h-5" />
-                                    )}
-                                </AccordionTrigger>
-                                <AccordionContent className="overflow-hidden p-0 data-[state=open]:px-6 data-[state=open]:py-6 data-[state=open]:bg-gray-200 data-[state=open]:rounded-b-lg data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp">
-                                    <p className="text-gray-700 leading-relaxed">
-                                        {item.answer}
-                                    </p>
-                                </AccordionContent>
-                            </AccordionItem>
-                        );
-                    })}
-                </Accordion>
+        <section id="faq-section" className="py-16 px-20 bg-gray-50" aria-labelledby={`${baseId}-faq-title`}>
+            <h2 id={`${baseId}-faq-title`} className="text-2xl sm:text-3xl font-semibold text-center">
+                Preguntas frecuentes
+            </h2>
+
+            <div className="mt-6 divide-y rounded-2xl border shadow-sm max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                {items.map((item, i) => {
+                    const isOpen = openIndex === i;
+                    const buttonId = `${baseId}-btn-${i}`;
+                    const panelId = `${baseId}-panel-${i}`;
+                    return (
+                        <div key={i} className="p-4 sm:p-5">
+                            <button
+                                id={buttonId}
+                                aria-expanded={isOpen}
+                                aria-controls={panelId}
+                                onClick={() => setOpenIndex(isOpen ? null : i)}
+                                className="flex w-full items-center justify-between gap-4 text-left"
+                            >
+                                <span className="text-base sm:text-lg font-medium">{item.question}</span>
+                                <span
+                                    className={`inline-block transition-transform duration-300 ${
+                                        isOpen ? "rotate-180" : ""
+                                    }`}
+                                    aria-hidden="true"
+                                >
+                  ▼
+                </span>
+                            </button>
+
+                            {/* Panel con animación (grid-rows trick) */}
+                            <div
+                                id={panelId}
+                                role="region"
+                                aria-labelledby={buttonId}
+                                className={`grid transition-all duration-300 ease-out ${
+                                    isOpen ? "grid-rows-[1fr] opacity-100 mt-3" : "grid-rows-[0fr] opacity-80"
+                                }`}
+                            >
+                                <div className="overflow-hidden text-sm sm:text-base leading-relaxed text-gray-700">
+                                    {item.answer}
+                                </div>
+                            </div>
+                        </div>
+                    );
+                })}
             </div>
         </section>
     );
-};
-
-export default FAQSection;
+}

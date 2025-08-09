@@ -1,3 +1,4 @@
+// vite.config.ts
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import themePlugin from "@replit/vite-plugin-shadcn-theme-json";
@@ -14,24 +15,19 @@ export default defineConfig({
     react(),
     runtimeErrorOverlay(),
     themePlugin(),
-    ...(process.env.NODE_ENV !== "production" &&
-    process.env.REPL_ID !== undefined
-      ? [
-          await import("@replit/vite-plugin-cartographer").then((m) =>
-            m.cartographer(),
-          ),
-        ]
-      : []),
   ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "client", "src"),
       "@shared": path.resolve(__dirname, "shared"),
+      // ⬇️ Importante: en TU repo, las imágenes están en la carpeta raíz /assets
       "@assets": path.resolve(__dirname, "assets"),
     },
   },
+  // ⬇️ En tu proyecto el root del cliente es /client
   root: path.resolve(__dirname, "client"),
-  publicDir: path.resolve(__dirname, "public"),
+  // ⬇️ Tu script generate-sitemap escribe en client/public (no existe /public en la raíz)
+  publicDir: path.resolve(__dirname, "client", "public"),
   build: {
     outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
