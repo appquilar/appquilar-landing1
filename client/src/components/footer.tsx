@@ -1,3 +1,4 @@
+// client/src/components/footer.tsx
 import { Mail, Map, Phone } from "lucide-react";
 import iconLogo from "@assets/pelota-blanco.png";
 import textLogo from "@assets/logo-blanco.png";
@@ -14,48 +15,53 @@ type Category = {
 
 const allCategories = categoriesData as Category[];
 
-// Divide una lista en dos partes equilibradas (para columnas 3 y 4)
+// categorías que suenan mejor con "de"
+const CATS_DE = new Set(["herramientas", "vehiculos", "disfraces", "tecnologia"]);
+
+// helpers
 function splitInTwo<T>(arr: T[]): [T[], T[]] {
   const half = Math.ceil(arr.length / 2);
   return [arr.slice(0, half), arr.slice(half)];
 }
-
-// Helpers para extraer slugs desde la URL SEO
 function parseCategoryFromSeg(seg?: string): string | null {
-  const prefix = "alquiler-para-";
-  if (!seg || !seg.startsWith(prefix)) return null;
-  return decodeURIComponent(seg.slice(prefix.length));
+  const prefixes = ["alquiler-para-", "alquiler-de-"];
+  if (!seg) return null;
+  for (const p of prefixes) if (seg.startsWith(p)) return decodeURIComponent(seg.slice(p.length));
+  return null;
 }
 function parseSubcategoryFromSeg(seg?: string): string | null {
   const prefix = "alquiler-de-";
   if (!seg || !seg.startsWith(prefix)) return null;
   return decodeURIComponent(seg.slice(prefix.length));
 }
+function catPrefix(slug: string): "para" | "de" {
+  return CATS_DE.has(slug) ? "de" : "para";
+}
 
 export default function Footer() {
-  // Ruta actual (string), p.ej. "/", "/alquiler-para-eventos", "/alquiler-para-eventos/alquiler-de-inflables"
-  const [location] = useLocation();
+  const [location] = useLocation(); // "/", "/alquiler-de-herramientas", etc.
   const segments = location.split("/").filter(Boolean);
 
   const categorySlug = parseCategoryFromSeg(segments[0]);
-  const subcategorySlug = parseSubcategoryFromSeg(segments[1]);
-
   const activeCategory = categorySlug
       ? allCategories.find((c) => c.slug === categorySlug)
       : undefined;
 
-  // Enlaces dinámicos SEO:
-  // - Home (o sin categoría) => categorías
-  // - Categoría/Subcategoría => subcategorías de esa categoría
+  // Enlaces dinámicos:
+  // - Home o sin categoría => categorías con prefijo "de/para" según regla
+  // - Dentro de categoría/subcategoría => subcategorías de esa categoría
   const links =
       !activeCategory
-          ? allCategories.map((c) => ({
-            href: `/alquiler-para-${c.slug}`,
-            text: `Alquiler para ${c.label}`,
-            title: c.metaTitle ?? `Alquiler para ${c.label} | Appquilar`,
-          }))
+          ? allCategories.map((c) => {
+            const pref = catPrefix(c.slug);
+            return {
+              href: `/alquiler-${pref}-${c.slug}`,
+              text: `Alquiler ${pref} ${c.label}`,
+              title: c.metaTitle ?? `Alquiler ${pref} ${c.label} | Appquilar`,
+            };
+          })
           : (activeCategory.subcategories ?? []).map((s) => ({
-            href: `/alquiler-para-${activeCategory.slug}/alquiler-de-${s.slug}`,
+            href: `/alquiler-${catPrefix(activeCategory.slug)}-${activeCategory.slug}/alquiler-de-${s.slug}`,
             text: `Alquiler de ${s.label}`,
             title:
                 s.metaTitle ??
@@ -68,7 +74,7 @@ export default function Footer() {
       <footer className="bg-zinc-500 text-gray-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Columna 1: Branding + RRSS (igual que tu original) */}
+            {/* Col 1: branding */}
             <div>
               <a href="/">
                 <div className="flex items-center mb-4">
@@ -76,11 +82,8 @@ export default function Footer() {
                   <img src={textLogo} alt="Appquilar logo" className="ml-2 h-6 w-auto" />
                 </div>
               </a>
-              <p className="mb-4">
-                La plataforma líder en alquiler de productos en toda España.
-              </p>
+              <p className="mb-4">La plataforma líder en alquiler de productos en toda España.</p>
               <div className="flex space-x-4">
-                {/* Ícono Instagram real (SVG) */}
                 <a
                     href="https://www.instagram.com/appquilar/"
                     target="_blank"
@@ -89,6 +92,7 @@ export default function Footer() {
                     aria-label="Instagram de Appquilar"
                     title="Instagram de Appquilar"
                 >
+                  {/* logo instagram */}
                   <svg viewBox="0 0 24 24" className="h-6 w-6" aria-hidden="true">
                     <path
                         fill="currentColor"
@@ -99,18 +103,19 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Columna 2: Enlaces rápidos (igual que tu original) */}
+            {/* Col 2: enlaces rápidos */}
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Enlaces rápidos</h3>
               <ul className="space-y-2">
                 <li><a href="#caracteristicas" className="hover:text-white">Características</a></li>
                 <li><a href="#dashboard" className="hover:text-white">Dashboard</a></li>
-                <li><a href="#faq-section" className="hover:text-white">Preguntas frecuentes</a></li>
+                <li><a href="#registro" className="hover:text-white">Registro</a></li>
+                <li><a href="#faq" className="hover:text-white">Preguntas frecuentes</a></li>
                 <li><a href="#" className="hover:text-white">Blog</a></li>
               </ul>
             </div>
 
-            {/* Columna 3: dinámica (1ª mitad) */}
+            {/* Col 3: dinámica (1ª mitad) */}
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">
                 {!activeCategory ? "Categorías" : `Subcategorías de ${activeCategory.label}`}
@@ -127,7 +132,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Columna 4: dinámica (2ª mitad) */}
+            {/* Col 4: dinámica (2ª mitad) */}
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">&nbsp;</h3>
               <ul className="space-y-2">

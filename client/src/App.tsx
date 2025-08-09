@@ -9,13 +9,14 @@ import CategoryLanding from "@/components/category-landing";
 import SubcategoryLanding from "@/components/subcategory-landing";
 import { Toaster } from "@/components/ui/toaster";
 
-/** Helpers para extraer slugs de los segmentos SEO */
+// Helpers: extraen slug si el segmento empieza por "alquiler-para-" o "alquiler-de-"
 function parseCategoryFromSeg(seg: string): string | null {
-    const prefix = "alquiler-para-";
-    if (!seg?.startsWith(prefix)) return null;
-    return decodeURIComponent(seg.slice(prefix.length));
+    const prefixes = ["alquiler-para-", "alquiler-de-"];
+    for (const p of prefixes) {
+        if (seg?.startsWith(p)) return decodeURIComponent(seg.slice(p.length));
+    }
+    return null;
 }
-
 function parseSubcategoryFromSeg(seg: string): string | null {
     const prefix = "alquiler-de-";
     if (!seg?.startsWith(prefix)) return null;
@@ -29,7 +30,8 @@ export default function App() {
                 {/* Home */}
                 <Route path="/" component={Home} />
 
-                {/* Subcategoría SEO: /alquiler-para-:categorySlug/alquiler-de-:subcategorySlug */}
+                {/* Subcategoría SEO:
+           /alquiler-(para|de)-:categorySlug/alquiler-de-:subcategorySlug */}
                 <Route path="/:seg1/:seg2">
                     {(params) => {
                         const categorySlug = parseCategoryFromSeg(params.seg1);
@@ -46,7 +48,7 @@ export default function App() {
                     }}
                 </Route>
 
-                {/* Categoría SEO: /alquiler-para-:categorySlug */}
+                {/* Categoría SEO: /alquiler-(para|de)-:categorySlug */}
                 <Route path="/:seg1">
                     {(params) => {
                         const categorySlug = parseCategoryFromSeg(params.seg1);
