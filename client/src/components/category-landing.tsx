@@ -1,34 +1,33 @@
-// client/src/components/category-landing.tsx
 import LandingLayout from "@/components/landing-layout";
-import { type Category as GridItem, type CategoriesGridProps } from "@/components/categories-grid";
+import CategoriesGrid, { type Category as GridItem, type CategoriesGridProps } from "@/components/categories-grid";
 import * as Lucide from "lucide-react";
 import categories from "@/data/categories.json";
+import locations from "@/data/locations.json";
 
-type Subcategory = {
-    slug: string;
-    label: string;
-    icon?: string;
-    metaTitle?: string;
-    metaDescription?: string;
-};
+type Subcategory = { slug: string; label: string; icon?: string; metaTitle?: string; metaDescription?: string; };
+type Category = { slug: string; label: string; subtitle?: string; metaTitle?: string; metaDescription?: string; subcategories?: Subcategory[]; };
+type Locations = { ccaa: {slug:string;name:string}[]; provincias: {slug:string;name:string}[]; ciudades: {slug:string;name:string}[]; };
 
-type Category = {
-    slug: string;
-    label: string;
-    subtitle?: string;
-    metaTitle?: string;
-    metaDescription?: string;
-    subcategories?: Subcategory[];
-};
+const L = locations as Locations;
 
 function getIconByName(name?: string) {
     const Cmp = name && (Lucide as Record<string, any>)[name];
     return (Cmp as React.ComponentType<any>) || Lucide.Box;
 }
 
-export default function CategoryLanding({ slug }: { slug: string }) {
+function prettyLocation(slug?: string): string | undefined {
+    if (!slug) return undefined;
+    const hit =
+        L.provincias.find(p => p.slug === slug) ||
+        L.ccaa.find(c => c.slug === slug) ||
+        L.ciudades.find(c => c.slug === slug);
+    return hit?.name;
+}
+
+export default function CategoryLanding({ slug, locationSlug }: { slug: string; locationSlug?: string }) {
     const all = categories as Category[];
     const category = all.find((c) => c.slug === slug);
+    const locName = prettyLocation(locationSlug);
 
     if (!category) {
         return (
@@ -40,24 +39,23 @@ export default function CategoryLanding({ slug }: { slug: string }) {
                     subtitle: "Vuelve al inicio para ver todas las categorías disponibles.",
                     eventTypes: ["para tu evento", "para la playa", "para tu acampada"],
                 }}
-                // No pasamos grid
             />
         );
     }
 
-    const pageTitle =
-        category.metaTitle ?? `${category.metaTitle} | Appquilar`;
+    const baseTitle = `Alquiler de ${category.label}`;
+    const pageTitle = locName ? `${baseTitle} en ${locName} | Appquilar` : `${baseTitle} | Appquilar`;
     const description =
-        category.metaDescription ?? category.subtitle ?? `Alquiler de ${category.label} cerca de ti.`;
+        (locName
+            ? `Alquiler de ${category.label.toLowerCase()} en ${locName}. Encuentra disponibilidad cerca de ti.`
+            : category.metaDescription ?? category.subtitle ?? `Alquiler de ${category.label} cerca de ti.`);
 
-    // Mapear subcategorías al shape EXACTO que espera CategoriesGrid
     const subcats: GridItem[] = (category.subcategories ?? []).map((s) => ({
         name: s.label,
         icon: getIconByName(s.icon),
         description: s.metaDescription,
     }));
 
-    // Construimos la prop específica del layout
     const categoriesGridProps: CategoriesGridProps | undefined =
         subcats.length > 0 ? { categories: subcats } : undefined;
 
@@ -66,11 +64,11 @@ export default function CategoryLanding({ slug }: { slug: string }) {
             pageTitle={pageTitle}
             metaDescription={description}
             heroProps={{
-                title: `${category.subtitle}`,
+                title: locName ? `${baseTitle} en ${locName}` : baseTitle,
                 subtitle: description,
                 eventTypes: []
             }}
-            categoriesGridProps={categoriesGridProps} // <-- AQUÍ va el grid por la propiedad del Layout
+            categoriesGridProps={categoriesGridProps}
         />
     );
 }
