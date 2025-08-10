@@ -15,7 +15,8 @@
     "copy:redirects": "cp client/public/_redirects dist/_redirects",
     "copy:sitemap": "cp client/public/sitemap.xml dist/sitemap.xml",
     "copy:robots": "cp client/public/robots.txt dist/robots.txt",
-    "postbuild": "npm run copy:favicon && npm run copy:redirects && npm run copy:sitemap && npm run copy:robots"
+    "copy:headers": "cp client/public/_headers dist/_headers",
+    "postbuild": "npm run copy:favicon && npm run copy:redirects && npm run copy:sitemap && npm run copy:robots && npm run copy:headers"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
