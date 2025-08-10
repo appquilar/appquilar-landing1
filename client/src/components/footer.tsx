@@ -337,7 +337,7 @@ export default function Footer() {
                 </div>
 
                 {/* Bloque final: ubicaciones dinámicas (8 columnas, 11px) */}
-                <div className="border-t border-gray-800 mt-10 pt-8">
+                <div className="border-t border-gray-800 mt-10 pt-8 hidden lg:block">
                     <FooterLocations />
                 </div>
             </div>
