@@ -6,6 +6,7 @@
     "icon": "PartyPopper",
     "metaTitle": "Alquiler para eventos | Appquilar",
     "metaDescription": "Alquila mobiliario, inflables, sonido, hostelería y más para tu evento. ¡Fácil y cerca de ti!",
+    "preposition": "para",
     "subcategories": [
       {
         "slug": "inflables",
@@ -13,7 +14,8 @@
         "icon": "Airplay",
         "metaTitle": "Alquiler de inflables | Eventos | Appquilar",
         "subtitle": "Alquila inflables para tus eventos",
-        "metaDescription": "Diversión asegurada con nuestros inflables para fiestas y eventos."
+        "metaDescription": "Diversión asegurada con nuestros inflables para fiestas y eventos.",
+        "preposition": "de"
       },
       {
         "slug": "mobiliario",
@@ -21,7 +23,8 @@
         "icon": "Chair",
         "metaTitle": "Alquiler de mobiliario para eventos | Appquilar",
         "subtitle": "Alquila mobiliario para tus eventos",
-        "metaDescription": "Mesas, sillas, decoración… todo el mobiliario que necesitas para tu evento al mejor precio."
+        "metaDescription": "Mesas, sillas, decoración… todo el mobiliario que necesitas para tu evento al mejor precio.",
+        "preposition": "de"
       },
       {
         "slug": "locales",
@@ -29,7 +32,8 @@
         "icon": "Home",
         "metaTitle": "Alquiler de locales para eventos | Appquilar",
         "subtitle": "Alquila locales para tus eventos",
-        "metaDescription": "Encuentra espacios ideales para celebraciones, reuniones y eventos corporativos cerca de ti."
+        "metaDescription": "Encuentra espacios ideales para celebraciones, reuniones y eventos corporativos cerca de ti.",
+        "preposition": "de"
       },
       {
         "slug": "juegos-y-actividades",
@@ -37,7 +41,8 @@
         "icon": "Gamepad2",
         "metaTitle": "Alquiler de juegos y actividades | Eventos | Appquilar",
         "subtitle": "Contrata juegos y actividades para tus eventos",
-        "metaDescription": "Juegos, actividades y entretenimiento para todas las edades. Haz tu evento inolvidable."
+        "metaDescription": "Juegos, actividades y entretenimiento para todas las edades. Haz tu evento inolvidable.",
+        "preposition": "de"
       },
       {
         "slug": "sonido",
@@ -45,14 +50,16 @@
         "icon": "Volume2",
         "metaTitle": "Alquiler de elementos de sonido para eventos | Appquilar",
         "subtitle": "Alquila elementos de sonido para tus eventos",
-        "metaDescription": "Altavoces, micrófonos, amplificación… todo el equipo de sonido para tu evento listo para usar."
+        "metaDescription": "Altavoces, micrófonos, amplificación… todo el equipo de sonido para tu evento listo para usar.",
+        "preposition": "de"
       },
       {
         "slug": "hosteleria",
         "label": "Hostelería",
         "icon": "Coffee",
         "subtitle": "Alquila elementos de hostelería para tus eventos",
-        "metaDescription": "Catering, menaje, barras y más. Servicios de hostelería para eventos sin complicaciones."
+        "metaDescription": "Catering, menaje, barras y más. Servicios de hostelería para eventos sin complicaciones.",
+        "preposition": "de"
       },
       {
         "slug": "coworking",
@@ -60,7 +67,8 @@
         "icon": "Users",
         "metaTitle": "Alquiler de espacios coworking para eventos | Appquilar",
         "subtitle": "Alquila elementos de coworking para tus eventos",
-        "metaDescription": "Espacios de coworking flexibles para reuniones, talleres o presentaciones."
+        "metaDescription": "Espacios de coworking flexibles para reuniones, talleres o presentaciones.",
+        "preposition": "de"
       }
     ]
   },
@@ -71,62 +79,71 @@
     "icon": "Tent",
     "metaTitle": "Alquiler de camping | Appquilar",
     "metaDescription": "Tiendas, neveras, caravanas, sombrillas y todo lo necesario para tus escapadas camping.",
+    "preposition": "de",
     "subcategories": [
       {
         "slug": "tiendas-de-campana",
         "label": "Tiendas de campaña",
         "icon": "Tent",
         "metaTitle": "Alquiler de tiendas de campaña | Camping | Appquilar",
-        "metaDescription": "Tiendas resistentes y fáciles de montar para tus escapadas al aire libre."
+        "metaDescription": "Tiendas resistentes y fáciles de montar para tus escapadas al aire libre.",
+        "preposition": "de"
       },
       {
         "slug": "accesorios",
         "label": "Accesorios",
         "icon": "MapPin",
         "metaTitle": "Alquiler de accesorios de camping | Appquilar",
-        "metaDescription": "Linternas, mesas plegables, mochilas y más equipamiento para tus aventuras."
+        "metaDescription": "Linternas, mesas plegables, mochilas y más equipamiento para tus aventuras.",
+        "preposition": "de"
       },
       {
         "slug": "mobiliario",
         "label": "Mobiliario",
         "icon": "Chair",
         "metaTitle": "Alquiler de mobiliario para camping | Appquilar",
-        "metaDescription": "Sillas plegables, mesas portátiles y muebles funcionales para el camping."
+        "metaDescription": "Sillas plegables, mesas portátiles y muebles funcionales para el camping.",
+        "preposition": "de"
       },
       {
         "slug": "caravanas",
         "label": "Caravanas",
         "icon": "Truck",
         "metaTitle": "Alquiler de caravanas | Camping | Appquilar",
-        "metaDescription": "Caravanas cómodas y listas para tu viaje. Vive la experiencia sin comprar."
+        "metaDescription": "Caravanas cómodas y listas para tu viaje. Vive la experiencia sin comprar.",
+        "preposition": "de"
       },
       {
         "slug": "cofre-baul",
         "label": "Cofre / Baúl",
         "icon": "Box",
         "metaTitle": "Alquiler de cofre/baúl para camping | Appquilar",
-        "metaDescription": "Cofres de transporte seguros y resistentes para tus artículos de camping."
+        "metaDescription": "Cofres de transporte seguros y resistentes para tus artículos de camping.",
+        "preposition": "de"
       },
       {
         "slug": "nevera",
         "label": "Nevera",
         "icon": "Fridge",
         "metaTitle": "Alquiler de neveras para camping | Appquilar",
-        "metaDescription": "Neveras portátiles para mantener tus bebidas y alimentos frescos durante tus travesías."
+        "metaDescription": "Neveras portátiles para mantener tus bebidas y alimentos frescos durante tus travesías.",
+        "preposition": "de"
       },
       {
         "slug": "pergolas",
         "label": "Pérgolas",
         "icon": "Aperture",
         "metaTitle": "Alquiler de pérgolas para camping | Appquilar",
-        "metaDescription": "Sombras cómodas y espaciosas para relajarte bajo el sol."
+        "metaDescription": "Sombras cómodas y espaciosas para relajarte bajo el sol.",
+        "preposition": "de"
       },
       {
         "slug": "sombrillas",
         "label": "Sombrillas",
         "icon": "Sun",
         "metaTitle": "Alquiler de sombrillas | Camping | Appquilar",
-        "metaDescription": "Protección solar práctica y estilosa para zonas al aire libre."
+        "metaDescription": "Protección solar práctica y estilosa para zonas al aire libre.",
+        "preposition": "de"
       }
     ]
   },
@@ -137,48 +154,55 @@
     "icon": "Tool",
     "metaTitle": "Alquiler de herramientas | Appquilar",
     "metaDescription": "Taladros, limpieza, jardinería y maquinaria. Todo lo que necesitas para tu proyecto.",
+    "preposition": "de",
     "subcategories": [
       {
         "slug": "herramientas-pequenas",
         "label": "Herramientas pequeñas",
         "icon": "Wrench",
         "metaTitle": "Alquiler de herramientas pequeñas | Appquilar",
-        "metaDescription": "Taladros, llaves, martillos y herramientas manuales para tu hogar o taller."
+        "metaDescription": "Taladros, llaves, martillos y herramientas manuales para tu hogar o taller.",
+        "preposition": "de"
       },
       {
         "slug": "maquinaria",
         "label": "Maquinaria",
         "icon": "HardDrive",
         "metaTitle": "Alquiler de maquinaria | Herramientas | Appquilar",
-        "metaDescription": "Cortadoras, sierras, compresores y maquinaria profesional para tu obra."
+        "metaDescription": "Cortadoras, sierras, compresores y maquinaria profesional para tu obra.",
+        "preposition": "de"
       },
       {
         "slug": "limpieza",
         "label": "Limpieza",
         "icon": "Droplet",
         "metaTitle": "Alquiler de equipo de limpieza | Appquilar",
-        "metaDescription": "Máquinas de vapor, aspiradoras y sistemas de limpieza potente para tu espacio."
+        "metaDescription": "Máquinas de vapor, aspiradoras y sistemas de limpieza potente para tu espacio.",
+        "preposition": "de"
       },
       {
         "slug": "taller",
         "label": "Taller",
         "icon": "Hammer",
         "metaTitle": "Alquiler de taller móvil | Appquilar",
-        "metaDescription": "Equipamiento de taller completo para reparaciones y DIY en casa o trabajo."
+        "metaDescription": "Equipamiento de taller completo para reparaciones y DIY en casa o trabajo.",
+        "preposition": "de"
       },
       {
         "slug": "jardineria",
         "label": "Jardinería",
         "icon": "Leaf",
         "metaTitle": "Alquiler de herramientas de jardinería | Appquilar",
-        "metaDescription": "Cortacéspedes, desbrozadoras y herramientas de jardín listos para usar."
+        "metaDescription": "Cortacéspedes, desbrozadoras y herramientas de jardín listos para usar.",
+        "preposition": "de"
       },
       {
         "slug": "proteccion-personal",
         "label": "Protección personal",
         "icon": "Shield",
         "metaTitle": "Alquiler de protección personal | Appquilar",
-        "metaDescription": "Guantes, cascos, gafas y elementos de seguridad para tus tareas con tranquilidad."
+        "metaDescription": "Guantes, cascos, gafas y elementos de seguridad para tus tareas con tranquilidad.",
+        "preposition": "de"
       }
     ]
   },
@@ -189,27 +213,31 @@
     "icon": "MaskHappy",
     "metaTitle": "Alquiler de disfraces | Appquilar",
     "metaDescription": "Disfraces para fiestas, eventos, Halloween… Encuentra el tuyo sin comprar.",
+    "preposition": "de",
     "subcategories": [
       {
         "slug": "disfraces",
         "label": "Disfraces",
         "icon": "Mask",
         "metaTitle": "Alquiler de disfraces | Appquilar",
-        "metaDescription": "Colección de disfraces para todas las edades y temáticas."
+        "metaDescription": "Colección de disfraces para todas las edades y temáticas.",
+        "preposition": "de"
       },
       {
         "slug": "atrezzo",
         "label": "Atrezzo",
         "icon": "Star",
         "metaTitle": "Alquiler de atrezzo | Disfraces | Appquilar",
-        "metaDescription": "Sombreros, varitas, accesorios y complementos para tu disfraz perfecto."
+        "metaDescription": "Sombreros, varitas, accesorios y complementos para tu disfraz perfecto.",
+        "preposition": "de"
       },
       {
         "slug": "trajes-o-vestidos",
         "label": "Trajes o vestidos",
         "icon": "Monitor",
         "metaTitle": "Alquiler de trajes y vestidos | Disfraces | Appquilar",
-        "metaDescription": "Vestidos y trajes elegantes para fiestas temáticas y eventos."
+        "metaDescription": "Vestidos y trajes elegantes para fiestas temáticas y eventos.",
+        "preposition": "de"
       }
     ]
   },
@@ -220,41 +248,47 @@
     "icon": "Activity",
     "metaTitle": "Alquiler de material deportivo | Appquilar",
     "metaDescription": "Alquila equipamiento para padel, nieve, ciclismo y deportes acuáticos cerca de ti.",
+    "preposition": "de",
     "subcategories": [
       {
         "slug": "acuaticos",
         "label": "Acuáticos",
         "icon": "Droplet",
         "metaTitle": "Alquiler de equipos acuáticos | Deportes | Appquilar",
-        "metaDescription": "Kayaks, tablas de surf, paddle... todo para disfrutar del agua."
+        "metaDescription": "Kayaks, tablas de surf, paddle... todo para disfrutar del agua.",
+        "preposition": "de"
       },
       {
         "slug": "nieve",
         "label": "Nieve",
         "icon": "CloudSnow",
         "metaTitle": "Alquiler de equipos para nieve | Deportes | Appquilar",
-        "metaDescription": "Esquís, tablas snowboard, trineos y ropa térmica para la nieve."
+        "metaDescription": "Esquís, tablas snowboard, trineos y ropa térmica para la nieve.",
+        "preposition": "de"
       },
       {
         "slug": "ciclismo-mtb",
         "label": "Ciclismo y MTB",
         "icon": "Bike",
         "metaTitle": "Alquiler de bicicletas y MTB | Deportes | Appquilar",
-        "metaDescription": "Bicicletas urbanas, de montaña y eléctricas para todas las rutas."
+        "metaDescription": "Bicicletas urbanas, de montaña y eléctricas para todas las rutas.",
+        "preposition": "de"
       },
       {
         "slug": "padel",
         "label": "Padel",
         "icon": "Tennis",
         "metaTitle": "Alquiler de equipamiento de pádel | Deportes | Appquilar",
-        "metaDescription": "Palas, pelotas y redes para tus partidos de pádel."
+        "metaDescription": "Palas, pelotas y redes para tus partidos de pádel.",
+        "preposition": "de"
       },
       {
         "slug": "padel-surf",
         "label": "Padel Surf",
         "icon": "Surfboard",
         "metaTitle": "Alquiler de paddle surf | Deportes | Appquilar",
-        "metaDescription": "Tablas y remos para disfrutar del paddle surf sin comprar."
+        "metaDescription": "Tablas y remos para disfrutar del paddle surf sin comprar.",
+        "preposition": "de"
       }
     ]
   },
@@ -265,48 +299,55 @@
     "icon": "Truck",
     "metaTitle": "Alquiler de vehículos | Appquilar",
     "metaDescription": "Furgonetas, motos, bicicletas y más. Alquila movilidad sin comprar.",
+    "preposition": "de",
     "subcategories": [
       {
         "slug": "boxes",
         "label": "Boxes",
         "icon": "Archive",
         "metaTitle": "Alquiler de boxes | Vehículos | Appquilar",
-        "metaDescription": "Alquiler de boxes/modulares tipo vehículo para almacenamiento o servicios móviles."
+        "metaDescription": "Alquiler de boxes/modulares tipo vehículo para almacenamiento o servicios móviles.",
+        "preposition": "de"
       },
       {
         "slug": "motos",
         "label": "Motos",
         "icon": "Motorbike",
         "metaTitle": "Alquiler de motos | Vehículos | Appquilar",
-        "metaDescription": "Motos urbanas y scooters disponibles para alquiler por días o fin de semana."
+        "metaDescription": "Motos urbanas y scooters disponibles para alquiler por días o fin de semana.",
+        "preposition": "de"
       },
       {
         "slug": "furgonetas",
         "label": "Furgonetas",
         "icon": "Van",
         "metaTitle": "Alquiler de furgonetas | Vehículos | Appquilar",
-        "metaDescription": "Furgonetas de carga y transporte para mudanzas o reparto."
+        "metaDescription": "Furgonetas de carga y transporte para mudanzas o reparto.",
+        "preposition": "de"
       },
       {
         "slug": "barcos",
         "label": "Barcos",
         "icon": "Boat",
         "metaTitle": "Alquiler de barcos | Vehículos | Appquilar",
-        "metaDescription": "Lanchas y embarcaciones pequeñas para días en el mar."
+        "metaDescription": "Lanchas y embarcaciones pequeñas para días en el mar.",
+        "preposition": "de"
       },
       {
         "slug": "bicicletas",
         "label": "Bicicletas",
         "icon": "Bike",
         "metaTitle": "Alquiler de bicicletas | Vehículos | Appquilar",
-        "metaDescription": "Bicicletas urbanas, plegables y eléctricas para desplazarte con libertad."
+        "metaDescription": "Bicicletas urbanas, plegables y eléctricas para desplazarte con libertad.",
+        "preposition": "de"
       },
       {
         "slug": "patinetes",
         "label": "Patinetes",
         "icon": "Mic",
         "metaTitle": "Alquiler de patinetes | Vehículos | Appquilar",
-        "metaDescription": "Patinetes eléctricos y clásicos disponibles para alquiler rápido."
+        "metaDescription": "Patinetes eléctricos y clásicos disponibles para alquiler rápido.",
+        "preposition": "de"
       }
     ]
   },
@@ -317,34 +358,39 @@
     "icon": "Baby",
     "metaTitle": "Alquiler de artículos para bebés y niños | Appquilar",
     "metaDescription": "Coches, sillas, bañeras de viaje, mochilas y más para facilitar la vida en familia.",
+    "preposition": "de",
     "subcategories": [
       {
         "slug": "carros",
         "label": "Carros",
         "icon": "ShoppingCart",
         "metaTitle": "Alquiler de carros | Bebés y niños | Appquilar",
-        "metaDescription": "Carritos y carrossalares cómodos y seguros para tus paseos."
+        "metaDescription": "Carritos y carrossalares cómodos y seguros para tus paseos.",
+        "preposition": "de"
       },
       {
         "slug": "mochila-de-porte",
         "label": "Mochila de porteo",
         "icon": "Backpack",
         "metaTitle": "Alquiler de mochila de porteo | Appquilar",
-        "metaDescription": "Mochilas ergonómicas para llevar a tu bebé de forma cómoda y segura."
+        "metaDescription": "Mochilas ergonómicas para llevar a tu bebé de forma cómoda y segura.",
+        "preposition": "de"
       },
       {
         "slug": "baneras-de-viaje",
         "label": "Bañeras de viaje",
         "icon": "Bath",
         "metaTitle": "Alquiler de bañeras de viaje | Appquilar",
-        "metaDescription": "Bañeras portátiles para que tu bebé esté siempre cómodo al bañarse."
+        "metaDescription": "Bañeras portátiles para que tu bebé esté siempre cómodo al bañarse.",
+        "preposition": "de"
       },
       {
         "slug": "sillas-de-coche",
         "label": "Sillas de coche",
         "icon": "Car",
         "metaTitle": "Alquiler de sillas de coche | Bebés y niños | Appquilar",
-        "metaDescription": "Sillas de seguridad infantil homologadas para tus viajes en coche."
+        "metaDescription": "Sillas de seguridad infantil homologadas para tus viajes en coche.",
+        "preposition": "de"
       }
     ]
   },
@@ -355,27 +401,31 @@
     "icon": "Monitor",
     "metaTitle": "Alquiler de tecnología | Appquilar",
     "metaDescription": "Ordenadores, tablets y móviles para alquilar por días o semanas sin comprar.",
+    "preposition": "de",
     "subcategories": [
       {
         "slug": "portatiles",
         "label": "Portátiles",
         "icon": "Laptop",
         "metaTitle": "Alquiler de portátiles | Tecnología | Appquilar",
-        "metaDescription": "Laptops de diferentes gamas para trabajo o estudio, disponibles al momento."
+        "metaDescription": "Laptops de diferentes gamas para trabajo o estudio, disponibles al momento.",
+        "preposition": "de"
       },
       {
         "slug": "movil",
         "label": "Móvil",
         "icon": "Smartphone",
         "metaTitle": "Alquiler de móviles | Tecnología | Appquilar",
-        "metaDescription": "Smartphones recientes para alquilar sin permanencia."
+        "metaDescription": "Smartphones recientes para alquilar sin permanencia.",
+        "preposition": "de"
       },
       {
         "slug": "tablet",
         "label": "Tablet",
         "icon": "Tablet",
         "metaTitle": "Alquiler de tablets | Tecnología | Appquilar",
-        "metaDescription": "Tablets Android y iPad para trabajar o entretenerte sin comprar."
+        "metaDescription": "Tablets Android y iPad para trabajar o entretenerte sin comprar.",
+        "preposition": "de"
       }
     ]
   }

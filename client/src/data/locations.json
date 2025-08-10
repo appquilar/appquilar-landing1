@@ -16,8 +16,8 @@
       "code": "03"
     },
     {
-      "slug": "balears-illes",
-      "name": "Balears, Illes",
+      "slug": "illes-balears",
+      "name": "Illes Balears",
       "code": "04"
     },
     {
@@ -81,8 +81,8 @@
       "code": "16"
     },
     {
-      "slug": "rioja-la",
-      "name": "Rioja, La",
+      "slug": "la-rioja",
+      "name": "La Rioja",
       "code": "17"
     },
     {
@@ -170,14 +170,14 @@
       "ccaa": "asturias-principado-de"
     },
     {
-      "slug": "balears-illes",
+      "slug": "illes-balears",
       "name": "Balears, Illes",
       "code": "07",
-      "ccaa": "balears-illes"
+      "ccaa": "illes-balears"
     },
     {
-      "slug": "palmas-las",
-      "name": "Palmas, Las",
+      "slug": "las-palmas",
+      "name": "Las Palmas",
       "code": "35",
       "ccaa": "canarias"
     },
@@ -302,20 +302,20 @@
       "ccaa": "cataluna"
     },
     {
-      "slug": "alicante-alacant",
+      "slug": "alicante",
       "name": "Alicante/Alacant",
       "code": "03",
       "ccaa": "comunitat-valenciana"
     },
     {
-      "slug": "castellon-castello",
-      "name": "Castellón/Castelló",
+      "slug": "castellon",
+      "name": "Castellón",
       "code": "12",
       "ccaa": "comunitat-valenciana"
     },
     {
-      "slug": "valencia-valencia",
-      "name": "Valencia/València",
+      "slug": "valencia",
+      "name": "Valencia",
       "code": "46",
       "ccaa": "comunitat-valenciana"
     },
@@ -332,8 +332,8 @@
       "ccaa": "extremadura"
     },
     {
-      "slug": "coruna-a",
-      "name": "Coruña, A",
+      "slug": "a-coruna",
+      "name": "A Coruña",
       "code": "15",
       "ccaa": "galicia"
     },
@@ -374,7 +374,7 @@
       "ccaa": "navarra-comunidad-foral-de"
     },
     {
-      "slug": "araba-alava",
+      "slug": "alava",
       "name": "Araba/Álava",
       "code": "01",
       "ccaa": "pais-vasco"
@@ -392,10 +392,10 @@
       "ccaa": "pais-vasco"
     },
     {
-      "slug": "rioja-la",
+      "slug": "la-rioja",
       "name": "Rioja, La",
       "code": "26",
-      "ccaa": "rioja-la"
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ceuta",
@@ -415,357 +415,357 @@
       "slug": "agurain-salvatierra",
       "name": "Agurain/Salvatierra",
       "code": "3",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "alegria-dulantzi",
       "name": "Alegría-Dulantzi",
       "code": "4",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "amurrio",
       "name": "Amurrio",
       "code": "9",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "anana",
       "name": "Añana",
       "code": "3",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "aramaio",
       "name": "Aramaio",
       "code": "5",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "arminon",
       "name": "Armiñón",
       "code": "6",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "arraia-maeztu",
       "name": "Arraia-Maeztu",
       "code": "6",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "arratzua-ubarrundia",
       "name": "Arratzua-Ubarrundia",
       "code": "8",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "artziniega",
       "name": "Artziniega",
       "code": "0",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "asparrena",
       "name": "Asparrena",
       "code": "1",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "ayala-aiara",
       "name": "Ayala/Aiara",
       "code": "5",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "banos-de-ebro-manueta",
       "name": "Baños de Ebro/Mañueta",
       "code": "2",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "barrundia",
       "name": "Barrundia",
       "code": "3",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "berantevilla",
       "name": "Berantevilla",
       "code": "8",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "bernedo",
       "name": "Bernedo",
       "code": "4",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "campezo-kanpezu",
       "name": "Campezo/Kanpezu",
       "code": "0",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "elburgo-burgelu",
       "name": "Elburgo/Burgelu",
       "code": "0",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "elciego",
       "name": "Elciego",
       "code": "5",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "elvillar-bilar",
       "name": "Elvillar/Bilar",
       "code": "1",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "erriberabeitia",
       "name": "Erriberabeitia",
       "code": "4",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "erriberagoitia-ribera-alta",
       "name": "Erriberagoitia/Ribera Alta",
       "code": "8",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "harana-valle-de-arana",
       "name": "Harana/Valle de Arana",
       "code": "5",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "iruna-oka-iruna-de-oca",
       "name": "Iruña Oka/Iruña de Oca",
       "code": "5",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "iruraiz-gauna",
       "name": "Iruraiz-Gauna",
       "code": "8",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "kripan",
       "name": "Kripan",
       "code": "9",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "kuartango",
       "name": "Kuartango",
       "code": "3",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "labastida-bastida",
       "name": "Labastida/Bastida",
       "code": "4",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "lagran",
       "name": "Lagrán",
       "code": "1",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "laguardia",
       "name": "Laguardia",
       "code": "8",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "lanciego-lantziego",
       "name": "Lanciego/Lantziego",
       "code": "3",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "lantaron",
       "name": "Lantarón",
       "code": "0",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "lapuebla-de-labarca",
       "name": "Lapuebla de Labarca",
       "code": "9",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "laudio-llodio",
       "name": "Laudio/Llodio",
       "code": "0",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "legutio",
       "name": "Legutio",
       "code": "7",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "leza",
       "name": "Leza",
       "code": "4",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "moreda-de-alava-moreda-araba",
       "name": "Moreda de Álava/Moreda Araba",
       "code": "5",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "navaridas",
       "name": "Navaridas",
       "code": "6",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "okondo",
       "name": "Okondo",
       "code": "1",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "oyon-oion",
       "name": "Oyón-Oion",
       "code": "7",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "penacerrada-urizaharra",
       "name": "Peñacerrada-Urizaharra",
       "code": "2",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "samaniego",
       "name": "Samaniego",
       "code": "8",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "san-millan-donemiliaga",
       "name": "San Millán/Donemiliaga",
       "code": "4",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "urkabustaiz",
       "name": "Urkabustaiz",
       "code": "9",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "valdegovia-gaubea",
       "name": "Valdegovía/Gaubea",
       "code": "2",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "villabuena-de-alava-eskuernaga",
       "name": "Villabuena de Álava/Eskuernaga",
       "code": "1",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "vitoria-gasteiz",
       "name": "Vitoria-Gasteiz",
       "code": "0",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "yecora-iekora",
       "name": "Yécora/Iekora",
       "code": "4",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "zalduondo",
       "name": "Zalduondo",
       "code": "1",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "zambrana",
       "name": "Zambrana",
       "code": "6",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "zigoitia",
       "name": "Zigoitia",
       "code": "6",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
       "slug": "zuia",
       "name": "Zuia",
       "code": "2",
-      "provincia": "araba-alava",
+      "provincia": "alava",
       "ccaa": "pais-vasco"
     },
     {
@@ -1381,987 +1381,987 @@
       "slug": "agost",
       "name": "Agost",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "agres",
       "name": "Agres",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "aigues",
       "name": "Aigües",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "albatera",
       "name": "Albatera",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcalali",
       "name": "Alcalalí",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcocer-de-planes",
       "name": "Alcocer de Planes",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcoleja",
       "name": "Alcoleja",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcoy-alcoi",
       "name": "Alcoy/Alcoi",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alfafara",
       "name": "Alfafara",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alfas-del-pi-l",
       "name": "Alfàs del Pi, l'",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "algorfa",
       "name": "Algorfa",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alguena",
       "name": "Algueña",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
-      "slug": "alicante-alacant",
-      "name": "Alicante/Alacant",
+      "slug": "alicante",
+      "name": "Alicante",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "almoradi",
       "name": "Almoradí",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "almudaina",
       "name": "Almudaina",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alqueria-d-asnar-l",
       "name": "Alqueria d'Asnar, l'",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "altea",
       "name": "Altea",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "aspe",
       "name": "Aspe",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "atzubia-l",
       "name": "Atzúbia, l'",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "balones",
       "name": "Balones",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "banyeres-de-mariola",
       "name": "Banyeres de Mariola",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benasau",
       "name": "Benasau",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "beneixama",
       "name": "Beneixama",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benejuzar",
       "name": "Benejúzar",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benferri",
       "name": "Benferri",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "beniarbeig",
       "name": "Beniarbeig",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "beniarda",
       "name": "Beniardá",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "beniarres",
       "name": "Beniarrés",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benidoleig",
       "name": "Benidoleig",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benidorm",
       "name": "Benidorm",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benifallim",
       "name": "Benifallim",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benifato",
       "name": "Benifato",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benigembla",
       "name": "Benigembla",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benijofar",
       "name": "Benijófar",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benilloba",
       "name": "Benilloba",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benillup",
       "name": "Benillup",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benimantell",
       "name": "Benimantell",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benimarfull",
       "name": "Benimarfull",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benimassot",
       "name": "Benimassot",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benimeli",
       "name": "Benimeli",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benissa",
       "name": "Benissa",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benitachell-poble-nou-de-benitatxell-el",
       "name": "Benitachell/Poble Nou de Benitatxell, el",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "biar",
       "name": "Biar",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bigastro",
       "name": "Bigastro",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bolulla",
       "name": "Bolulla",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "busot",
       "name": "Busot",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "callosa-de-segura",
       "name": "Callosa de Segura",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "callosa-d-en-sarria",
       "name": "Callosa d'en Sarrià",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "calp",
       "name": "Calp",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "campello-el",
       "name": "Campello, el",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "campo-de-mirra-camp-de-mirra-el",
       "name": "Campo de Mirra/Camp de Mirra, el",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "canada",
       "name": "Cañada",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "castalla",
       "name": "Castalla",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "castell-de-castells",
       "name": "Castell de Castells",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "castell-de-guadalest-el",
       "name": "Castell de Guadalest, el",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "catral",
       "name": "Catral",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cocentaina",
       "name": "Cocentaina",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "confrides",
       "name": "Confrides",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cox",
       "name": "Cox",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "crevillent",
       "name": "Crevillent",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "daya-nueva",
       "name": "Daya Nueva",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "daya-vieja",
       "name": "Daya Vieja",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "denia",
       "name": "Dénia",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "dolores",
       "name": "Dolores",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "elche-elx",
       "name": "Elche/Elx",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "elda",
       "name": "Elda",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "facheca",
       "name": "Facheca",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "famorca",
       "name": "Famorca",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "finestrat",
       "name": "Finestrat",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "fondo-de-les-neus-el-hondon-de-las-nieves",
       "name": "Fondó de les Neus, el/Hondón de las Nieves",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "formentera-del-segura",
       "name": "Formentera del Segura",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "gaianes",
       "name": "Gaianes",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "gata-de-gorgos",
       "name": "Gata de Gorgos",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "gorga",
       "name": "Gorga",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "granja-de-rocamora",
       "name": "Granja de Rocamora",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "guardamar-del-segura",
       "name": "Guardamar del Segura",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "hondon-de-los-frailes",
       "name": "Hondón de los Frailes",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "ibi",
       "name": "Ibi",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "jacarilla",
       "name": "Jacarilla",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "javea-xabia",
       "name": "Jávea/Xàbia",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "jijona-xixona",
       "name": "Jijona/Xixona",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "lliber",
       "name": "Llíber",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "lorcha-orxa-l",
       "name": "Lorcha/Orxa, l'",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "millena",
       "name": "Millena",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "monforte-del-cid",
       "name": "Monforte del Cid",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "monovar-monover",
       "name": "Monóvar/Monòver",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "montesinos-los",
       "name": "Montesinos, Los",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "murla",
       "name": "Murla",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "muro-de-alcoy",
       "name": "Muro de Alcoy",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "mutxamel",
       "name": "Mutxamel",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "novelda",
       "name": "Novelda",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "nucia-la",
       "name": "Nucia, la",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "ondara",
       "name": "Ondara",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "onil",
       "name": "Onil",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "orba",
       "name": "Orba",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "orihuela",
       "name": "Orihuela",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "orxeta",
       "name": "Orxeta",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "parcent",
       "name": "Parcent",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pedreguer",
       "name": "Pedreguer",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pego",
       "name": "Pego",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "penaguila",
       "name": "Penàguila",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "petrer",
       "name": "Petrer",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pilar-de-la-horadada",
       "name": "Pilar de la Horadada",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pinos-el-pinoso",
       "name": "Pinós, el/Pinoso",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "planes",
       "name": "Planes",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "poblets-els",
       "name": "Poblets, els",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "polop",
       "name": "Polop",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "quatretondeta",
       "name": "Quatretondeta",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rafal",
       "name": "Rafal",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rafol-d-almunia-el",
       "name": "Ràfol d'Almúnia, el",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "redovan",
       "name": "Redován",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "relleu",
       "name": "Relleu",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rojales",
       "name": "Rojales",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "romana-la",
       "name": "Romana, la",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sagra",
       "name": "Sagra",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "salinas",
       "name": "Salinas",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "san-fulgencio",
       "name": "San Fulgencio",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "san-isidro",
       "name": "San Isidro",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "san-miguel-de-salinas",
       "name": "San Miguel de Salinas",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "san-vicente-del-raspeig-sant-vicent-del-raspeig",
       "name": "San Vicente del Raspeig/Sant Vicent del Raspeig",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sanet-y-negrals",
       "name": "Sanet y Negrals",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sant-joan-d-alacant",
       "name": "Sant Joan d'Alacant",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "santa-pola",
       "name": "Santa Pola",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sax",
       "name": "Sax",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sella",
       "name": "Sella",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "senija",
       "name": "Senija",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "tarbena",
       "name": "Tàrbena",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "teulada",
       "name": "Teulada",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "tibi",
       "name": "Tibi",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "tollos",
       "name": "Tollos",
       "code": "1",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "tormos",
       "name": "Tormos",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "torremanzanas-torre-de-les-macanes-la",
       "name": "Torremanzanas/Torre de les Maçanes, la",
       "code": "3",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "torrevieja",
       "name": "Torrevieja",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vall-d-alcala-la",
       "name": "Vall d'Alcalà, la",
       "code": "4",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vall-de-gallinera",
       "name": "Vall de Gallinera",
       "code": "0",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vall-de-laguar-la",
       "name": "Vall de Laguar, la",
       "code": "6",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vall-d-ebo-la",
       "name": "Vall d'Ebo, la",
       "code": "7",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "verger-el",
       "name": "Verger, el",
       "code": "2",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "villajoyosa-vila-joiosa-la",
       "name": "Villajoyosa/Vila Joiosa, la",
       "code": "5",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "villena",
       "name": "Villena",
       "code": "9",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "xalo",
       "name": "Xaló",
       "code": "8",
-      "provincia": "alicante-alacant",
+      "provincia": "alicante",
       "ccaa": "comunitat-valenciana"
     },
     {
@@ -5980,470 +5980,470 @@
       "slug": "alaior",
       "name": "Alaior",
       "code": "7",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "alaro",
       "name": "Alaró",
       "code": "2",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "alcudia",
       "name": "Alcúdia",
       "code": "3",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "algaida",
       "name": "Algaida",
       "code": "8",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "andratx",
       "name": "Andratx",
       "code": "1",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "ariany",
       "name": "Ariany",
       "code": "3",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "arta",
       "name": "Artà",
       "code": "4",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "banyalbufar",
       "name": "Banyalbufar",
       "code": "0",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "binissalem",
       "name": "Binissalem",
       "code": "6",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "buger",
       "name": "Búger",
       "code": "9",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "bunyola",
       "name": "Bunyola",
       "code": "3",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "calvia",
       "name": "Calvià",
       "code": "0",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "campanet",
       "name": "Campanet",
       "code": "5",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "campos",
       "name": "Campos",
       "code": "1",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "capdepera",
       "name": "Capdepera",
       "code": "6",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "castell-es",
       "name": "Castell, Es",
       "code": "5",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "ciutadella-de-menorca",
       "name": "Ciutadella de Menorca",
       "code": "9",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "consell",
       "name": "Consell",
       "code": "2",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "costitx",
       "name": "Costitx",
       "code": "8",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "deia",
       "name": "Deià",
       "code": "4",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "eivissa",
       "name": "Eivissa",
       "code": "0",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "escorca",
       "name": "Escorca",
       "code": "7",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "esporles",
       "name": "Esporles",
       "code": "1",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "estellencs",
       "name": "Estellencs",
       "code": "8",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "felanitx",
       "name": "Felanitx",
       "code": "3",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "ferreries",
       "name": "Ferreries",
       "code": "9",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "formentera",
       "name": "Formentera",
       "code": "4",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "fornalutx",
       "name": "Fornalutx",
       "code": "7",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "inca",
       "name": "Inca",
       "code": "6",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "lloret-de-vistalegre",
       "name": "Lloret de Vistalegre",
       "code": "2",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "lloseta",
       "name": "Lloseta",
       "code": "5",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "llubi",
       "name": "Llubí",
       "code": "9",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "llucmajor",
       "name": "Llucmajor",
       "code": "6",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "manacor",
       "name": "Manacor",
       "code": "7",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "mancor-de-la-vall",
       "name": "Mancor de la Vall",
       "code": "2",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "mao-mahon",
       "name": "Maó-Mahón",
       "code": "1",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "maria-de-la-salut",
       "name": "Maria de la Salut",
       "code": "5",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "marratxi",
       "name": "Marratxí",
       "code": "8",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "mercadal-es",
       "name": "Mercadal, Es",
       "code": "4",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "migjorn-gran-es",
       "name": "Migjorn Gran, Es",
       "code": "8",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "montuiri",
       "name": "Montuïri",
       "code": "0",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "muro",
       "name": "Muro",
       "code": "3",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "palma",
       "name": "Palma ",
       "code": "7",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "petra",
       "name": "Petra",
       "code": "4",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "pobla-sa",
       "name": "Pobla, Sa",
       "code": "0",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "pollenca",
       "name": "Pollença",
       "code": "9",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "porreres",
       "name": "Porreres",
       "code": "5",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "puigpunyent",
       "name": "Puigpunyent",
       "code": "3",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "salines-ses",
       "name": "Salines, Ses",
       "code": "8",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "sant-antoni-de-portmany",
       "name": "Sant Antoni de Portmany",
       "code": "6",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "sant-joan",
       "name": "Sant Joan",
       "code": "1",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "sant-joan-de-labritja",
       "name": "Sant Joan de Labritja",
       "code": "4",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "sant-josep-de-sa-talaia",
       "name": "Sant Josep de sa Talaia",
       "code": "8",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "sant-llorenc-des-cardassar",
       "name": "Sant Llorenç des Cardassar",
       "code": "1",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "sant-lluis",
       "name": "Sant Lluís",
       "code": "6",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "santa-eugenia",
       "name": "Santa Eugènia",
       "code": "2",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "santa-eularia-des-riu",
       "name": "Santa Eulària des Riu",
       "code": "7",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "santa-margalida",
       "name": "Santa Margalida",
       "code": "0",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "santa-maria-del-cami",
       "name": "Santa María del Camí",
       "code": "3",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "santanyi",
       "name": "Santanyí",
       "code": "9",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "selva",
       "name": "Selva",
       "code": "5",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "sencelles",
       "name": "Sencelles",
       "code": "2",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "sineu",
       "name": "Sineu",
       "code": "2",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "soller",
       "name": "Sóller",
       "code": "9",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "son-servera",
       "name": "Son Servera",
       "code": "4",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "valldemossa",
       "name": "Valldemossa",
       "code": "0",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "vilafranca-de-bonany",
       "name": "Vilafranca de Bonany",
       "code": "8",
-      "provincia": "balears-illes",
-      "ccaa": "balears-illes"
+      "provincia": "illes-balears",
+      "ccaa": "illes-balears"
     },
     {
       "slug": "abrera",
@@ -13099,945 +13099,945 @@
       "slug": "ain",
       "name": "Aín",
       "code": "2",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "albocasser",
       "name": "Albocàsser",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcala-de-xivert",
       "name": "Alcalà de Xivert",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcora-l",
       "name": "Alcora, l'",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcudia-de-veo",
       "name": "Alcudia de Veo",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alfondeguilla",
       "name": "Alfondeguilla",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "algimia-de-almonacid",
       "name": "Algimia de Almonacid",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "almassora",
       "name": "Almassora",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "almedijar",
       "name": "Almedíjar",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "almenara",
       "name": "Almenara",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alqueries-les-alquerias-del-nino-perdido",
       "name": "Alqueries, les/Alquerías del Niño Perdido",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "altura",
       "name": "Altura",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "aranuel",
       "name": "Arañuel",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "ares-del-maestrat",
       "name": "Ares del Maestrat",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "argelita",
       "name": "Argelita",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "artana",
       "name": "Artana",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "atzeneta-del-maestrat",
       "name": "Atzeneta del Maestrat",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "ayodar",
       "name": "Ayódar",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "azuebar",
       "name": "Azuébar",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "barracas",
       "name": "Barracas",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bejis",
       "name": "Bejís",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benafer",
       "name": "Benafer",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benafigos",
       "name": "Benafigos",
       "code": "2",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benassal",
       "name": "Benassal",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benicarlo",
       "name": "Benicarló",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benicasim-benicassim",
       "name": "Benicasim/Benicàssim",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benlloc",
       "name": "Benlloc",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "betxi",
       "name": "Betxí",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "borriana-burriana",
       "name": "Borriana/Burriana",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "borriol",
       "name": "Borriol",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cabanes",
       "name": "Cabanes",
       "code": "2",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "calig",
       "name": "Càlig",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "canet-lo-roig",
       "name": "Canet lo Roig",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "castell-de-cabres",
       "name": "Castell de Cabres",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "castellfort",
       "name": "Castellfort",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "castellnovo",
       "name": "Castellnovo",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "castellon-de-la-plana-castello-de-la-plana",
       "name": "Castellón de la Plana/Castelló de la Plana",
       "code": "2",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "castillo-de-villamalefa",
       "name": "Castillo de Villamalefa",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cati",
       "name": "Catí",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "caudiel",
       "name": "Caudiel",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cervera-del-maestre",
       "name": "Cervera del Maestre",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "chilches-xilxes",
       "name": "Chilches/Xilxes",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "chodos-xodos",
       "name": "Chodos/Xodos",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "chovar",
       "name": "Chóvar",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cinctorres",
       "name": "Cinctorres",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cirat",
       "name": "Cirat",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cortes-de-arenoso",
       "name": "Cortes de Arenoso",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "costur",
       "name": "Costur",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "coves-de-vinroma-les",
       "name": "Coves de Vinromà, les",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "culla",
       "name": "Culla",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "eslida",
       "name": "Eslida",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "espadilla",
       "name": "Espadilla",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "fanzara",
       "name": "Fanzara",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "figueroles",
       "name": "Figueroles",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "forcall",
       "name": "Forcall",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "fuente-la-reina",
       "name": "Fuente la Reina",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "fuentes-de-ayodar",
       "name": "Fuentes de Ayódar",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "gaibiel",
       "name": "Gaibiel",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "geldo",
       "name": "Geldo",
       "code": "2",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "herbes",
       "name": "Herbés",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "higueras",
       "name": "Higueras",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "jana-la",
       "name": "Jana, la",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "jerica",
       "name": "Jérica",
       "code": "2",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "llosa-la",
       "name": "Llosa, la",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "llucena-lucena-del-cid",
       "name": "Llucena/Lucena del Cid",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "ludiente",
       "name": "Ludiente",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "mata-de-morella-la",
       "name": "Mata de Morella, la",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "matet",
       "name": "Matet",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "moncofa",
       "name": "Moncofa",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "montan",
       "name": "Montán",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "montanejos",
       "name": "Montanejos",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "morella",
       "name": "Morella",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "navajas",
       "name": "Navajas",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "nules",
       "name": "Nules",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "olocau-del-rey",
       "name": "Olocau del Rey",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "onda",
       "name": "Onda",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "oropesa-del-mar-orpesa",
       "name": "Oropesa del Mar/Orpesa",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "palanques",
       "name": "Palanques",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pavias",
       "name": "Pavías",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "peniscola-peniscola",
       "name": "Peníscola/Peñíscola",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pina-de-montalgrao",
       "name": "Pina de Montalgrao",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pobla-de-benifassa-la",
       "name": "Pobla de Benifassà, la",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pobla-tornesa-la",
       "name": "Pobla Tornesa, la",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "portell-de-morella",
       "name": "Portell de Morella",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "puebla-de-arenoso",
       "name": "Puebla de Arenoso",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "ribesalbes",
       "name": "Ribesalbes",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rossell",
       "name": "Rossell",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sacanet",
       "name": "Sacañet",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "salzadella-la",
       "name": "Salzadella, la",
       "code": "2",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "san-rafael-del-rio",
       "name": "San Rafael del Río",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sant-joan-de-moro",
       "name": "Sant Joan de Moró",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sant-jordi-san-jorge",
       "name": "Sant Jordi/San Jorge",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sant-mateu",
       "name": "Sant Mateu",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "santa-magdalena-de-pulpis",
       "name": "Santa Magdalena de Pulpis",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "segorbe",
       "name": "Segorbe",
       "code": "2",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "serratella-la",
       "name": "Serratella, la",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sierra-engarceran",
       "name": "Sierra Engarcerán",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "soneja",
       "name": "Soneja",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sot-de-ferrer",
       "name": "Sot de Ferrer",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sueras-suera",
       "name": "Sueras/Suera",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "tales",
       "name": "Tales",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "teresa",
       "name": "Teresa",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "tirig",
       "name": "Tírig",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "todolella",
       "name": "Todolella",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "toga",
       "name": "Toga",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "toras",
       "name": "Torás",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "toro-el",
       "name": "Toro, El",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "torralba-del-pinar",
       "name": "Torralba del Pinar",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "torre-d-en-besora-la",
       "name": "Torre d'En Besora, la",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "torre-d-en-domenec-la",
       "name": "Torre d'en Doménec, la",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "torreblanca",
       "name": "Torreblanca",
       "code": "2",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "torrechiva",
       "name": "Torrechiva",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "traiguera",
       "name": "Traiguera",
       "code": "2",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "useras-useres-les",
       "name": "Useras/Useres, les",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vall-d-alba",
       "name": "Vall d'Alba",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vall-de-almonacid",
       "name": "Vall de Almonacid",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vall-d-uixo-la",
       "name": "Vall d'Uixó, la",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vallat",
       "name": "Vallat",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vallibona",
       "name": "Vallibona",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vilafames",
       "name": "Vilafamés",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vilafranca-villafranca-del-cid",
       "name": "Vilafranca/Villafranca del Cid",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vilanova-d-alcolea",
       "name": "Vilanova d'Alcolea",
       "code": "5",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vilar-de-canes",
       "name": "Vilar de Canes",
       "code": "6",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vila-real",
       "name": "Vila-real",
       "code": "9",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vilavella-la",
       "name": "Vilavella, la",
       "code": "2",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "villahermosa-del-rio",
       "name": "Villahermosa del Río",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "villamalur",
       "name": "Villamalur",
       "code": "0",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "villanueva-de-viver",
       "name": "Villanueva de Viver",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "villores",
       "name": "Villores",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vinaros",
       "name": "Vinaròs",
       "code": "4",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vistabella-del-maestrat",
       "name": "Vistabella del Maestrat",
       "code": "7",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "viver",
       "name": "Viver",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "xert",
       "name": "Xert",
       "code": "1",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "zorita-del-maestrazgo",
       "name": "Zorita del Maestrazgo",
       "code": "8",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "zucaina",
       "name": "Zucaina",
       "code": "3",
-      "provincia": "castellon-castello",
+      "provincia": "castellon",
       "ccaa": "comunitat-valenciana"
     },
     {
@@ -15297,651 +15297,651 @@
       "slug": "abegondo",
       "name": "Abegondo",
       "code": "1",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "ames",
       "name": "Ames",
       "code": "6",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "aranga",
       "name": "Aranga",
       "code": "2",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "ares",
       "name": "Ares",
       "code": "7",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "arteixo",
       "name": "Arteixo",
       "code": "0",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "arzua",
       "name": "Arzúa",
       "code": "3",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "bana-a",
       "name": "Baña, A",
       "code": "9",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "bergondo",
       "name": "Bergondo",
       "code": "5",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "betanzos",
       "name": "Betanzos",
       "code": "8",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "boimorto",
       "name": "Boimorto",
       "code": "2",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "boiro",
       "name": "Boiro",
       "code": "9",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "boqueixon",
       "name": "Boqueixón",
       "code": "4",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "brion",
       "name": "Brión",
       "code": "0",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "cabana-de-bergantinos",
       "name": "Cabana de Bergantiños",
       "code": "5",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "cabanas",
       "name": "Cabanas",
       "code": "8",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "camarinas",
       "name": "Camariñas",
       "code": "1",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "cambre",
       "name": "Cambre",
       "code": "7",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "capela-a",
       "name": "Capela, A",
       "code": "3",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "carballo",
       "name": "Carballo",
       "code": "6",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "carino",
       "name": "Cariño",
       "code": "2",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "carnota",
       "name": "Carnota",
       "code": "0",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "carral",
       "name": "Carral",
       "code": "7",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "cedeira",
       "name": "Cedeira",
       "code": "2",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "cee",
       "name": "Cee",
       "code": "8",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "cerceda",
       "name": "Cerceda",
       "code": "3",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "cerdido",
       "name": "Cerdido",
       "code": "6",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "coiros",
       "name": "Coirós",
       "code": "5",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "corcubion",
       "name": "Corcubión",
       "code": "1",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "coristanco",
       "name": "Coristanco",
       "code": "4",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
-      "slug": "coruna-a",
+      "slug": "a-coruna",
       "name": "Coruña, A",
       "code": "8",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "culleredo",
       "name": "Culleredo",
       "code": "5",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "curtis",
       "name": "Curtis",
       "code": "0",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "dodro",
       "name": "Dodro",
       "code": "6",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "dumbria",
       "name": "Dumbría",
       "code": "1",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "fene",
       "name": "Fene",
       "code": "4",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "ferrol",
       "name": "Ferrol",
       "code": "7",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "fisterra",
       "name": "Fisterra",
       "code": "3",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "frades",
       "name": "Frades",
       "code": "9",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "irixoa",
       "name": "Irixoa",
       "code": "2",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "laracha-a",
       "name": "Laracha, A",
       "code": "3",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "laxe",
       "name": "Laxe",
       "code": "6",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "lousame",
       "name": "Lousame",
       "code": "8",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "malpica-de-bergantinos",
       "name": "Malpica de Bergantiños",
       "code": "4",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "manon",
       "name": "Mañón",
       "code": "9",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "mazaricos",
       "name": "Mazaricos",
       "code": "2",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "melide",
       "name": "Melide",
       "code": "5",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "mesia",
       "name": "Mesía",
       "code": "1",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "mino",
       "name": "Miño",
       "code": "7",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "moeche",
       "name": "Moeche",
       "code": "0",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "monfero",
       "name": "Monfero",
       "code": "3",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "mugardos",
       "name": "Mugardos",
       "code": "0",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "muros",
       "name": "Muros",
       "code": "1",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "muxia",
       "name": "Muxía",
       "code": "5",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "naron",
       "name": "Narón",
       "code": "6",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "neda",
       "name": "Neda",
       "code": "9",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "negreira",
       "name": "Negreira",
       "code": "2",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "noia",
       "name": "Noia",
       "code": "8",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "oleiros",
       "name": "Oleiros",
       "code": "4",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "ordes",
       "name": "Ordes",
       "code": "7",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "oroso",
       "name": "Oroso",
       "code": "1",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "ortigueira",
       "name": "Ortigueira",
       "code": "8",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "outes",
       "name": "Outes",
       "code": "3",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "oza-cesuras",
       "name": "Oza-Cesuras",
       "code": "7",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "paderne",
       "name": "Paderne",
       "code": "4",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "padron",
       "name": "Padrón",
       "code": "7",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "pino-o",
       "name": "Pino, O",
       "code": "0",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "pobra-do-caraminal-a",
       "name": "Pobra do Caramiñal, A",
       "code": "6",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "ponteceso",
       "name": "Ponteceso",
       "code": "2",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "pontedeume",
       "name": "Pontedeume",
       "code": "5",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "pontes-de-garcia-rodriguez-as",
       "name": "Pontes de García Rodríguez, As",
       "code": "9",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "porto-do-son",
       "name": "Porto do Son",
       "code": "6",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "rianxo",
       "name": "Rianxo",
       "code": "1",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "ribeira",
       "name": "Ribeira",
       "code": "7",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "rois",
       "name": "Rois",
       "code": "2",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "sada",
       "name": "Sada",
       "code": "5",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "san-sadurnino",
       "name": "San Sadurniño",
       "code": "8",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "santa-comba",
       "name": "Santa Comba",
       "code": "4",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "santiago-de-compostela",
       "name": "Santiago de Compostela",
       "code": "0",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "santiso",
       "name": "Santiso",
       "code": "3",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "sobrado",
       "name": "Sobrado",
       "code": "7",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "somozas-as",
       "name": "Somozas, As",
       "code": "4",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "teo",
       "name": "Teo",
       "code": "9",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "toques",
       "name": "Toques",
       "code": "5",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "tordoia",
       "name": "Tordoia",
       "code": "0",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "touro",
       "name": "Touro",
       "code": "3",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "trazo",
       "name": "Trazo",
       "code": "6",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "val-do-dubra",
       "name": "Val do Dubra",
       "code": "8",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "valdovino",
       "name": "Valdoviño",
       "code": "2",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "vedra",
       "name": "Vedra",
       "code": "1",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "vilarmaior",
       "name": "Vilarmaior",
       "code": "2",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "vilasantar",
       "name": "Vilasantar",
       "code": "5",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "vimianzo",
       "name": "Vimianzo",
       "code": "7",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
       "slug": "zas",
       "name": "Zas",
       "code": "3",
-      "provincia": "coruna-a",
+      "provincia": "a-coruna",
       "ccaa": "galicia"
     },
     {
@@ -28758,1219 +28758,1219 @@
       "slug": "abalos",
       "name": "Ábalos",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "agoncillo",
       "name": "Agoncillo",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "aguilar-del-rio-alhama",
       "name": "Aguilar del Río Alhama",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ajamil-de-cameros",
       "name": "Ajamil de Cameros",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "albelda-de-iregua",
       "name": "Albelda de Iregua",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "alberite",
       "name": "Alberite",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "alcanadre",
       "name": "Alcanadre",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "aldeanueva-de-ebro",
       "name": "Aldeanueva de Ebro",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "alesanco",
       "name": "Alesanco",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "aleson",
       "name": "Alesón",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "alfaro",
       "name": "Alfaro",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "almarza-de-cameros",
       "name": "Almarza de Cameros",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "anguciana",
       "name": "Anguciana",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "anguiano",
       "name": "Anguiano",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "arenzana-de-abajo",
       "name": "Arenzana de Abajo",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "arenzana-de-arriba",
       "name": "Arenzana de Arriba",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "arnedillo",
       "name": "Arnedillo",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "arnedo",
       "name": "Arnedo",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "arrubal",
       "name": "Arrúbal",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ausejo",
       "name": "Ausejo",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "autol",
       "name": "Autol",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "azofra",
       "name": "Azofra",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "badaran",
       "name": "Badarán",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "banares",
       "name": "Bañares",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "banos-de-rio-tobia",
       "name": "Baños de Río Tobía",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "banos-de-rioja",
       "name": "Baños de Rioja",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "berceo",
       "name": "Berceo",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "bergasa",
       "name": "Bergasa",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "bergasillas-bajera",
       "name": "Bergasillas Bajera",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "bezares",
       "name": "Bezares",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "bobadilla",
       "name": "Bobadilla",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "brieva-de-cameros",
       "name": "Brieva de Cameros",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "brinas",
       "name": "Briñas",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "briones",
       "name": "Briones",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "cabezon-de-cameros",
       "name": "Cabezón de Cameros",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "calahorra",
       "name": "Calahorra",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "camprovin",
       "name": "Camprovín",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "canales-de-la-sierra",
       "name": "Canales de la Sierra",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "canillas-de-rio-tuerto",
       "name": "Canillas de Río Tuerto",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "canas",
       "name": "Cañas",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "cardenas",
       "name": "Cárdenas",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "casalarreina",
       "name": "Casalarreina",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "castanares-de-rioja",
       "name": "Castañares de Rioja",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "castroviejo",
       "name": "Castroviejo",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "cellorigo",
       "name": "Cellorigo",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "cenicero",
       "name": "Cenicero",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "cervera-del-rio-alhama",
       "name": "Cervera del Río Alhama",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "cidamon",
       "name": "Cidamón",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "cihuri",
       "name": "Cihuri",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ciruena",
       "name": "Cirueña",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "clavijo",
       "name": "Clavijo",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "cordovin",
       "name": "Cordovín",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "corera",
       "name": "Corera",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "cornago",
       "name": "Cornago",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "corporales",
       "name": "Corporales",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "cuzcurrita-de-rio-tiron",
       "name": "Cuzcurrita de Río Tirón",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "daroca-de-rioja",
       "name": "Daroca de Rioja",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "enciso",
       "name": "Enciso",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "entrena",
       "name": "Entrena",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "estollo",
       "name": "Estollo",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ezcaray",
       "name": "Ezcaray",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "foncea",
       "name": "Foncea",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "fonzaleche",
       "name": "Fonzaleche",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "fuenmayor",
       "name": "Fuenmayor",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "galbarruli",
       "name": "Galbárruli",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "galilea",
       "name": "Galilea",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "gallinero-de-cameros",
       "name": "Gallinero de Cameros",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "gimileo",
       "name": "Gimileo",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "granon",
       "name": "Grañón",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "gravalos",
       "name": "Grávalos",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "haro",
       "name": "Haro",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "herce",
       "name": "Herce",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "herramelluri",
       "name": "Herramélluri",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "hervias",
       "name": "Hervías",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "hormilla",
       "name": "Hormilla",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "hormilleja",
       "name": "Hormilleja",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "hornillos-de-cameros",
       "name": "Hornillos de Cameros",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "hornos-de-moncalvillo",
       "name": "Hornos de Moncalvillo",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "huercanos",
       "name": "Huércanos",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "igea",
       "name": "Igea",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "jalon-de-cameros",
       "name": "Jalón de Cameros",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "laguna-de-cameros",
       "name": "Laguna de Cameros",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "lagunilla-del-jubera",
       "name": "Lagunilla del Jubera",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "lardero",
       "name": "Lardero",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ledesma-de-la-cogolla",
       "name": "Ledesma de la Cogolla",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "leiva",
       "name": "Leiva",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "leza-de-rio-leza",
       "name": "Leza de Río Leza",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "logrono",
       "name": "Logroño",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "lumbreras",
       "name": "Lumbreras",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "manjarres",
       "name": "Manjarrés",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "mansilla-de-la-sierra",
       "name": "Mansilla de la Sierra",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "manzanares-de-rioja",
       "name": "Manzanares de Rioja",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "matute",
       "name": "Matute",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "medrano",
       "name": "Medrano",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "munilla",
       "name": "Munilla",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "murillo-de-rio-leza",
       "name": "Murillo de Río Leza",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "muro-de-aguas",
       "name": "Muro de Aguas",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "muro-en-cameros",
       "name": "Muro en Cameros",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "najera",
       "name": "Nájera",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "nalda",
       "name": "Nalda",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "navajun",
       "name": "Navajún",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "navarrete",
       "name": "Navarrete",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "nestares",
       "name": "Nestares",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "nieva-de-cameros",
       "name": "Nieva de Cameros",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ochanduri",
       "name": "Ochánduri",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ocon",
       "name": "Ocón",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ojacastro",
       "name": "Ojacastro",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ollauri",
       "name": "Ollauri",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ortigosa-de-cameros",
       "name": "Ortigosa de Cameros",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "pazuengos",
       "name": "Pazuengos",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "pedroso",
       "name": "Pedroso",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "pinillos",
       "name": "Pinillos",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "pradejon",
       "name": "Pradejón",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "pradillo",
       "name": "Pradillo",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "prejano",
       "name": "Préjano",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "quel",
       "name": "Quel",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "rabanera",
       "name": "Rabanera",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "rasillo-de-cameros-el",
       "name": "Rasillo de Cameros, El",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "redal-el",
       "name": "Redal, El",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ribafrecha",
       "name": "Ribafrecha",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "rincon-de-soto",
       "name": "Rincón de Soto",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "robres-del-castillo",
       "name": "Robres del Castillo",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "rodezno",
       "name": "Rodezno",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "sajazarra",
       "name": "Sajazarra",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "san-asensio",
       "name": "San Asensio",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "san-millan-de-la-cogolla",
       "name": "San Millán de la Cogolla",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "san-millan-de-yecora",
       "name": "San Millán de Yécora",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "san-roman-de-cameros",
       "name": "San Román de Cameros",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "san-torcuato",
       "name": "San Torcuato",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "san-vicente-de-la-sonsierra",
       "name": "San Vicente de la Sonsierra",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "santa-coloma",
       "name": "Santa Coloma",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "santa-engracia-del-jubera",
       "name": "Santa Engracia del Jubera",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "santa-eulalia-bajera",
       "name": "Santa Eulalia Bajera",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "santo-domingo-de-la-calzada",
       "name": "Santo Domingo de la Calzada",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "santurde-de-rioja",
       "name": "Santurde de Rioja",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "santurdejo",
       "name": "Santurdejo",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "sojuela",
       "name": "Sojuela",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "sorzano",
       "name": "Sorzano",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "sotes",
       "name": "Sotés",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "soto-en-cameros",
       "name": "Soto en Cameros",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "terroba",
       "name": "Terroba",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "tirgo",
       "name": "Tirgo",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "tobia",
       "name": "Tobía",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "tormantos",
       "name": "Tormantos",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "torre-en-cameros",
       "name": "Torre en Cameros",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "torrecilla-en-cameros",
       "name": "Torrecilla en Cameros",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "torrecilla-sobre-alesanco",
       "name": "Torrecilla sobre Alesanco",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "torremontalbo",
       "name": "Torremontalbo",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "treviana",
       "name": "Treviana",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "tricio",
       "name": "Tricio",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "tudelilla",
       "name": "Tudelilla",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "urunuela",
       "name": "Uruñuela",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "valdemadera",
       "name": "Valdemadera",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "valganon",
       "name": "Valgañón",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ventosa",
       "name": "Ventosa",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "ventrosa",
       "name": "Ventrosa",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "viguera",
       "name": "Viguera",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villalba-de-rioja",
       "name": "Villalba de Rioja",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villalobar-de-rioja",
       "name": "Villalobar de Rioja",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villamediana-de-iregua",
       "name": "Villamediana de Iregua",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villanueva-de-cameros",
       "name": "Villanueva de Cameros",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villar-de-arnedo-el",
       "name": "Villar de Arnedo, El",
       "code": "9",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villar-de-torre",
       "name": "Villar de Torre",
       "code": "6",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villarejo",
       "name": "Villarejo",
       "code": "1",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villarroya",
       "name": "Villarroya",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villarta-quintana",
       "name": "Villarta-Quintana",
       "code": "2",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villavelayo",
       "name": "Villavelayo",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villaverde-de-rioja",
       "name": "Villaverde de Rioja",
       "code": "8",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "villoslada-de-cameros",
       "name": "Villoslada de Cameros",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "viniegra-de-abajo",
       "name": "Viniegra de Abajo",
       "code": "0",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "viniegra-de-arriba",
       "name": "Viniegra de Arriba",
       "code": "3",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "zarraton",
       "name": "Zarratón",
       "code": "7",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "zarzosa",
       "name": "Zarzosa",
       "code": "4",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "zorraquin",
       "name": "Zorraquín",
       "code": "5",
-      "provincia": "rioja-la",
-      "ccaa": "rioja-la"
+      "provincia": "la-rioja",
+      "ccaa": "la-rioja"
     },
     {
       "slug": "abadin",
@@ -37165,238 +37165,238 @@
       "slug": "agaete",
       "name": "Agaete",
       "code": "7",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "aguimes",
       "name": "Agüimes",
       "code": "2",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "aldea-de-san-nicolas-la",
       "name": "Aldea de San Nicolás, La",
       "code": "6",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "antigua",
       "name": "Antigua",
       "code": "8",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "arrecife",
       "name": "Arrecife",
       "code": "3",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "artenara",
       "name": "Artenara",
       "code": "6",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "arucas",
       "name": "Arucas",
       "code": "9",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "betancuria",
       "name": "Betancuria",
       "code": "5",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "firgas",
       "name": "Firgas",
       "code": "1",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "galdar",
       "name": "Gáldar",
       "code": "4",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "haria",
       "name": "Haría",
       "code": "8",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "ingenio",
       "name": "Ingenio",
       "code": "5",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "mogan",
       "name": "Mogán",
       "code": "0",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "moya",
       "name": "Moya",
       "code": "6",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "oliva-la",
       "name": "Oliva, La",
       "code": "1",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "pajara",
       "name": "Pájara",
       "code": "4",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "palmas-de-gran-canaria-las",
       "name": "Palmas de Gran Canaria, Las",
       "code": "7",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "puerto-del-rosario",
       "name": "Puerto del Rosario",
       "code": "3",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "san-bartolome",
       "name": "San Bartolomé",
       "code": "9",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "san-bartolome-de-tirajana",
       "name": "San Bartolomé de Tirajana",
       "code": "2",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "santa-brigida",
       "name": "Santa Brígida",
       "code": "3",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "santa-lucia-de-tirajana",
       "name": "Santa Lucía de Tirajana",
       "code": "8",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "santa-maria-de-guia-de-gran-canaria",
       "name": "Santa María de Guía de Gran Canaria",
       "code": "4",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "teguise",
       "name": "Teguise",
       "code": "9",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "tejeda",
       "name": "Tejeda",
       "code": "2",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "telde",
       "name": "Telde",
       "code": "5",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "teror",
       "name": "Teror",
       "code": "1",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "tias",
       "name": "Tías",
       "code": "7",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "tinajo",
       "name": "Tinajo",
       "code": "0",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "tuineje",
       "name": "Tuineje",
       "code": "4",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "valleseco",
       "name": "Valleseco",
       "code": "6",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "valsequillo-de-gran-canaria",
       "name": "Valsequillo de Gran Canaria",
       "code": "1",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "vega-de-san-mateo",
       "name": "Vega de San Mateo",
       "code": "2",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
       "slug": "yaiza",
       "name": "Yaiza",
       "code": "7",
-      "provincia": "palmas-las",
+      "provincia": "las-palmas",
       "ccaa": "canarias"
     },
     {
@@ -49310,1862 +49310,1862 @@
       "slug": "ademuz",
       "name": "Ademuz",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "ador",
       "name": "Ador",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "agullent",
       "name": "Agullent",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "aielo-de-malferit",
       "name": "Aielo de Malferit",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "aielo-de-rugat",
       "name": "Aielo de Rugat",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alaquas",
       "name": "Alaquàs",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "albaida",
       "name": "Albaida",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "albal",
       "name": "Albal",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "albalat-de-la-ribera",
       "name": "Albalat de la Ribera",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "albalat-dels-sorells",
       "name": "Albalat dels Sorells",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "albalat-dels-tarongers",
       "name": "Albalat dels Tarongers",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alberic",
       "name": "Alberic",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alborache",
       "name": "Alborache",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alboraia-alboraya",
       "name": "Alboraia/Alboraya",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "albuixech",
       "name": "Albuixech",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcantera-de-xuquer",
       "name": "Alcàntera de Xúquer",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcasser",
       "name": "Alcàsser",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcublas",
       "name": "Alcublas",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcudia-de-crespins-l",
       "name": "Alcúdia de Crespins, l'",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alcudia-l",
       "name": "Alcúdia, l'",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "aldaia",
       "name": "Aldaia",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alfafar",
       "name": "Alfafar",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alfara-de-la-baronia",
       "name": "Alfara de la Baronia",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alfara-del-patriarca",
       "name": "Alfara del Patriarca",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alfarp",
       "name": "Alfarp",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alfarrasi",
       "name": "Alfarrasí",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alfauir",
       "name": "Alfauir",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "algar-de-palancia",
       "name": "Algar de Palancia",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "algemesi",
       "name": "Algemesí",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "algimia-d-alfara",
       "name": "Algímia d'Alfara",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alginet",
       "name": "Alginet",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "almassera",
       "name": "Almàssera",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "almisera",
       "name": "Almiserà",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "almoines",
       "name": "Almoines",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "almussafes",
       "name": "Almussafes",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alpuente",
       "name": "Alpuente",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alqueria-de-la-comtessa-l",
       "name": "Alqueria de la Comtessa, l'",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "alzira",
       "name": "Alzira",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "andilla",
       "name": "Andilla",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "anna",
       "name": "Anna",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "antella",
       "name": "Antella",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "aras-de-los-olmos",
       "name": "Aras de los Olmos",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "atzeneta-d-albaida",
       "name": "Atzeneta d'Albaida",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "ayora",
       "name": "Ayora",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "barx",
       "name": "Barx",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "barxeta",
       "name": "Barxeta",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "belgida",
       "name": "Bèlgida",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bellreguard",
       "name": "Bellreguard",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bellus",
       "name": "Bellús",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benageber",
       "name": "Benagéber",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benaguasil",
       "name": "Benaguasil",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benavites",
       "name": "Benavites",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "beneixida",
       "name": "Beneixida",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benetusser",
       "name": "Benetússer",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "beniarjo",
       "name": "Beniarjó",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "beniatjar",
       "name": "Beniatjar",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benicolet",
       "name": "Benicolet",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benicull-de-xuquer",
       "name": "Benicull de Xúquer",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benifaio",
       "name": "Benifaió",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benifairo-de-la-valldigna",
       "name": "Benifairó de la Valldigna",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benifairo-de-les-valls",
       "name": "Benifairó de les Valls",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benifla",
       "name": "Beniflá",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "beniganim",
       "name": "Benigànim",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benimodo",
       "name": "Benimodo",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benimuslem",
       "name": "Benimuslem",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "beniparrell",
       "name": "Beniparrell",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benirredra",
       "name": "Benirredrà",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benissano",
       "name": "Benissanó",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benissoda",
       "name": "Benissoda",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "benissuera",
       "name": "Benissuera",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "betera",
       "name": "Bétera",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bicorp",
       "name": "Bicorp",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bocairent",
       "name": "Bocairent",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bolbaite",
       "name": "Bolbaite",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bonrepos-i-mirambell",
       "name": "Bonrepòs i Mirambell",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bufali",
       "name": "Bufali",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bugarra",
       "name": "Bugarra",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "bunol",
       "name": "Buñol",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "burjassot",
       "name": "Burjassot",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "calles",
       "name": "Calles",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "camporrobles",
       "name": "Camporrobles",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "canals",
       "name": "Canals",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "canet-d-en-berenguer",
       "name": "Canet d'En Berenguer",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "carcaixent",
       "name": "Carcaixent",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "carcer",
       "name": "Càrcer",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "carlet",
       "name": "Carlet",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "carricola",
       "name": "Carrícola",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "casas-altas",
       "name": "Casas Altas",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "casas-bajas",
       "name": "Casas Bajas",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "casinos",
       "name": "Casinos",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "castello-de-rugat",
       "name": "Castelló de Rugat",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "castellonet-de-la-conquesta",
       "name": "Castellonet de la Conquesta",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "castielfabib",
       "name": "Castielfabib",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "catadau",
       "name": "Catadau",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "catarroja",
       "name": "Catarroja",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "caudete-de-las-fuentes",
       "name": "Caudete de las Fuentes",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cerda",
       "name": "Cerdà",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "chella",
       "name": "Chella",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "chelva",
       "name": "Chelva",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "chera",
       "name": "Chera",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cheste",
       "name": "Cheste",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "chiva",
       "name": "Chiva",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "chulilla",
       "name": "Chulilla",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cofrentes",
       "name": "Cofrentes",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "corbera",
       "name": "Corbera",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cortes-de-pallas",
       "name": "Cortes de Pallás",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cotes",
       "name": "Cotes",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "cullera",
       "name": "Cullera",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "daimus",
       "name": "Daimús",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "domeno",
       "name": "Domeño",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "dos-aguas",
       "name": "Dos Aguas",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "eliana-l",
       "name": "Eliana, l'",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "emperador",
       "name": "Emperador",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "enguera",
       "name": "Enguera",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "enova-l",
       "name": "Ènova, l'",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "estivella",
       "name": "Estivella",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "estubeny",
       "name": "Estubeny",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "faura",
       "name": "Faura",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "favara",
       "name": "Favara",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "foios",
       "name": "Foios",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "font-de-la-figuera-la",
       "name": "Font de la Figuera, la",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "font-d-en-carros-la",
       "name": "Font d'En Carròs, la",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "fontanars-dels-alforins",
       "name": "Fontanars dels Alforins",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "fortaleny",
       "name": "Fortaleny",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "fuenterrobles",
       "name": "Fuenterrobles",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "gandia",
       "name": "Gandia",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "gatova",
       "name": "Gátova",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "gavarda",
       "name": "Gavarda",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "genoves-el",
       "name": "Genovés, el",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "gestalgar",
       "name": "Gestalgar",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "gilet",
       "name": "Gilet",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "godella",
       "name": "Godella",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "godelleta",
       "name": "Godelleta",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "granja-de-la-costera-la",
       "name": "Granja de la Costera, la",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "guadassequies",
       "name": "Guadasséquies",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "guadassuar",
       "name": "Guadassuar",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "guardamar-de-la-safor",
       "name": "Guardamar de la Safor",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "higueruelas",
       "name": "Higueruelas",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "jalance",
       "name": "Jalance",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "jarafuel",
       "name": "Jarafuel",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "llanera-de-ranes",
       "name": "Llanera de Ranes",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "llauri",
       "name": "Llaurí",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "lliria",
       "name": "Llíria",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "llocnou-de-la-corona",
       "name": "Llocnou de la Corona",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "llocnou-de-sant-jeroni",
       "name": "Llocnou de Sant Jeroni",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "llocnou-d-en-fenollet",
       "name": "Llocnou d'En Fenollet",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "llombai",
       "name": "Llombai",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "llosa-de-ranes-la",
       "name": "Llosa de Ranes, la",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "llutxent",
       "name": "Llutxent",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "loriguilla",
       "name": "Loriguilla",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "losa-del-obispo",
       "name": "Losa del Obispo",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "macastre",
       "name": "Macastre",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "manises",
       "name": "Manises",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "manuel",
       "name": "Manuel",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "marines",
       "name": "Marines",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "massalaves",
       "name": "Massalavés",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "massalfassar",
       "name": "Massalfassar",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "massamagrell",
       "name": "Massamagrell",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "massanassa",
       "name": "Massanassa",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "meliana",
       "name": "Meliana",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "millares",
       "name": "Millares",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "miramar",
       "name": "Miramar",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "mislata",
       "name": "Mislata",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "mogente-moixent",
       "name": "Mogente/Moixent",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "moncada",
       "name": "Moncada",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "montaverner",
       "name": "Montaverner",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "montesa",
       "name": "Montesa",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "montitxelvo-montichelvo",
       "name": "Montitxelvo/Montichelvo",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "montroi-montroy",
       "name": "Montroi/Montroy",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "montserrat",
       "name": "Montserrat",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "museros",
       "name": "Museros",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "naquera-naquera",
       "name": "Nàquera/Náquera",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "navarres",
       "name": "Navarrés",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "novele-novetle",
       "name": "Novelé/Novetlè",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "oliva",
       "name": "Oliva",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "olleria-l",
       "name": "Olleria, l'",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "olocau",
       "name": "Olocau",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "ontinyent",
       "name": "Ontinyent",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "otos",
       "name": "Otos",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "paiporta",
       "name": "Paiporta",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "palma-de-gandia",
       "name": "Palma de Gandía",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "palmera",
       "name": "Palmera",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "palomar-el",
       "name": "Palomar, el",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "paterna",
       "name": "Paterna",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pedralba",
       "name": "Pedralba",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "petres",
       "name": "Petrés",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "picanya",
       "name": "Picanya",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "picassent",
       "name": "Picassent",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "piles",
       "name": "Piles",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pinet",
       "name": "Pinet",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pobla-de-farnals-la",
       "name": "Pobla de Farnals, la",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pobla-de-vallbona-la",
       "name": "Pobla de Vallbona, la",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pobla-del-duc-la",
       "name": "Pobla del Duc, la",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pobla-llarga-la",
       "name": "Pobla Llarga, la",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "polinya-de-xuquer",
       "name": "Polinyà de Xúquer",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "potries",
       "name": "Potries",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "pucol",
       "name": "Puçol",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "puebla-de-san-miguel",
       "name": "Puebla de San Miguel",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "puig-de-santa-maria-el",
       "name": "Puig de Santa Maria, el",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "quart-de-les-valls",
       "name": "Quart de les Valls",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "quart-de-poblet",
       "name": "Quart de Poblet",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "quartell",
       "name": "Quartell",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "quatretonda",
       "name": "Quatretonda",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "quesa",
       "name": "Quesa",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rafelbunyol",
       "name": "Rafelbunyol",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rafelcofer",
       "name": "Rafelcofer",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rafelguaraf",
       "name": "Rafelguaraf",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rafol-de-salem",
       "name": "Ráfol de Salem",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "real",
       "name": "Real",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "real-de-gandia-el",
       "name": "Real de Gandia, el",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "requena",
       "name": "Requena",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "riba-roja-de-turia",
       "name": "Riba-roja de Túria",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "riola",
       "name": "Riola",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rocafort",
       "name": "Rocafort",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rotgla-i-corbera",
       "name": "Rotglà i Corberà",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rotova",
       "name": "Rótova",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "rugat",
       "name": "Rugat",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sagunto-sagunt",
       "name": "Sagunto/Sagunt",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "salem",
       "name": "Salem",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "san-antonio-de-benageber",
       "name": "San Antonio de Benagéber",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sant-joanet",
       "name": "Sant Joanet",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sedavi",
       "name": "Sedaví",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "segart",
       "name": "Segart",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sellent",
       "name": "Sellent",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sempere",
       "name": "Sempere",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "senyera",
       "name": "Senyera",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "serra",
       "name": "Serra",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "siete-aguas",
       "name": "Siete Aguas",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "silla",
       "name": "Silla",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "simat-de-la-valldigna",
       "name": "Simat de la Valldigna",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sinarcas",
       "name": "Sinarcas",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sollana",
       "name": "Sollana",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sot-de-chera",
       "name": "Sot de Chera",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sueca",
       "name": "Sueca",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "sumacarcer",
       "name": "Sumacàrcer",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "tavernes-blanques",
       "name": "Tavernes Blanques",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "tavernes-de-la-valldigna",
       "name": "Tavernes de la Valldigna",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "teresa-de-cofrentes",
       "name": "Teresa de Cofrentes",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "terrateig",
       "name": "Terrateig",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "titaguas",
       "name": "Titaguas",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "torrebaja",
       "name": "Torrebaja",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "torrella",
       "name": "Torrella",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "torrent",
       "name": "Torrent",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "torres-torres",
       "name": "Torres Torres",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "tous",
       "name": "Tous",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "tuejar",
       "name": "Tuéjar",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "turis",
       "name": "Turís",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "utiel",
       "name": "Utiel",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "valencia",
       "name": "València",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vallada",
       "name": "Vallada",
       "code": "5",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vallanca",
       "name": "Vallanca",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "valles",
       "name": "Vallés",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "venta-del-moro",
       "name": "Venta del Moro",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vilallonga-villalonga",
       "name": "Vilallonga/Villalonga",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vilamarxant",
       "name": "Vilamarxant",
       "code": "7",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "villanueva-de-castellon",
       "name": "Villanueva de Castellón",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "villar-del-arzobispo",
       "name": "Villar del Arzobispo",
       "code": "9",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "villargordo-del-cabriel",
       "name": "Villargordo del Cabriel",
       "code": "2",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "vinalesa",
       "name": "Vinalesa",
       "code": "6",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "xativa",
       "name": "Xàtiva",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "xeraco",
       "name": "Xeraco",
       "code": "0",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "xeresa",
       "name": "Xeresa",
       "code": "1",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "xirivella",
       "name": "Xirivella",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "yatova",
       "name": "Yátova",
       "code": "3",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "yesa-la",
       "name": "Yesa, La",
       "code": "8",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {
       "slug": "zarra",
       "name": "Zarra",
       "code": "4",
-      "provincia": "valencia-valencia",
+      "provincia": "valencia",
       "ccaa": "comunitat-valenciana"
     },
     {

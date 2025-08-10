@@ -1,21 +1,9 @@
 import LandingLayout from "@/components/landing-layout";
 import categories from "@/data/categories.json";
-import locations from "@/data/locations.json";
+import {prettyLocation} from "@/utils/pretty-location.tsx";
 
-type Subcategory = { slug: string; label: string; metaTitle?: string; metaDescription?: string; };
-type Category = { slug: string; label: string; metaTitle?: string; metaDescription?: string; subcategories?: Subcategory[]; };
-type Locations = { ccaa: {slug:string;name:string}[]; provincias: {slug:string;name:string}[]; ciudades: {slug:string;name:string}[]; };
-
-const L = locations as Locations;
-
-function prettyLocation(slug?: string): string | undefined {
-    if (!slug) return undefined;
-    const hit =
-        L.provincias.find(p => p.slug === slug) ||
-        L.ccaa.find(c => c.slug === slug) ||
-        L.ciudades.find(c => c.slug === slug);
-    return hit?.name;
-}
+type Subcategory = { slug: string; label: string; metaTitle?: string; metaDescription?: string; preposition?: "de"|"para" };
+type Category = { slug: string; label: string; preposition?: "de"|"para"; metaTitle?: string; metaDescription?: string; subcategories?: Subcategory[] };
 
 export default function SubcategoryLanding(props: { categorySlug: string; subcategorySlug: string; locationSlug?: string }) {
     const all = categories as Category[];
@@ -37,14 +25,15 @@ export default function SubcategoryLanding(props: { categorySlug: string; subcat
         );
     }
 
-    const baseTitle = `Alquiler de ${subcategory.label}`;
+    const pref = subcategory.preposition ?? "de";
+    const baseTitle = `Alquiler ${pref} ${subcategory.label}`;
     const pageTitle = locName
         ? `${baseTitle} en ${locName} | ${category.label} | Appquilar`
         : `${baseTitle} | ${category.label} | Appquilar`;
 
     const description = locName
-        ? `Alquiler de ${subcategory.label.toLowerCase()} en ${locName}. Disponibilidad y entrega cerca de ti.`
-        : subcategory.metaDescription ?? `Alquiler de ${subcategory.label} en ${category.label}.`;
+        ? `Alquiler ${pref} ${subcategory.label.toLowerCase()} en ${locName}. Disponibilidad y entrega cerca de ti.`
+        : subcategory.metaDescription ?? `Alquiler ${pref} ${subcategory.label} en ${category.label}.`;
 
     return (
         <LandingLayout
@@ -55,7 +44,6 @@ export default function SubcategoryLanding(props: { categorySlug: string; subcat
                 subtitle: description,
                 eventTypes: [],
             }}
-            // NO pasamos grid aquí (subcategoría)
         />
     );
 }

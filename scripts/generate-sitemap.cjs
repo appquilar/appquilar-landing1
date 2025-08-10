@@ -1,134 +1,172 @@
-// scripts/generate-sitemap.cjs
+// scripts/generate-sitemaps.cjs
+// Genera:
+//  - /client/public/sitemap.xml             (ÍNDICE)
+//  - /client/public/sitemaps/sitemap-base.xml
+//      -> home, categorías (sin ubicación), categorías en CCAA, categorías en provincias
+//         + subcategorías (sin ubicación), subcategorías en CCAA, subcategorías en provincias
+//  - /client/public/sitemaps/sitemap-cities-<provincia>[ -<n> ].xml
+//      -> TODAS las ciudades de esa provincia para categorías y subcategorías
+//
+// Requisitos:
+//  - client/src/data/categories.json  (con "preposition" por categoría/subcategoría)
+//  - client/src/data/locations.json   (ccaa, provincias, ciudades)  -> generado con fetch-locations.cjs
+//
+// Uso:
+//  SITE_URL=https://appquilar.com node scripts/generate-sitemaps.cjs
+
 const fs = require("fs");
 const path = require("path");
 
-const BASE = process.env.SITE_URL || "https://appquilar.com";
 const ROOT = path.resolve(__dirname, "..");
+const PUBLIC_DIR = path.join(ROOT, "client/public");
+const SITEMAPS_DIR = path.join(PUBLIC_DIR, "sitemaps");
 
-// Datos
-const categories = JSON.parse(
-    fs.readFileSync(path.join(ROOT, "client/src/data/categories.json"), "utf8")
-);
-const locations = JSON.parse(
-    fs.readFileSync(path.join(ROOT, "client/src/data/locations.json"), "utf8")
-);
-const TOP_CITY_SLUGS = new Set(
-    JSON.parse(
-        fs.readFileSync(path.join(ROOT, "client/src/data/top-cities.json"), "utf8")
-    )
-);
-
-// Prefijo “de/para” por categoría (ajústalo si añades/quitas categorías en tu JSON)
-const CATS_DE = new Set(["herramientas", "vehiculos", "disfraces", "tecnologia"]);
-const catPrefix = (slug) => (CATS_DE.has(slug) ? "de" : "para");
-
-// Normalización para casar slugs aunque varíe alguna tilde/espacio
-const norm = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
-
-// Filtramos ubicaciones: todas CCAA + todas provincias + Top 100 ciudades
-const ccaa = locations.ccaa || [];
-const provincias = locations.provincias || [];
-const ciudadesTop = (locations.ciudades || []).filter((c) => {
-    const s = c.slug;
-    if (TOP_CITY_SLUGS.has(s)) return true;
-    // tolerancia por si algún slug difiere ligeramente
-    const ns = norm(s);
-    for (const t of TOP_CITY_SLUGS) {
-        if (norm(t) === ns) return true;
-    }
-    // aliases puntuales (por si en el dataset vienen variantes)
-    const aliases = {
-        "donostia-san-sebastian": ["san-sebastian", "donostia"],
-        "elche": ["elche-elx", "elx"],
-        "a-coruna": ["la-coruna", "coruna"],
-        "logrono": ["logronio"], // por si algún dataset lo translitera
-    };
-    for (const [main, list] of Object.entries(aliases)) {
-        if (s === main || list.includes(s)) return true;
-    }
-    return false;
-});
+const BASE_URL = process.env.SITE_URL || "https://appquilar.com";
+const NOW = new Date().toISOString();
+const MAX_URLS_PER_FILE = 50000;
 
 function urlJoin(base, ...parts) {
     const b = base.replace(/\/+$/, "");
     const p = parts.flat().filter(Boolean).map((s) => String(s).replace(/^\/+|\/+$/g, ""));
     return [b, ...p].join("/");
 }
+function chunk(arr, size) {
+    const out = [];
+    for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+    return out;
+}
+function xmlUrlset(urls) {
+    return `<?xml version="1.0" encoding="UTF-8"?>\n` +
+        `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+        urls.map(u =>
+            `  <url><loc>${u}</loc><lastmod>${NOW}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`
+        ).join("\n") +
+        `\n</urlset>\n`;
+}
+function xmlIndex(items) {
+    // items: [{ loc, lastmod }]
+    return `<?xml version="1.0" encoding="UTF-8"?>\n` +
+        `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+        items.map(i => `  <sitemap><loc>${i.loc}</loc><lastmod>${i.lastmod || NOW}</lastmod></sitemap>`).join("\n") +
+        `\n</sitemapindex>\n`;
+}
+function ensureDir(d) { fs.mkdirSync(d, { recursive: true }); }
 
-const now = new Date().toISOString();
-const urls = new Set();
+// --- lee datos ---
+const categories = JSON.parse(
+    fs.readFileSync(path.join(ROOT, "client/src/data/categories.json"), "utf8")
+);
+const locations = JSON.parse(
+    fs.readFileSync(path.join(ROOT, "client/src/data/locations.json"), "utf8")
+);
 
+// helpers SEO
+const ccaa = locations.ccaa || [];
+const provincias = locations.provincias || [];
+const ciudades = locations.ciudades || [];
+
+const catPath = (c) => `alquiler-${(c.preposition === "para" ? "para" : "de")}-${c.slug}`;
+const subPath = (c, s) => `${catPath(c)}/alquiler-de-${s.slug}`;
+
+// ---------- 1) SITEMAP BASE (sin ciudades) ----------
+const baseUrls = new Set();
 // Home
-urls.add(urlJoin(BASE, "/"));
+baseUrls.add(urlJoin(BASE_URL, "/"));
 
-// Ubicaciones que vamos a combinar
-const LOCS = [
-    ...ccaa.map((x) => ({ kind: "ccaa", slug: x.slug })),
-    ...provincias.map((x) => ({ kind: "provincia", slug: x.slug })),
-    ...ciudadesTop.map((x) => ({ kind: "ciudad", slug: x.slug })),
-];
-
-// Construcción SEO
 for (const c of categories) {
-    const pref = catPrefix(c.slug);
-    const catPath = `alquiler-${pref}-${c.slug}`;
+    const cp = catPath(c);
 
-    // categoría sin ubicación
-    urls.add(urlJoin(BASE, catPath));
+    // Categoría sin ubicación
+    baseUrls.add(urlJoin(BASE_URL, cp));
 
-    // categoría con ubicación
-    for (const loc of LOCS) {
-        urls.add(urlJoin(BASE, `${catPath}-en-${loc.slug}`));
-    }
+    // Categoría con CCAA y con provincias
+    for (const x of ccaa) baseUrls.add(urlJoin(BASE_URL, `${cp}-en-${x.slug}`));
+    for (const x of provincias) baseUrls.add(urlJoin(BASE_URL, `${cp}-en-${x.slug}`));
 
-    // subcategorías
+    // Subcategorías
     if (Array.isArray(c.subcategories)) {
         for (const s of c.subcategories) {
-            const subPath = `${catPath}/alquiler-de-${s.slug}`;
-            urls.add(urlJoin(BASE, subPath)); // sin ubicación
-            for (const loc of LOCS) {
-                urls.add(urlJoin(BASE, `${subPath}-en-${loc.slug}`));
-            }
+            const sp = subPath(c, s);
+            // Subcategoría sin ubicación
+            baseUrls.add(urlJoin(BASE_URL, sp));
+            // Subcategoría con CCAA y con provincias
+            for (const x of ccaa) baseUrls.add(urlJoin(BASE_URL, `${sp}-en-${x.slug}`));
+            for (const x of provincias) baseUrls.add(urlJoin(BASE_URL, `${sp}-en-${x.slug}`));
         }
     }
 }
 
-// Seguridad: no superar 50.000 URLs por archivo de sitemap
-const MAX_URLS = 50000;
-let urlsArr = [...urls];
-if (urlsArr.length > MAX_URLS) {
-    console.warn(
-        `⚠️  ${urlsArr.length} URLs > ${MAX_URLS}. Se recorta automáticamente.`
-    );
-    urlsArr = urlsArr.slice(0, MAX_URLS);
+// ---------- 2) SITEMAPS POR PROVINCIA (TODAS SUS CIUDADES) ----------
+const provinceSitemaps = []; // { filename, urls[] }
+
+for (const prov of provincias) {
+    const citiesInProv = ciudades.filter((m) => m.provincia === prov.slug);
+    if (citiesInProv.length === 0) continue;
+
+    const urls = [];
+
+    for (const c of categories) {
+        const cp = catPath(c);
+        for (const city of citiesInProv) {
+            urls.push(urlJoin(BASE_URL, `${cp}-en-${city.slug}`));
+        }
+        if (Array.isArray(c.subcategories)) {
+            for (const s of c.subcategories) {
+                const sp = subPath(c, s);
+                for (const city of citiesInProv) {
+                    urls.push(urlJoin(BASE_URL, `${sp}-en-${city.slug}`));
+                }
+            }
+        }
+    }
+
+    // Particiona si excede 50k
+    const chunks = chunk(urls, MAX_URLS_PER_FILE);
+    if (chunks.length === 1) {
+        provinceSitemaps.push({
+            filename: `sitemap-cities-${prov.slug}.xml`,
+            urls: chunks[0],
+        });
+    } else {
+        chunks.forEach((part, idx) => {
+            provinceSitemaps.push({
+                filename: `sitemap-cities-${prov.slug}-${idx + 1}.xml`,
+                urls: part,
+            });
+        });
+    }
 }
 
-function buildXml(arr) {
-    return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${arr
-        .map(
-            (u) =>
-                `  <url><loc>${u}</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`
-        )
-        .join("\n")}
-</urlset>`;
+// ---------- Escritura ----------
+ensureDir(SITEMAPS_DIR);
+
+// base
+const baseFilename = "sitemap-base.xml";
+fs.writeFileSync(path.join(SITEMAPS_DIR, baseFilename), xmlUrlset([...baseUrls]), "utf8");
+
+// provincias
+for (const sm of provinceSitemaps) {
+    fs.writeFileSync(path.join(SITEMAPS_DIR, sm.filename), xmlUrlset(sm.urls), "utf8");
 }
 
-const publicDir = path.join(ROOT, "client/public");
-fs.mkdirSync(publicDir, { recursive: true });
-fs.writeFileSync(path.join(publicDir, "sitemap.xml"), buildXml(urlsArr), "utf8");
+// index (como /sitemap.xml en raíz)
+const indexItems = [
+    { loc: urlJoin(BASE_URL, "sitemaps", baseFilename), lastmod: NOW },
+    ...provinceSitemaps.map((sm) => ({
+        loc: urlJoin(BASE_URL, "sitemaps", sm.filename),
+        lastmod: NOW,
+    })),
+];
 
-// robots.txt
+fs.writeFileSync(path.join(PUBLIC_DIR, "sitemap.xml"), xmlIndex(indexItems), "utf8");
+
+// robots.txt (apunta al índice)
 const robots = `User-agent: *
 Allow: /
-Sitemap: ${urlJoin(BASE, "sitemap.xml")}
+Sitemap: ${urlJoin(BASE_URL, "sitemap.xml")}
 `;
-fs.writeFileSync(path.join(publicDir, "robots.txt"), robots, "utf8");
+fs.writeFileSync(path.join(PUBLIC_DIR, "robots.txt"), robots, "utf8");
 
-console.log(
-    `✅ sitemap.xml generado con ${urlsArr.length} URLs (categorías, subcategorías y CCAA + provincias + Top 100 ciudades).`
-);
-console.log(
-    `   CCAA:${ccaa.length}  provincias:${provincias.length}  topCities:${ciudadesTop.length}`
-);
+console.log(`✅ Generado sitemap INDEX con ${indexItems.length} entradas`);
+console.log(`   Base: ${baseUrls.size} URLs -> sitemaps/${baseFilename}`);
+console.log(`   Provincias: ${provinceSitemaps.length} sitemaps (todas sus ciudades)`);

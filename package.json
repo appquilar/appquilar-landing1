@@ -10,7 +10,7 @@
     "db:push": "drizzle-kit push",
     "generate:sitemap": "node scripts/generate-sitemap.cjs",
     "generate:locations": "node scripts/fetch-locations.cjs",
-    "build": "npm run generate:locations && npm run generate:sitemap && vite build && npm run postbuild",
+    "build": "npm run generate:sitemap && vite build && npm run postbuild",
     "copy:favicon": "cp client/public/favicon.ico dist/favicon.ico",
     "copy:redirects": "cp client/public/_redirects dist/_redirects",
     "copy:sitemap": "cp client/public/sitemap.xml dist/sitemap.xml",
