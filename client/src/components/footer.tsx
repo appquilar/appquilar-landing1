@@ -2,110 +2,293 @@ import { Mail, Map, Phone } from "lucide-react";
 import iconLogo from "@assets/pelota-blanco.png";
 import textLogo from "@assets/logo-blanco.png";
 import { useLocation } from "wouter";
-import categoriesData from "@/data/categories.json";
+import { useMemo } from "react";
 
-type Subcategory = { slug: string; label: string; metaTitle?: string; preposition?: "de"|"para" };
+import categoriesData from "@/data/categories.json";
+import locationsData from "@/data/locations.json";
+
+// ===== Tipos =====
+type Subcategory = {
+    slug: string;
+    label: string;
+    metaTitle?: string;
+    preposition?: "de" | "para";
+};
 type Category = {
     slug: string;
     label: string;
     metaTitle?: string;
-    preposition?: "de"|"para";
+    preposition?: "de" | "para";
     subcategories?: Subcategory[];
 };
 
+type Ccaa = { slug: string; name: string; code: string };
+type Provincia = { slug: string; name: string; code: string; ccaa: string };
+type Ciudad = { slug: string; name: string; code: string; provincia: string; ccaa: string };
+
 const allCategories = categoriesData as Category[];
 
-// helpers
+// ===== Utils =====
 function splitInTwo<T>(arr: T[]): [T[], T[]] {
     const half = Math.ceil(arr.length / 2);
     return [arr.slice(0, half), arr.slice(half)];
 }
-function parseCategoryFromSeg(seg?: string): string | null {
-    const prefixes = ["alquiler-para-", "alquiler-de-"];
-    if (!seg) return null;
-    for (const p of prefixes) if (seg.startsWith(p)) return decodeURIComponent(seg.slice(p.length));
-    return null;
-}
-function parseSubcategoryFromSeg(seg?: string): string | null {
-    const prefix = "alquiler-de-";
-    if (!seg || !seg.startsWith(prefix)) return null;
-    return decodeURIComponent(seg.slice(prefix.length));
+
+// Extrae "lo que hay después de -en-" en un segmento
+function extractLocFromSegment(seg?: string): string | undefined {
+    if (!seg) return;
+    const i = seg.lastIndexOf("-en-");
+    return i !== -1 ? seg.slice(i + 4) : undefined;
 }
 
+// Quita "-en-<loc>" y devuelve la base
+function baseBeforeEn(seg?: string): string | undefined {
+    if (!seg) return;
+    const i = seg.lastIndexOf("-en-");
+    return i !== -1 ? seg.slice(0, i) : seg;
+}
+
+// Quita prefijos de categoría
+function removeCategoryPrefix(base?: string): string | undefined {
+    if (!base) return;
+    const prefs = ["alquiler-para-", "alquiler-de-"];
+    for (const p of prefs) {
+        if (base.startsWith(p)) return base.slice(p.length);
+    }
+    return;
+}
+
+// Quita prefijo de subcategoría
+function removeSubcatPrefix(base?: string): string | undefined {
+    if (!base) return;
+    const prefs = ["alquiler-de-", "alquiler-para-"];
+    for (const p of prefs) {
+        if (base.startsWith(p)) return base.slice(p.length);
+    }
+    return;
+}
+
+// Construcción de URLs
+function buildCategoryUrl(cat: Category, locSlug: string) {
+    const pref = cat.preposition ?? "de";
+    return `/alquiler-${pref}-${cat.slug}-en-${locSlug}`;
+}
+function buildSubcategoryUrl(cat: Category, sub: Subcategory, locSlug: string) {
+    const catPref = cat.preposition ?? "de";
+    const subPref = sub.preposition ?? "de";
+    return `/alquiler-${catPref}-${cat.slug}/alquiler-${subPref}-${sub.slug}-en-${locSlug}`;
+}
+
+// Parsing de contexto activo desde el path actual
+function useActiveContext(path: string) {
+    const segs = path.replace(/^\//, "").split("/");
+    // Ubicación (si hay en seg2 manda; si no, en seg1)
+    const loc =
+        extractLocFromSegment(segs[1]) ||
+        extractLocFromSegment(segs[0]) ||
+        undefined;
+
+    // Categoría
+    const catBase = baseBeforeEn(segs[0]);
+    const catSlug = removeCategoryPrefix(catBase);
+
+    // Subcategoría (si hay segundo segmento)
+    const subBase = baseBeforeEn(segs[1]);
+    const subSlug = removeSubcatPrefix(subBase);
+
+    return { catSlug, subSlug, locSlug: loc };
+}
+
+// Localiza el slug en ccaa/provincia/ciudad
+function locate(
+    locSlug: string | undefined,
+    data: { ccaa: Ccaa[]; provincias: Provincia[]; ciudades: Ciudad[] }
+) {
+    if (!locSlug) return { kind: "none" as const };
+    const ccaa = data.ccaa.find((x) => x.slug === locSlug);
+    if (ccaa) return { kind: "ccaa" as const, ccaa };
+    const prov = data.provincias.find((x) => x.slug === locSlug);
+    if (prov) return { kind: "prov" as const, prov };
+    const city = data.ciudades.find((x) => x.slug === locSlug);
+    if (city) return { kind: "city" as const, city };
+    return { kind: "unknown" as const };
+}
+
+// Para el bloque superior (categorías/subcategorías)
+function useActiveCategoryFromPath(path: string): Category | undefined {
+    const { catSlug } = useActiveContext(path);
+    if (!catSlug) return;
+    return (allCategories || []).find((c) => c.slug === catSlug);
+}
+
+// ===== BLOQUE DINÁMICO DE UBICACIONES (abajo del footer) =====
+function FooterLocations() {
+    const [path] = useLocation();
+    const data = locationsData as {
+        ccaa: Ccaa[];
+        provincias: Provincia[];
+        ciudades: Ciudad[];
+    };
+
+    const { catSlug, subSlug, locSlug } = useActiveContext(path);
+
+    const activeCategory = useMemo(
+        () => (catSlug ? (allCategories || []).find((c) => c.slug === catSlug) : undefined),
+        [catSlug]
+    );
+    const activeSubcategory = useMemo(
+        () =>
+            activeCategory && subSlug
+                ? (activeCategory.subcategories || []).find((s) => s.slug === subSlug)
+                : undefined,
+        [activeCategory, subSlug]
+    );
+
+    const where = useMemo(() => locate(locSlug, data), [locSlug, data]);
+
+    type Item = { href: string; text: string };
+
+    const items: Item[] = useMemo(() => {
+        // Fallback si no hay categoría o ubicación válida: categorías × CCAA
+        if (!activeCategory || where.kind === "none" || where.kind === "unknown") {
+            const out: Item[] = [];
+            const orderedCcaa = [...data.ccaa].sort((a, b) => a.name.localeCompare(b.name, "es"));
+            for (const region of orderedCcaa) {
+                for (const cat of allCategories) {
+                    const pref = cat.preposition ?? "de";
+                    out.push({
+                        href: buildCategoryUrl(cat, region.slug),
+                        text: `Alquiler ${pref} ${cat.label} en ${region.name}`,
+                    });
+                }
+            }
+            return out;
+        }
+
+        const cat = activeCategory;
+        const subs = activeCategory.subcategories || [];
+
+        // Helper para añadir enlaces de categoría + subcategorías
+        const pushCatAndSubs = (acc: Item[], locSlug: string, locName: string) => {
+            acc.push({
+                href: buildCategoryUrl(cat, locSlug),
+                text: `Alquiler ${cat.preposition ?? "de"} ${cat.label} en ${locName}`,
+            });
+            for (const s of subs) {
+                acc.push({
+                    href: buildSubcategoryUrl(cat, s, locSlug),
+                    text: `Alquiler ${s.preposition ?? "de"} ${s.label} en ${locName}`,
+                });
+            }
+        };
+
+        const out: Item[] = [];
+
+        if (where.kind === "ccaa") {
+            // 1) La CCAA con todas las subcategorías (y la categoría)
+            pushCatAndSubs(out, where.ccaa.slug, where.ccaa.name);
+
+            // 2) Todas las provincias de esa CCAA con la categoría y todas las subcategorías
+            const provs = data.provincias
+                .filter((p) => p.ccaa === where.ccaa.slug)
+                .sort((a, b) => a.name.localeCompare(b.name, "es"));
+
+            for (const p of provs) {
+                pushCatAndSubs(out, p.slug, p.name);
+            }
+        }
+
+        if (where.kind === "prov") {
+            // Provincia → todos los municipios con categoría + subcategorías (sin límite)
+            const cities = data.ciudades
+                .filter((c) => c.provincia === where.prov.slug)
+                .sort((a, b) => a.name.localeCompare(b.name, "es"));
+
+            for (const c of cities) {
+                pushCatAndSubs(out, c.slug, c.name);
+            }
+        }
+
+        // where.kind === "city": no hay nivel inferior
+        return out;
+    }, [activeCategory, activeSubcategory, where, data]);
+
+    // Sin títulos y sin "no hay resultados": si no hay enlaces, no pintamos nada.
+    if (items.length === 0) return null;
+
+    return (
+        <div className="text-[11px]">
+            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-x-4 gap-y-2">
+                {items.map((it, i) => (
+                    <a key={i} href={it.href} className="text-gray-300 hover:text-white">
+                        {it.text}
+                    </a>
+                ))}
+            </div>
+        </div>
+    );
+}
+
+// ===== FOOTER PRINCIPAL (parte superior) =====
 export default function Footer() {
-    const [location] = useLocation(); // "/", "/alquiler-para-eventos", etc.
-    const segments = location.split("/").filter(Boolean);
+    const [path] = useLocation();
+    const activeCategory = useActiveCategoryFromPath(path);
 
-    const categorySlug = parseCategoryFromSeg(segments[0]);
-    const activeCategory = categorySlug
-        ? allCategories.find((c) => c.slug === categorySlug)
-        : undefined;
-
-    // Enlaces dinámicos:
-    // - Home (o sin categoría) => categorías con su preposición propia
-    // - Dentro de categoría/subcategoría => subcategorías de esa categoría
-    const links =
-        !activeCategory
-            ? allCategories.map((c) => {
-                const pref = c.preposition ?? "de";
-                return {
-                    href: `/alquiler-${pref}-${c.slug}`,
-                    text: `Alquiler ${pref} ${c.label}`,
-                    title: c.metaTitle ?? `Alquiler ${pref} ${c.label} | Appquilar`,
-                };
-            })
-            : (activeCategory.subcategories ?? []).map((s) => ({
-                href: `/alquiler-${activeCategory.preposition ?? "de"}-${activeCategory.slug}/alquiler-de-${s.slug}`,
-                text: `Alquiler ${s.preposition ?? "de"} ${s.label}`,
-                title:
-                    s.metaTitle ??
-                    `Alquiler ${s.preposition ?? "de"} ${s.label} | ${activeCategory.label} | Appquilar`,
-            }));
+    const links = !activeCategory
+        ? allCategories.map((c) => {
+            const pref = c.preposition ?? "de";
+            return {
+                href: `/alquiler-${pref}-${c.slug}`,
+                text: `Alquiler ${pref} ${c.label}`,
+                title: c.metaTitle ?? `Alquiler ${pref} ${c.label} | Appquilar`,
+            };
+        })
+        : (activeCategory.subcategories ?? []).map((s) => ({
+            href: `/alquiler-${activeCategory.preposition ?? "de"}-${activeCategory.slug}/alquiler-${s.preposition ?? "de"}-${s.slug}`,
+            text: `Alquiler ${s.preposition ?? "de"} ${s.label}`,
+            title:
+                s.metaTitle ??
+                `Alquiler ${s.preposition ?? "de"} ${s.label} | ${activeCategory.label} | Appquilar`,
+        }));
 
     const [col3, col4] = splitInTwo(links);
 
     return (
         <footer className="bg-zinc-500 text-gray-300">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                {/* Bloque superior: 4 columnas */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {/* Col 1: Branding */}
                     <div>
-                        <a href="/">
-                            <div className="flex items-center mb-4">
-                                <img src={iconLogo} alt="Logo icono" className="h-8 w-auto" />
-                                <img src={textLogo} alt="Appquilar logo" className="ml-2 h-6 w-auto" />
-                            </div>
+                        <a href="/" className="inline-flex items-center space-x-3">
+                            <img src={iconLogo} alt="Appquilar" className="h-8 w-8" />
+                            <img src={textLogo} alt="Appquilar" className="h-6" />
                         </a>
-                        <p className="mb-4">La plataforma líder en alquiler de productos en toda España.</p>
-                        <div className="flex space-x-4">
-                            <a
-                                href="https://www.instagram.com/appquilar/"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="text-gray-400 hover:text-white"
-                                aria-label="Instagram de Appquilar"
-                                title="Instagram de Appquilar"
-                            >
-                                {/* logo instagram */}
-                                <svg viewBox="0 0 24 24" className="h-6 w-6" aria-hidden="true">
-                                    <path
-                                        fill="currentColor"
-                                        d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7zM18 6.8a1 1 0 1 1 0 2a1 1 0 0 1 0-2z"
-                                    />
-                                </svg>
-                            </a>
-                        </div>
+                        <p className="mt-4 text-sm opacity-80">
+                            Encuentra lo que necesitas, donde lo necesitas.
+                        </p>
                     </div>
 
-                    {/* Col 2: Enlaces rápidos (igual que tu original) */}
+                    {/* Col 2: Contacto */}
                     <div>
-                        <h3 className="text-lg font-semibold text-white mb-4">Enlaces rápidos</h3>
+                        <h3 className="text-lg font-semibold text-white mb-4">Contacto</h3>
                         <ul className="space-y-2">
-                            <li><a href="#caracteristicas" className="hover:text-white">Características</a></li>
-                            <li><a href="#dashboard" className="hover:text-white">Dashboard</a></li>
-                            <li><a href="#registro" className="hover:text-white">Registro</a></li>
-                            <li><a href="#faq" className="hover:text-white">Preguntas frecuentes</a></li>
-                            <li><a href="#" className="hover:text-white">Blog</a></li>
+                            <li className="flex items-center gap-2">
+                                <Phone className="w-4 h-4" />
+                                <a href="tel:+34999999999" className="hover:text-white">
+                                    +34 999 999 999
+                                </a>
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <Mail className="w-4 h-4" />
+                                <a href="mailto:hola@appquilar.com" className="hover:text-white">
+                                    hola@appquilar.com
+                                </a>
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <Map className="w-4 h-4" />
+                                <span>Mataró, Barcelona</span>
+                            </li>
                         </ul>
                     </div>
 
@@ -141,15 +324,9 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="border-t border-gray-800 mt-12 pt-8">
-                    <div className="flex flex-col md:flex-row justify-between items-center">
-                        <p>© {new Date().getFullYear()} Appquilar. Todos los derechos reservados.</p>
-                        <div className="mt-4 md:mt-0 flex space-x-6">
-                            <a href="#" className="hover:text-white">Términos de servicio</a>
-                            <a href="#" className="hover:text-white">Política de privacidad</a>
-                            <a href="#" className="hover:text-white">Política de cookies</a>
-                        </div>
-                    </div>
+                {/* Bloque final: ubicaciones dinámicas (8 columnas, 11px) */}
+                <div className="border-t border-gray-800 mt-10 pt-8">
+                    <FooterLocations />
                 </div>
             </div>
         </footer>

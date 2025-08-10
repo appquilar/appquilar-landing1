@@ -11,8 +11,8 @@
       "code": "02"
     },
     {
-      "slug": "asturias-principado-de",
-      "name": "Asturias, Principado de",
+      "slug": "principado-de-asturias",
+      "name": "Principado de Asturias",
       "code": "03"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "slug": "cataluna",
-      "name": "Cataluńa",
+      "name": "Cataluña",
       "code": "09"
     },
     {
@@ -61,18 +61,18 @@
       "code": "12"
     },
     {
-      "slug": "madrid-comunidad-de",
-      "name": "Madrid, Comunidad de",
+      "slug": "comunidad-de-madrid",
+      "name": "Comunidad de Madrid",
       "code": "13"
     },
     {
-      "slug": "murcia-region-de",
-      "name": "Murcia, Región de",
+      "slug": "region-de-murcia",
+      "name": "Región de Murcia",
       "code": "14"
     },
     {
-      "slug": "navarra-comunidad-foral-de",
-      "name": "Navarra, Comunidad Foral de",
+      "slug": "navarra",
+      "name": "Navarra",
       "code": "15"
     },
     {
@@ -167,11 +167,11 @@
       "slug": "asturias",
       "name": "Asturias",
       "code": "33",
-      "ccaa": "asturias-principado-de"
+      "ccaa": "principado-de-asturias"
     },
     {
       "slug": "illes-balears",
-      "name": "Balears, Illes",
+      "name": "Illes Balears",
       "code": "07",
       "ccaa": "illes-balears"
     },
@@ -371,7 +371,7 @@
       "slug": "navarra",
       "name": "Navarra",
       "code": "31",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "alava",
@@ -32735,1904 +32735,1904 @@
       "name": "Abáigar",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "abarzuza-abartzuza",
       "name": "Abárzuza/Abartzuza",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "abaurregaina-abaurrea-alta",
       "name": "Abaurregaina/Abaurrea Alta",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "abaurrepea-abaurrea-baja",
       "name": "Abaurrepea/Abaurrea Baja",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "aberin",
       "name": "Aberin",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ablitas",
       "name": "Ablitas",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "adios",
       "name": "Adiós",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "aguilar-de-codes",
       "name": "Aguilar de Codés",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "aibar-oibar",
       "name": "Aibar/Oibar",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "allin-allin",
       "name": "Allín/Allin",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "allo",
       "name": "Allo",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "altsasu-alsasua",
       "name": "Altsasu/Alsasua",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "amescoa-baja",
       "name": "Améscoa Baja",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ancin-antzin",
       "name": "Ancín/Antzin",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "andosilla",
       "name": "Andosilla",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ansoain-antsoain",
       "name": "Ansoáin/Antsoain",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "anue",
       "name": "Anue",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "anorbe",
       "name": "Añorbe",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "aoiz-agoitz",
       "name": "Aoiz/Agoitz",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "araitz",
       "name": "Araitz",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "arakil",
       "name": "Arakil",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "aranarache-aranaratxe",
       "name": "Aranarache/Aranaratxe",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "aranguren",
       "name": "Aranguren",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "arano",
       "name": "Arano",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "arantza",
       "name": "Arantza",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "aras",
       "name": "Aras",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "arbizu",
       "name": "Arbizu",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "arce-artzi",
       "name": "Arce/Artzi",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "arcos-los",
       "name": "Arcos, Los",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "arellano",
       "name": "Arellano",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "areso",
       "name": "Areso",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "arguedas",
       "name": "Arguedas",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "aria",
       "name": "Aria",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "aribe",
       "name": "Aribe",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "armananzas",
       "name": "Armañanzas",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "arroniz",
       "name": "Arróniz",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "arruazu",
       "name": "Arruazu",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "artajona",
       "name": "Artajona",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "artazu",
       "name": "Artazu",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "atez-atetz",
       "name": "Atez/Atetz",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "auritz-burguete",
       "name": "Auritz/Burguete",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ayegui-aiegi",
       "name": "Ayegui/Aiegi",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "azagra",
       "name": "Azagra",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "azuelo",
       "name": "Azuelo",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "bakaiku",
       "name": "Bakaiku",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "baranain-baranain",
       "name": "Barañáin/Barañain",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "barasoain",
       "name": "Barásoain",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "barbarin",
       "name": "Barbarin",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "bargota",
       "name": "Bargota",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "barillas",
       "name": "Barillas",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "basaburua",
       "name": "Basaburua",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "baztan",
       "name": "Baztan",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "beintza-labaien",
       "name": "Beintza-Labaien",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "beire",
       "name": "Beire",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "belascoain",
       "name": "Belascoáin",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "bera",
       "name": "Bera",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "berbinzana",
       "name": "Berbinzana",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "beriain",
       "name": "Beriáin",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "berrioplano-berriobeiti",
       "name": "Berrioplano/Berriobeiti",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "berriozar",
       "name": "Berriozar",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "bertizarana",
       "name": "Bertizarana",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "betelu",
       "name": "Betelu",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "bidaurreta",
       "name": "Bidaurreta",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "biurrun-olcoz",
       "name": "Biurrun-Olcoz",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "bunuel",
       "name": "Buñuel",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "burgui-burgi",
       "name": "Burgui/Burgi",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "burlada-burlata",
       "name": "Burlada/Burlata",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "busto-el",
       "name": "Busto, El",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "cabanillas",
       "name": "Cabanillas",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "cabredo",
       "name": "Cabredo",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "cadreita",
       "name": "Cadreita",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "caparroso",
       "name": "Caparroso",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "carcar",
       "name": "Cárcar",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "carcastillo",
       "name": "Carcastillo",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "cascante",
       "name": "Cascante",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "caseda",
       "name": "Cáseda",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "castejon",
       "name": "Castejón",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "castillonuevo",
       "name": "Castillonuevo",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "cendea-de-olza-oltza-zendea",
       "name": "Cendea de Olza/Oltza Zendea",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "cintruenigo",
       "name": "Cintruénigo",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "cirauqui-zirauki",
       "name": "Cirauqui/Zirauki",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ciriza-ziritza",
       "name": "Ciriza/Ziritza",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "cizur",
       "name": "Cizur",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "corella",
       "name": "Corella",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "cortes",
       "name": "Cortes",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "desojo",
       "name": "Desojo",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "dicastillo",
       "name": "Dicastillo",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "donamaria",
       "name": "Donamaria",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "doneztebe-santesteban",
       "name": "Doneztebe/Santesteban",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "echarri-etxarri",
       "name": "Echarri/Etxarri",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "elgorriaga",
       "name": "Elgorriaga",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "eneriz-eneritz",
       "name": "Enériz/Eneritz",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "eratsun",
       "name": "Eratsun",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ergoiena",
       "name": "Ergoiena",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "erro",
       "name": "Erro",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "eslava",
       "name": "Eslava",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "esparza-de-salazar-espartza-zaraitzu",
       "name": "Esparza de Salazar/Espartza Zaraitzu",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "espronceda",
       "name": "Espronceda",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "estella-lizarra",
       "name": "Estella-Lizarra",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "esteribar",
       "name": "Esteribar",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "etayo",
       "name": "Etayo",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "etxalar",
       "name": "Etxalar",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "etxarri-aranatz",
       "name": "Etxarri Aranatz",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "etxauri",
       "name": "Etxauri",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "eulate",
       "name": "Eulate",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ezcabarte",
       "name": "Ezcabarte",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ezcaroz-ezkaroze",
       "name": "Ezcároz/Ezkaroze",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ezkurra",
       "name": "Ezkurra",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ezprogui",
       "name": "Ezprogui",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "falces",
       "name": "Falces",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "fitero",
       "name": "Fitero",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "fontellas",
       "name": "Fontellas",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "funes",
       "name": "Funes",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "fustinana",
       "name": "Fustiñana",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "galar",
       "name": "Galar",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "gallipienzo-galipentzu",
       "name": "Gallipienzo/Galipentzu",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "gallues-galoze",
       "name": "Gallués/Galoze",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "garaioa",
       "name": "Garaioa",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "garde",
       "name": "Garde",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "garinoain",
       "name": "Garínoain",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "garralda",
       "name": "Garralda",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "genevilla",
       "name": "Genevilla",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "goizueta",
       "name": "Goizueta",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "goni",
       "name": "Goñi",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "guesa-gorza",
       "name": "Güesa/Gorza",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "guesalaz-gesalatz",
       "name": "Guesálaz/Gesalatz",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "guirguillano",
       "name": "Guirguillano",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "hiriberri-villanueva-de-aezkoa",
       "name": "Hiriberri/Villanueva de Aezkoa",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "huarte-uharte",
       "name": "Huarte/Uharte",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ibargoiti",
       "name": "Ibargoiti",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "igantzi",
       "name": "Igantzi",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "iguzquiza",
       "name": "Igúzquiza",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "imotz",
       "name": "Imotz",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "iraneta",
       "name": "Irañeta",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "irurtzun",
       "name": "Irurtzun",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "isaba-izaba",
       "name": "Isaba/Izaba",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ituren",
       "name": "Ituren",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "iturmendi",
       "name": "Iturmendi",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "iza-itza",
       "name": "Iza/Itza",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "izagaondoa",
       "name": "Izagaondoa",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "izalzu-itzaltzu",
       "name": "Izalzu/Itzaltzu",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "jaurrieta",
       "name": "Jaurrieta",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "javier",
       "name": "Javier",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "juslapena",
       "name": "Juslapeña",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lakuntza",
       "name": "Lakuntza",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lana",
       "name": "Lana",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lantz",
       "name": "Lantz",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lapoblacion",
       "name": "Lapoblación",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "larraga",
       "name": "Larraga",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "larraona",
       "name": "Larraona",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "larraun",
       "name": "Larraun",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lazagurria",
       "name": "Lazagurría",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "leache-leatxe",
       "name": "Leache/Leatxe",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "legarda",
       "name": "Legarda",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "legaria",
       "name": "Legaria",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "leitza",
       "name": "Leitza",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lekunberri",
       "name": "Lekunberri",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "leoz-leotz",
       "name": "Leoz/Leotz",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lerga",
       "name": "Lerga",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lerin",
       "name": "Lerín",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lesaka",
       "name": "Lesaka",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lezaun",
       "name": "Lezaun",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "liedena",
       "name": "Liédena",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lizoain-arriasgoiti",
       "name": "Lizoáin-Arriasgoiti",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lodosa",
       "name": "Lodosa",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "longuida-longida",
       "name": "Lónguida/Longida",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "lumbier",
       "name": "Lumbier",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "luquin",
       "name": "Luquin",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "luzaide-valcarlos",
       "name": "Luzaide/Valcarlos",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "maneru",
       "name": "Mañeru",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "maranon",
       "name": "Marañón",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "marcilla",
       "name": "Marcilla",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "melida",
       "name": "Mélida",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "mendavia",
       "name": "Mendavia",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "mendaza",
       "name": "Mendaza",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "mendigorria",
       "name": "Mendigorría",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "metauten",
       "name": "Metauten",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "milagro",
       "name": "Milagro",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "mirafuentes",
       "name": "Mirafuentes",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "miranda-de-arga",
       "name": "Miranda de Arga",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "monreal-elo",
       "name": "Monreal/Elo",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "monteagudo",
       "name": "Monteagudo",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "morentin",
       "name": "Morentin",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "mues",
       "name": "Mues",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "murchante",
       "name": "Murchante",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "murieta",
       "name": "Murieta",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "murillo-el-cuende",
       "name": "Murillo el Cuende",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "murillo-el-fruto",
       "name": "Murillo el Fruto",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "muruzabal",
       "name": "Muruzábal",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "navascues-nabaskoze",
       "name": "Navascués/Nabaskoze",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "nazar",
       "name": "Nazar",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "noain-valle-de-elorz-noain-elortzibar",
       "name": "Noáin (Valle de Elorz)/Noain (Elortzibar)",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "obanos",
       "name": "Obanos",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ochagavia-otsagabia",
       "name": "Ochagavía/Otsagabia",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "oco",
       "name": "Oco",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "odieta",
       "name": "Odieta",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "oiz",
       "name": "Oiz",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "olaibar",
       "name": "Olaibar",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "olazti-olazagutia",
       "name": "Olazti/Olazagutía",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "olejua",
       "name": "Olejua",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "olite-erriberri",
       "name": "Olite/Erriberri",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "oloriz-oloritz",
       "name": "Olóriz/Oloritz",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "orbaizeta",
       "name": "Orbaizeta",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "orbara",
       "name": "Orbara",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "orisoain",
       "name": "Orísoain",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "orkoien",
       "name": "Orkoien",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "oronz-orontze",
       "name": "Oronz/Orontze",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "oroz-betelu-orotz-betelu",
       "name": "Oroz-Betelu/Orotz-Betelu",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "orreaga-roncesvalles",
       "name": "Orreaga/Roncesvalles",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "oteiza",
       "name": "Oteiza",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "pamplona-iruna",
       "name": "Pamplona/Iruña",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "peralta-azkoien",
       "name": "Peralta/Azkoien",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "petilla-de-aragon",
       "name": "Petilla de Aragón",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "piedramillera",
       "name": "Piedramillera",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "pitillas",
       "name": "Pitillas",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "puente-la-reina-gares",
       "name": "Puente la Reina/Gares",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "pueyo",
       "name": "Pueyo",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ribaforada",
       "name": "Ribaforada",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "romanzado",
       "name": "Romanzado",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "roncal-erronkari",
       "name": "Roncal/Erronkari",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "sada",
       "name": "Sada",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "saldias",
       "name": "Saldías",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "salinas-de-oro-jaitz",
       "name": "Salinas de Oro/Jaitz",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "san-adrian",
       "name": "San Adrián",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "san-martin-de-unx",
       "name": "San Martín de Unx",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "sanguesa-zangoza",
       "name": "Sangüesa/Zangoza",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "sansol",
       "name": "Sansol",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "santacara",
       "name": "Santacara",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "sarries-sartze",
       "name": "Sarriés/Sartze",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "sartaguda",
       "name": "Sartaguda",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "sesma",
       "name": "Sesma",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "sorlada",
       "name": "Sorlada",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "sunbilla",
       "name": "Sunbilla",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "tafalla",
       "name": "Tafalla",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "tiebas-muruarte-de-reta",
       "name": "Tiebas-Muruarte de Reta",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "tirapu",
       "name": "Tirapu",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "torralba-del-rio",
       "name": "Torralba del Río",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "torres-del-rio",
       "name": "Torres del Río",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "tudela",
       "name": "Tudela",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "tulebras",
       "name": "Tulebras",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ucar",
       "name": "Ucar",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "uharte-arakil",
       "name": "Uharte Arakil",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ujue-uxue",
       "name": "Ujué/Uxue",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ultzama",
       "name": "Ultzama",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "unciti",
       "name": "Unciti",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "unzue-untzue",
       "name": "Unzué/Untzue",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "urdazubi-urdax",
       "name": "Urdazubi/Urdax",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "urdiain",
       "name": "Urdiain",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "urraul-alto",
       "name": "Urraul Alto",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "urraul-bajo",
       "name": "Urraul Bajo",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "urroz",
       "name": "Urroz",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "urroz-villa",
       "name": "Urroz-Villa",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "urzainqui-urzainki",
       "name": "Urzainqui/Urzainki",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "uterga",
       "name": "Uterga",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "uztarroz-uztarroze",
       "name": "Uztárroz/Uztarroze",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "valle-de-egues-eguesibar",
       "name": "Valle de Egüés/Eguesibar",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "valle-de-ollo-ollaran",
       "name": "Valle de Ollo/Ollaran",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "valle-de-yerri-deierri",
       "name": "Valle de Yerri/Deierri",
       "code": "6",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "valtierra",
       "name": "Valtierra",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "viana",
       "name": "Viana",
       "code": "5",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "vidangoz-bidankoze",
       "name": "Vidángoz/Bidankoze",
       "code": "0",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "villafranca",
       "name": "Villafranca",
       "code": "1",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "villamayor-de-monjardin",
       "name": "Villamayor de Monjardín",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "villatuerta",
       "name": "Villatuerta",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "villava-atarrabia",
       "name": "Villava/Atarrabia",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "yesa",
       "name": "Yesa",
       "code": "3",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "zabalza-zabaltza",
       "name": "Zabalza/Zabaltza",
       "code": "8",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "ziordia",
       "name": "Ziordia",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "zizur-mayor-zizur-nagusia",
       "name": "Zizur Mayor/Zizur Nagusia",
       "code": "7",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "zubieta",
       "name": "Zubieta",
       "code": "4",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "zugarramurdi",
       "name": "Zugarramurdi",
       "code": "9",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "zuniga",
       "name": "Zúñiga",
       "code": "2",
       "provincia": "navarra",
-      "ccaa": "navarra-comunidad-foral-de"
+      "ccaa": "navarra"
     },
     {
       "slug": "allariz",

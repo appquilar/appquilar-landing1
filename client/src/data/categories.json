@@ -242,8 +242,8 @@
     ]
   },
   {
-    "slug": "deportes",
-    "label": "Deportes",
+    "slug": "material-de-deporte",
+    "label": "Material de deporte",
     "subtitle": "Equipamiento para tus actividades deportivas",
     "icon": "Activity",
     "metaTitle": "Alquiler de material deportivo | Appquilar",
@@ -251,53 +251,53 @@
     "preposition": "de",
     "subcategories": [
       {
-        "slug": "acuaticos",
-        "label": "Acuáticos",
+        "slug": "material-acuatico",
+        "label": "Material Acuático",
         "icon": "Droplet",
-        "metaTitle": "Alquiler de equipos acuáticos | Deportes | Appquilar",
+        "metaTitle": "Alquiler de equipo acuático | Deportes | Appquilar",
         "metaDescription": "Kayaks, tablas de surf, paddle... todo para disfrutar del agua.",
         "preposition": "de"
       },
       {
-        "slug": "nieve",
-        "label": "Nieve",
+        "slug": "material-para-la-nieve",
+        "label": "Material para la Nieve",
         "icon": "CloudSnow",
-        "metaTitle": "Alquiler de equipos para nieve | Deportes | Appquilar",
+        "metaTitle": "Alquiler de equipo para nieve | Deportes | Appquilar",
         "metaDescription": "Esquís, tablas snowboard, trineos y ropa térmica para la nieve.",
         "preposition": "de"
       },
       {
-        "slug": "ciclismo-mtb",
-        "label": "Ciclismo y MTB",
+        "slug": "bicicletas-mtb",
+        "label": "Bicicletas y MTB",
         "icon": "Bike",
         "metaTitle": "Alquiler de bicicletas y MTB | Deportes | Appquilar",
         "metaDescription": "Bicicletas urbanas, de montaña y eléctricas para todas las rutas.",
         "preposition": "de"
       },
       {
-        "slug": "padel",
-        "label": "Padel",
+        "slug": "material-para-padel",
+        "label": "Material para Padel",
         "icon": "Tennis",
-        "metaTitle": "Alquiler de equipamiento de pádel | Deportes | Appquilar",
+        "metaTitle": "Alquiler de equipamiento para pádel | Deportes | Appquilar",
         "metaDescription": "Palas, pelotas y redes para tus partidos de pádel.",
         "preposition": "de"
       },
       {
-        "slug": "padel-surf",
-        "label": "Padel Surf",
+        "slug": "material-de-padel-surf",
+        "label": "Material de Padel Surf",
         "icon": "Surfboard",
-        "metaTitle": "Alquiler de paddle surf | Deportes | Appquilar",
+        "metaTitle": "Alquiler de material de paddle surf | Deportes | Appquilar",
         "metaDescription": "Tablas y remos para disfrutar del paddle surf sin comprar.",
         "preposition": "de"
       }
     ]
   },
   {
-    "slug": "vehiculos",
-    "label": "Vehículos",
-    "subtitle": "Alquiler de vehículos (excluyendo coches)",
+    "slug": "equipamiento-para-tu-coche",
+    "label": "Equipamiento para el coche",
+    "subtitle": "Alquiler de equipamiento para tu coche",
     "icon": "Truck",
-    "metaTitle": "Alquiler de vehículos | Appquilar",
+    "metaTitle": "Alquiler de equipamiento para tu coche | Appquilar",
     "metaDescription": "Furgonetas, motos, bicicletas y más. Alquila movilidad sin comprar.",
     "preposition": "de",
     "subcategories": [
