@@ -9,3 +9,4 @@ dist
 dist-scripts
 client/public/sitemap.xml
 client/public/robots.txt
+.env*

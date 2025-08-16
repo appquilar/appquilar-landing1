@@ -71,12 +71,12 @@ function removeSubcatPrefix(base?: string): string | undefined {
 // Construcción de URLs
 function buildCategoryUrl(cat: Category, locSlug: string) {
     const pref = cat.preposition ?? "de";
-    return `/alquiler-${pref}-${cat.slug}-en-${locSlug}`;
+    return `/landing/alquiler-${pref}-${cat.slug}-en-${locSlug}`;
 }
 function buildSubcategoryUrl(cat: Category, sub: Subcategory, locSlug: string) {
     const catPref = cat.preposition ?? "de";
     const subPref = sub.preposition ?? "de";
-    return `/alquiler-${catPref}-${cat.slug}/alquiler-${subPref}-${sub.slug}-en-${locSlug}`;
+    return `/landing/alquiler-${catPref}-${cat.slug}/alquiler-${subPref}-${sub.slug}-en-${locSlug}`;
 }
 
 // Parsing de contexto activo desde el path actual
@@ -84,16 +84,16 @@ function useActiveContext(path: string) {
     const segs = path.replace(/^\//, "").split("/");
     // Ubicación (si hay en seg2 manda; si no, en seg1)
     const loc =
+        extractLocFromSegment(segs[2]) ||
         extractLocFromSegment(segs[1]) ||
-        extractLocFromSegment(segs[0]) ||
         undefined;
 
     // Categoría
-    const catBase = baseBeforeEn(segs[0]);
+    const catBase = baseBeforeEn(segs[1]);
     const catSlug = removeCategoryPrefix(catBase);
 
     // Subcategoría (si hay segundo segmento)
-    const subBase = baseBeforeEn(segs[1]);
+    const subBase = baseBeforeEn(segs[2]);
     const subSlug = removeSubcatPrefix(subBase);
 
     return { catSlug, subSlug, locSlug: loc };
@@ -283,23 +283,12 @@ export default function Footer() {
 
                     {/* Col 2: Contacto */}
                     <div>
-                        <h3 className="text-lg font-semibold text-white mb-4">Contacto</h3>
+                        <h3 className="text-lg font-semibold text-white mb-4">Otros enlaces de interés</h3>
                         <ul className="space-y-2">
-                            <li className="flex items-center gap-2">
-                                <Phone className="w-4 h-4" />
-                                <a href="tel:+34999999999" className="hover:text-white">
-                                    +34 999 999 999
+                            <li key="https://blog.appquilar.com" className="hidden">
+                                <a href="https://blog.appquilar.com" title="Blog | Appquilar" className="hover:text-white" target="_blank">
+                                    El blog de appquilar
                                 </a>
-                            </li>
-                            <li className="flex items-center gap-2">
-                                <Mail className="w-4 h-4" />
-                                <a href="mailto:hola@appquilar.com" className="hover:text-white">
-                                    hola@appquilar.com
-                                </a>
-                            </li>
-                            <li className="flex items-center gap-2">
-                                <Map className="w-4 h-4" />
-                                <span>Mataró, Barcelona</span>
                             </li>
                         </ul>
                     </div>
@@ -312,7 +301,7 @@ export default function Footer() {
                         <ul className="space-y-2">
                             {col3.map((l) => (
                                 <li key={l.href}>
-                                    <a href={l.href} title={l.title} className="hover:text-white">
+                                    <a href={"/landing" + l.href} title={l.title} className="hover:text-white">
                                         {l.text}
                                     </a>
                                 </li>

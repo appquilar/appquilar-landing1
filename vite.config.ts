@@ -26,6 +26,7 @@ export default defineConfig({
   },
   // ⬇️ En tu proyecto el root del cliente es /client
   root: path.resolve(__dirname, "client"),
+  envDir: __dirname,
   // ⬇️ Tu script generate-sitemap escribe en client/public (no existe /public en la raíz)
   publicDir: path.resolve(__dirname, "client", "public"),
   build: {

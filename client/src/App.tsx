@@ -9,6 +9,7 @@ import Home from "@/pages/home";
 import CategoryLanding from "@/components/category-landing";
 import SubcategoryLanding from "@/components/subcategory-landing";
 import { Toaster } from "@/components/ui/toaster";
+import {CookieConsent} from "@/components/cookie-consent"
 
 // Prefijos SEO aceptados para categoría
 const CAT_PREFIXES = ["alquiler-para-", "alquiler-de-"];
@@ -54,7 +55,7 @@ export default function App() {
             /<seg1>/<seg2>
             seg1 = alquiler-(para|de)-{category}
             seg2 = alquiler-de-{subcategory}[-en-{location}] */}
-                <Route path="/:seg1/:seg2">
+                <Route path="/landing/:seg1/:seg2">
                     {(params) => {
                         const { base: base1 } = splitBaseAndLocation(params.seg1);
                         const { base: base2, location } = splitBaseAndLocation(params.seg2);
@@ -79,7 +80,7 @@ export default function App() {
                 {/* Categoría (con o sin ubicación):
             /<seg1>
             seg1 = alquiler-(para|de)-{category}[-en-{location}] */}
-                <Route path="/:seg1">
+                <Route path="/landing/:seg1">
                     {(params) => {
                         const { base, location } = splitBaseAndLocation(params.seg1);
                         const categorySlug = parseCategoryFromBase(base);
@@ -98,6 +99,12 @@ export default function App() {
             </Switch>
 
             <Toaster />
+            {/* Aviso de cookies */}
+            <CookieConsent
+                gaId={import.meta.env.VITE_GA_ID}
+                fbPixelId={import.meta.env.VITE_FB_PIXEL_ID}
+            />
+
         </QueryClientProvider>
     );
 }
