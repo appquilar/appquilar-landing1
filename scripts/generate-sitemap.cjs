@@ -21,7 +21,7 @@ const ROOT = path.resolve(__dirname, "..");
 const PUBLIC_DIR = path.join(ROOT, "client/public");
 const SITEMAPS_DIR = path.join(PUBLIC_DIR, "sitemaps");
 
-const BASE_URL = process.env.SITE_URL || "https://appquilar.com";
+const BASE_URL = process.env.SITE_URL || "https://appquilar.com/landing";
 const NOW = new Date().toISOString();
 const MAX_URLS_PER_FILE = 50000;
 

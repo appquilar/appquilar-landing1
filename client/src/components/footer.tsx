@@ -290,6 +290,20 @@ export default function Footer() {
                                     El blog de appquilar
                                 </a>
                             </li>
+                            <li key="/legal/aviso-legal">
+                                <a href="/legal/aviso-legal">Aviso legal</a>
+                            </li>
+                            <li key="/legal/cookies">
+                                <a href="/legal/cookies">Política de cookies</a>
+                            </li>
+                            <li key="button">
+                                <button type="button" onClick={() => (window as any).openCookieSettings?.()}>
+                                    Preferencias de cookies
+                                </button>
+                            </li>
+                            <li key="/legal/terminos">
+                                <a href="/legal/terminos">Términos y condiciones</a>
+                            </li>
                         </ul>
                     </div>
 

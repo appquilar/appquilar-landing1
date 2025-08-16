@@ -10,6 +10,9 @@ import CategoryLanding from "@/components/category-landing";
 import SubcategoryLanding from "@/components/subcategory-landing";
 import { Toaster } from "@/components/ui/toaster";
 import {CookieConsent} from "@/components/cookie-consent"
+import {AvisoLegalPage} from "@/pages/aviso-legal.tsx";
+import {CookiesPage} from "@/pages/cookies.tsx";
+import {TerminosPage} from "@/pages/terminos.tsx";
 
 // Prefijos SEO aceptados para categoría
 const CAT_PREFIXES = ["alquiler-para-", "alquiler-de-"];
@@ -91,6 +94,10 @@ export default function App() {
                         return <RedirectHome />;
                     }}
                 </Route>
+
+                <Route path="/legal/aviso-legal" component={AvisoLegalPage} />
+                <Route path="/legal/cookies" component={CookiesPage} />
+                <Route path="/legal/terminos" component={TerminosPage} />
 
                 {/* Catch-all → redirige al índice */}
                 <Route>
