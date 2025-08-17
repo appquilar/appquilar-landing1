@@ -261,8 +261,8 @@ export default function DashboardPreview() {
           <p className="mt-3 text-lg text-gray-600">Gestiona tu inventario y visualiza estadísticas de manera sencilla</p>
         </div>
 
-        <div className="mt-12 bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
-          <div className="flex flex-col md:flex-row">
+        <div className="mt-12 bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 dashboard-height">
+          <div className="flex flex-col md:flex-row dashboard-height">
             {/* Sidebar de navegación */}
             <div className="md:w-56 bg-gray-50 p-4 border-b md:border-b-0 md:border-r border-gray-200">
               <nav className="space-y-1 text-sm">

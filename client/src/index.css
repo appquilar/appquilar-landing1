@@ -1,3 +1,7 @@
+/** Dashboard max-height */
+.dashboard-height {
+    height: 600px;
+}
 
 /* Override text colors for components */
 section.bg-white .border-primary.text-primary:not(.bg-primary) {
@@ -147,6 +151,10 @@ section.bg-white .border-primary.text-primary:not(.bg-primary) {
   .text-white-force {
     color: white !important;
   }
+}
 
-
+@media (max-width: 768px) {
+    .dashboard-height {
+        height: 1350px;
+    }
 }
