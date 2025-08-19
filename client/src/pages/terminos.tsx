@@ -41,9 +41,8 @@ const html = `<p>
 
 <h2>6. Suscripción Premium (condiciones de contratación)</h2>
 <ul>
-  <li><strong>Precio y facturación</strong>: según se indique en el proceso de alta ({{PREMIUM_PRICE_INFO}}).</li>
+  <li><strong>Precio y facturación</strong>: según se indique en el proceso de alta.</li>
   <li><strong>Periodicidad y renovación</strong>: mensual/anual con renovación automática hasta cancelación.</li>
-  <li><strong>Pago</strong>: mediante {{PAYMENT_PROVIDER}}. Pueden aplicarse comisiones del emisor.</li>
   <li><strong>Desistimiento (consumidores)</strong>: 14 días naturales desde la contratación. Si solicitas acceso inmediato a funcionalidades premium, aceptas que, si se presta el servicio durante el periodo de desistimiento, el reembolso podrá ser proporcional a la parte no disfrutada.</li>
   <li><strong>Cancelación</strong>: efectiva para el siguiente periodo de facturación si se solicita antes de la fecha de renovación.</li>
   <li><strong>Botón con obligación de pago</strong>: el flujo de contratación indicará claramente la aceptación del cargo y de estas condiciones.</li>
@@ -62,7 +61,7 @@ const html = `<p>
 
 <h2>9. Notificaciones y contacto</h2>
 <p>
-  Preferentemente por email a <a href="mailto:{{COMPANY_EMAIL}}">{{COMPANY_EMAIL}}</a>.
+  Preferentemente por email a <a href="mailto:appquilar.contacto@gmail.com">appquilar.contacto@gmail.com</a>.
 </p>
 
 <h2>10. Duración y terminación</h2>
