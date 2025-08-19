@@ -268,7 +268,7 @@ export default function Footer() {
                             Encuentra lo que necesitas, donde lo necesitas.
                         </p>
                         <p className="mt-2 text-sm opacity-80">
-                            <a href="https://appquilar.com/appquilar" target="_blank" className="hover:text-white">
+                            <a href="https://instagram.com/appquilar" target="_blank" className="hover:text-white">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"

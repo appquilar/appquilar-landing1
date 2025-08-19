@@ -1,7 +1,7 @@
 import {LegalTemplate} from "@/pages/legal-template";
 
 const html = `<p>
-  Estos términos regulan el acceso y uso de {{DOMAIN}} (el “Sitio”) y las condiciones aplicables a la suscripción premium (modelo freemium).
+  Estos términos regulan el acceso y uso de <a href="mailto:appquilar.contacto@gmail.com">appquilar.contacto@gmail.com</a> (el “Sitio”) y las condiciones aplicables a la suscripción premium (modelo freemium).
   El Titular actúa exclusivamente como <strong>intermediario</strong> entre usuarios y no participa en las transacciones de alquiler entre arrendadores y arrendatarios.
 </p>
 
